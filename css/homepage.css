@@ -1,0 +1,94 @@
+body, html{
+  height: 100%;
+  margin: auto;
+}
+
+@media (max-width: 875px){
+  .nav-global{
+  display: none;
+}
+}
+
+h3{
+  color: grey;
+  position: block;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.parallax{
+  background-image: url("/images/Asset-10.svg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.75 0.75);
+  -webkit-transform: scale(0.75, 0.75);
+  z-index: -1;
+  opacity: 75%;
+}
+
+figure {
+ display: block;
+margin: 100px auto 100px auto;
+ max-width: 400px;
+ height: auto;
+font-family: 'Montserrat', sans-serif;
+ z-index: 1;
+}
+
+.mirrors{
+  width: 100%;
+  height: 100%;
+  -webkit-filter: grayscale(1);
+  z-index: 1;
+  box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
+}
+.mirrors:hover{
+  animation-name: mirrors-hover;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mirrors-hover{
+  100%{
+    filter: none;
+  }
+}
+
+figcaption{
+  margin: 15px 0 0 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+figure a{
+  text-decoration: none;
+}
+#fig-1{
+  font-size: 13px;
+}
+figcaption:hover{
+  font-weight: semi-bold;
+}
+figure:hover ~ #hr-mirrors-name{
+  opacity: 100%;
+  color: green;
+  width: 80%;
+}
+
+.footer{
+  position: relative;
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#footer-content{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+  font-size: 12px;
+}

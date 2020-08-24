@@ -1,0 +1,520 @@
+body, html{
+  height: 100%;
+/*   margin: auto; */
+}
+
+.page-wrapper{
+  min-height: 100%;
+}
+
+@media (max-width: 875px){
+  .nav-global{
+  display: none;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  line-height: 32px;
+  font-size: 16px;
+  max-width: 100%;
+  margin: 20px auto 30px auto;
+}
+
+h4{
+font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: black;
+  max-width: 850px;
+  margin: 0 auto;
+  display: block;
+}
+
+h5{
+font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color:#8F5B36;
+  margin-bottom: 0em;
+}
+
+ol{
+  font-family: 'Lato', sans-serif;
+  line-height: 35px;
+  font-size: 16px;
+}
+
+.divider{
+    border-top: 1px solid #bbb;
+  width: 600px;
+  margin: 50px auto 50px auto;
+}
+
+/* CTA-style-start */
+
+.CTA{
+  display: flex;
+  align-items: center;
+}
+
+#CTA{
+  border-style: solid;
+  border-color: white;
+  background: white;
+  border-width: 2px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin: 30px auto 30px auto;
+  box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
+}
+
+#CTA:hover{
+  animation-name: CTA-animation;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes CTA-animation{
+  100%{
+  color: black;
+ background: #81D8D0;
+  }
+}
+
+
+/*MIRRORS START*/
+.hero-mirrors{
+  display: block;
+  width: 50%;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center;
+/*   margin-left: 90px; */
+  display: block;
+  margin-top: 30px;
+}
+
+h2{
+  font-size: 25px;
+  margin-block-end: 0px;
+}
+  
+.title-sub{
+  font-style: italic;
+  margin-block-start: 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family:'Lato', sans-serif;
+}
+
+/*#bc-proj{
+  color: grey;
+}*/
+
+#case-nav{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#case-nav li{
+  display: inline-block;
+  padding: 10px 25px 70px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-size: #424242
+}
+
+.cnav-oview:hover ~ .nav-case{
+  margin-left: 120px;
+  width: 8%;
+  opacity: 100%;
+}
+.cnav-overview:hover{
+  font-weight: bold;
+}
+
+.cnav-approach:hover ~ .nav-case{
+  margin-left:242px;
+  width: 8%;
+  opacity: 100%;
+}
+.cnav-approach:hover{
+  font-weight: bold;
+}
+.cnav-research:hover ~ .nav-case{
+  margin-left:368px;
+  width: 8%;
+  opacity: 100%;
+}
+.cnav-research:hover{
+  font-weight: bold;
+}
+.cnav-design:hover ~ .nav-case{
+  margin-left:493px;
+  width:7%;
+  opacity: 100%;
+}
+.cnav-design:hover{
+  font-weight: bold;
+}
+.cnav-usability:hover ~ .nav-case{
+  margin-left:605px;
+  width: 7%;
+  opacity: 100%;
+}
+.cnav-usability:hover{
+  font-weight: bold;
+}
+.cnav-improvements:hover ~ .nav-case{
+  margin-left:725px;
+  width: 11%;
+  opacity: 100%;
+}
+.cnav-improvements:hover{
+  font-weight: bold;
+}
+.cnav-final:hover ~ .nav-case{
+  margin-left:890px;
+  width: 11%;
+  opacity: 100%;
+}
+.cnav-final:hover{
+  font-weight: bold;
+}
+
+.nav-case{
+height: .10rem;
+  width: 8%;
+  opacity: 0%;
+  margin-top:-60px;
+  margin-left: 150px;
+  background: #8F5B36;
+  border: none;
+  transition: .5s ease-in-out;
+}  
+
+/*STICKY NAVIGATION!!*/
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+  padding-top: 60px;
+} */ 
+
+
+.overview-columns{
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.background{
+width: 40%;
+height: 140px;
+font-family: 'Montserrat', sans-serif;
+display: inline-block;
+text-align: justify;
+}
+
+.clear { clear:both; }
+
+.details{
+width: 35%;
+height: 140px;
+  float: right;
+  padding: 0px;
+  -webkit-padding-start: 0;
+margin-bottom: 100px;
+}
+
+.clear { clear:both; }
+
+.details li{
+  text-decoration: none;
+  list-style-type: none;
+font-family: 'Lato', sans-serif;
+  display: inline-block;
+  padding: 0px;
+  -webkit-padding-start: 0;
+}
+
+/* .approach{
+  padding: 20px;
+} */
+.approach-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 850px;
+  height: auto;
+  margin-top: 50px;
+}
+
+#research{
+  text-align: left;
+  line-height: 30px;
+  width: 850px;
+  margin: 0 auto;
+}
+
+.design-opp, .design-sol{  
+  max-width: 850px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+#solution-header{
+  min-width: 176px;
+}
+#solution-body{
+  max-width: 674px;
+  margin-left: 18px;
+}
+
+.opp-d, .sol-d{  /*description*/
+/*   width: 50%; */
+  font-family: 'Lato', sans-serif;
+}
+
+.business-goals{
+ max-width: 850px;
+  margin: 0 auto;
+}
+
+.market-research{
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+#sub-header{
+  margin-top: 0px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+  color: #6A6A6A;
+}
+
+.market-research-img{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right:auto;
+width: 800px;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.user-demographics{
+  display: block;
+  margin: 0 auto;
+  max-width: 850px;
+  margin-top: -65px;
+}
+
+.research-insights{
+margin-top: -50px;
+}
+
+#interview-data{
+  max-width: 100%;
+  margin: 10px auto 30px auto;
+  display: none;
+}
+dt{
+  color: #8F5B36;
+}
+dd{
+  margin-left: 0px;
+}
+
+.survey-img{
+  display: block;
+  margin: 30px auto 30px auto;
+  width: 450px;
+  box-shadow: 2px 3px 8px rgba(0,0,0,0.2);
+}
+
+.persona{
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 2px 3px 8px rgba(0,0,0,0.2);
+}
+
+#persona-annotated{
+  max-width: 500px;
+  display: none;
+  margin: 0 auto;
+  box-shadow: 2px 3px 8px rgba(0,0,0,0.2);
+}
+
+#time{
+  text-align: center;
+}
+
+#features{
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.design{
+  margin-top: 100px;
+}
+
+.IA-description{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    height: 50%;
+  margin-bottom: 50px;
+}
+
+.sitemap img{
+  display: block;
+ margin: 0 auto;
+  image-rendering: crisp-edges;
+}
+
+figure.taskflow{
+/*   display: flex;
+  justify-content: center; */
+max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+/*   padding: 50px; */
+}
+
+img.task-flow1{
+  margin: 30px auto 0px auto;
+   box-shadow:2px 3px 8px rgba(0,0,0,0.2);
+  padding: 10px;
+  display: block;
+}
+
+img.task-flow2{
+   box-shadow: 2px 3px 8px rgba(0,0,0,0.2);
+  padding: 10px;
+  display: block;
+  margin: 30px auto 0px auto;
+}
+
+.userflow{
+  margin: 30px auto 0px auto;
+  box-shadow: 2px 3px 8px rgba(0,0,0,0.2);
+  width: 375px;
+  padding: 10px;
+  display: block;
+}
+
+figcaption{
+  font-family:'Montserrat', sans-serif;
+  font-size: 13px;
+  width: 375px;
+  margin: 10px auto 0px auto;
+}
+
+.attributes{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+span{
+  padding-left: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+#logo-rough{
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  max-width:500px;
+  image-rendering: pixelated;
+}
+
+#logo-illustrated{
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 500px;
+  image-rendering: crisp-edges;
+}
+
+#logo-final{
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.low img{
+  display: block;
+  margin: 0 auto;
+}
+
+.mid img{
+  display: block;
+  margin: 30px auto 10px auto;
+}
+
+.high img{
+  display: block;
+  margin: 30px auto 10px auto;
+}
+
+.affinitymap{
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.improvements{
+  display: block;
+  margin: 0 auto;
+}
+#prototype video{
+  max-width: 650px;
+  margin: 50px auto 30px auto;
+  display: flex;
+}
+
+#learnings{
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bot
+}
+
+.footer{
+  position: ab;
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin-top: 100px;
+}
+
+#footer-content{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+margin: 0 auto;
+  font-size: 12px;
+}
+
+
+
