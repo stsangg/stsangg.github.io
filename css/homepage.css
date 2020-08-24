@@ -17,7 +17,7 @@ h3{
 }
 
 .parallax{
-  background-image: url("/images/Asset-10.svg");
+  background-image: url("../images/homepage/parallax.svg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
