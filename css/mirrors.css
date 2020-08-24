@@ -21,7 +21,7 @@ p{
 }
 
 h4{
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   color: black;
   max-width: 850px;
@@ -30,7 +30,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 h5{
-font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   color:#8F5B36;
   margin-bottom: 0em;
