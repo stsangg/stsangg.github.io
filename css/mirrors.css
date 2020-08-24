@@ -11,6 +11,7 @@ body, html{
   .nav-global{
   display: none;
 }
+}
 
 p{
   font-family: 'Lato', sans-serif;
@@ -515,6 +516,3 @@ span{
 margin: 0 auto;
   font-size: 12px;
 }
-
-
-
