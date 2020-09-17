@@ -18,7 +18,7 @@ p{
   line-height: 32px;
   font-size: 16px;
   max-width: 100%;
-  margin: 20px auto 30px auto;
+  margin: 20px auto 50px auto;
 }
 
 h4{
@@ -36,6 +36,7 @@ h5{
   font-weight: 500;
   color: black;
   margin-bottom: 0em;
+  margin-top: 50px;
 }
 
 h6{
@@ -521,12 +522,17 @@ margin: 0 auto;
 
 
 /*NRC stuff*/
+.research{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.research-intro{
+  display: flex;
+  justify-content: space-between;
+}
 
 .task-1{
   margin-top: 30px;
 }
 
-.research{
-  margin: 0 auto;
-  width: 60%;
-}
