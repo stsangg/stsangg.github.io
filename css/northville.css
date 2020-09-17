@@ -520,12 +520,12 @@ margin: 0 auto;
 }
 
 /*RESEARCH*/
-.research, .copywriting, .cardSort{
+.research, .copywriting, .cardSort, .usability{
   margin: 0 auto;
   width: 55%;
 }
 
-.research-intro{
+.columns{
   display: flex;
   justify-content: space-between;
 }
@@ -558,5 +558,10 @@ figcaption{
 
 .cardSort-chart{
   max-height: 600px;
+  margin: 0 auto;
+}
+
+.homepage-comparison{
+  max-height: 600px
   margin: 0 auto;
 }
