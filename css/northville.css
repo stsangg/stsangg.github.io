@@ -505,15 +505,9 @@ margin: 0 auto;
   justify-content: space-between;
 }
 
-.design-opp{
+.overview-design{
   max-width: 50%;
-  margin: 200px 0px 0px 275px;
-  display: block;
-}
-
-.design-sol{
-  max-width: 50%;
-  margin: 10px 0 0 275px;
+  margin: 200px 0px 0px 312px;
   display: block;
 }
 
