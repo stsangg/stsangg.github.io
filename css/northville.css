@@ -13,7 +13,7 @@ body, html{
 }
 }
 
-p{
+p, ul{
   font-family: 'Lato', sans-serif;
   line-height: 32px;
   font-size: 16px;
@@ -506,8 +506,8 @@ margin: 0 auto;
 }
 
 .overview-design{
-  max-width: 50%;
-  margin: 200px 0px 0px 312px;
+  max-width: 55%;
+  margin: 200px auto 0 auto;
   display: block;
 }
 
