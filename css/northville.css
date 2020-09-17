@@ -226,9 +226,12 @@ margin: 0 auto;
 /*NRC stuff*/
 
 /*OVERVIEW*/
-.overview-columns{
-  max-width: 55%;
+
+.overview{
+  max-width: 55%
   margin: 0 auto;
+}
+.overview-columns{
   display:flex;
   justify-content: space-between;
 }
