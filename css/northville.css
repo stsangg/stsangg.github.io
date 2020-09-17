@@ -414,7 +414,6 @@ img.task-flow2{
 figcaption{
   font-family:'Montserrat', sans-serif;
   font-size: 13px;
-  width: 375px;
   margin: 10px auto 0px auto;
 }
 
@@ -550,4 +549,9 @@ margin: 0 auto;
 .cardSort-details{
   display: flex;
   justify-content: space-between;
+}
+
+.cardSort-chart{
+  max-height: 600px;
+  margin: 0 auto;
 }
