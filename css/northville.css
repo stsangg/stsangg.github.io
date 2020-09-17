@@ -559,8 +559,8 @@ figcaption{
 }
 
 .usability-img{
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin-bottom: 30px;
 }
 .homepage-comparison{
   max-height: 200px
