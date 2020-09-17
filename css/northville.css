@@ -505,11 +505,18 @@ margin: 0 auto;
   justify-content: space-between;
 }
 
-.design-opp, .design-sol{
+.design-opp{
   max-width: 50%;
-  margin: 200px 225px 0px 275px;
+  margin: 200px 0px 0px 275px;
   display: block;
 }
+
+.design-sol{
+  max-width: 50%;
+  margin: 10px 0 0 275px;
+  display: block;
+}
+
 
 /*RESEARCH*/
 .research, .copywriting, .cardSort, .usability{
