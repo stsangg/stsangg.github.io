@@ -521,8 +521,8 @@ margin: 0 auto;
 
 /*RESEARCH*/
 .research, .copywriting, .cardSort{
-  margin-left: 275px;
-  width: 50%;
+  margin: 0 auto;
+  width: 55%;
 }
 
 .research-intro{
@@ -532,6 +532,10 @@ margin: 0 auto;
 
 .research-tasks{
   margin-top: 30px;
+}
+
+.competitors{
+  width: 100%;
 }
 
 .empathymap{
