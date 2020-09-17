@@ -526,7 +526,7 @@ margin: 0 auto;
 }
 
 /*RESEARCH*/
-.research, .copywriting{
+.research, .copywriting, .cardSort{
   margin-left: 275px;
   width: 50%;
 }
@@ -543,5 +543,11 @@ margin: 0 auto;
 .empathymap{
   max-height: 500px;
   margin-top: 20px;
+  margin-bottom: 100px;
   box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
+}
+
+.cardSort-details{
+  display: flex;
+  justify-content: space-between;
 }
