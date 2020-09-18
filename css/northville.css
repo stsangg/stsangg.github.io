@@ -69,13 +69,13 @@ ol{
   border-style: solid;
   border-color: white;
   background: white;
-  border-solwidth: 2px;
+  border-width: 2px;
   padding: 10px;
   font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   display: block;
   margin: 30px auto 30px auto;
-  box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
 }
 
 #CTA:hover{
@@ -291,7 +291,11 @@ figcaption{
 .lofi-1{
   width: 100%
   margin: 0 auto;
+}
 
+.annotation-img{
+  width: 100%
+  margin: 0 auto;
 }
 .round2{
   text-align: center;
