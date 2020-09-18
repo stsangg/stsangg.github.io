@@ -300,7 +300,7 @@ figcaption{
 }
 .homepage-comparison{
   max-height: 200px
-  margin: 0 auto;
+  margin: auto auto 20px auto;
 }
 
 .h5-sub{
