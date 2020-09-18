@@ -313,6 +313,11 @@ figcaption{
   margin-bottom: 20px;
 }
 
+.task3-annotated{
+  display:flex;
+  justify-content: space-around;
+}
+
 .h5-sub{
   margin: 30px 0 0 0;
 }
@@ -325,3 +330,4 @@ figcaption{
   background-color: #82ACFF;
   color: black;
 }
+
