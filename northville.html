@@ -179,33 +179,46 @@ health coverage</h5>
 </div>
 
   <h5>Secondary research: contextual inquiry</h5>
-  <h5>Goals:</h5>
+    <h6>Assessing how competitors structured their task flow</h6>
+
+<img class='competitors' src='/images/northville/competitors.svg' alt='Competitor Logos'>
+
+<div class='columns'>
+	<div>
+<h5>Goals:</h5>
  <ol>
     <li>Who are the direct competitors?</li>
     <li>What factors do they think are important to promote their clinic?</li>
     <li>How do they lay out the specific factors that users think are
 important on their website?</li>
-</ol>
-
-<img class='competitors' src='/images/northville/competitors.svg' alt='Competitor Logos'>
-
-<p class='p-sub'>From the primary research, the three most important factors when choosing a clinic were: 
+</ol></div>
+<div>
+<p>From the primary research, the three most important factors when choosing a clinic were: 
   <ol>
     <li>Learning about the offered services</li>
     <li>Whether they accepted their insurance company</li>
     <li>Ease of booking an appointment</li> 
-  </ol></p>
-
-<p>
-  Four existing rehabiliation clinics were chosen at random.
-  <h6>I assessed how they  structured their task flow for the above factors. </h6>
-  <br> In the end, I hoped to find best practices and effective organization tactics
+  </ol></p></div>
+  <p> Four existing rehabiliation clinics were chosen at random. In the end, I hoped to find best practices and effective organization tactics
 used to promote their clinic. </p>
 
 <h5>Learning about the offered services</h5>
 <h6>All the sites had their offered services under “services” in the
 global navigation</h6>
-<p>Each service had it’s own desinated page, and a description
+
+<h5>Finding the insurance information</h5>
+<h6>Interestingly, each site had their own placement of the
+insurance information</h6>
+
+<h5>Booking an appointment</h5>
+<h6>If clinics didn't offer online booking, the booking information was a section related to "contact".</h6>
+
+
+<input id='CTA' type='button' value='Detailed Analysis' onclick="myFunction()"></input>
+      <div id='secondary-research'>
+      	<h5>Learning about the offered services</h5>
+<p></p>>All the sites had their offered services under “services” in the
+global navigation.Each service had it’s own desinated page, and a description
 explaining the following:</p>
 <p><ul>
 <li>what the treatment or discipline is about</li>
@@ -214,17 +227,15 @@ explaining the following:</p>
 </ul></p>
 
 <h5>Finding the insurance information</h5>
-<h6>Interestingly, each site had their own placement of the
-insurance information</h6>
-<p>It was not under its own heading in the global navigation, but
+<p>Interestingly, each site had their own placement of the
+insurance information. It was not under its own heading in the global navigation, but
 found under different sections such as “FAQ”, “site map”,
 “services”, or “pricing”.<br>
 This suggests that the clinics think this is secondary information
 and don’t place that much priority on it.</p>
 
 <h5>Booking an appointment</h5>
-<h6>Two scenarios arose</h6>
-<p>If the clinic offered online booking, there would be a CTA linking to it.
+<p>If clinics didn't offer online booking, the booking information was a section related to "contact". If the clinic offered online booking, there would be a CTA linking to it.
 If the clinic did not offer online booking, the information was usually
 under “contact”, organized by location.
 Under “contact” was the clinic details, including the address, email,
@@ -233,6 +244,7 @@ word “contact” in the global navigation. Alternatives would be
 “locations” or “about me”.
 If there was more than one location, the contact information would be
 organized by location on one page.</p>
+</div>
 
 <h5>I created an empathy map based the collective user research data to help remind me of the user expectations I was designing for. </h5>
 <img class='empathymap' src='/images/northville/empathymap.png' alt='Empathy Map'>
@@ -262,7 +274,7 @@ organized by location on one page.</p>
 To match Northville’s brand attributes, the content was written in a professional and plainspoken tone.</p>
 
 <div class='CTA'>
-  <span id='CTA'><a href='/images/northville/copywriting-style-guide.pdf'>Copywriting Style Guide</a></span></div>
+  <span id='CTA'><a href='/images/northville/copywriting-style-guide.pdf' target='_blank'>Copywriting Style Guide</a></span></div>
 </div>
 
 <div class='cardSort'>
@@ -443,7 +455,7 @@ Redesigning the website for my old clinic brought me back all kinds of nostalgia
 }
   
    function interviewData() {
-  var y = document.getElementById("interview-data");
+  var y = document.getElementById("secondary-research");
   if (y.style.display === "none") {
     y.style.display = "block";
   } else {
