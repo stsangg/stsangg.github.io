@@ -295,10 +295,12 @@ figcaption{
 .usability-img{
   width: 100%;
   margin-bottom: 30px;
+   box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
 }
 .homepage-comparison{
   max-height: 200px
   margin: 0 auto;
+   box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
 }
 
 .h5-sub{
@@ -307,4 +309,9 @@ figcaption{
 .p-sub{
   margin: 0px;
   font-weight: bold;
+}
+
+.highlight{
+  background-color: #245CCB;
+  color: white;
 }
