@@ -230,6 +230,7 @@ margin: 0 auto;
 
 .overview-columns{
   width: 55%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -247,7 +248,7 @@ width: 100%;
 
 
 /*RESEARCH*/
-.research, .copywriting, .cardSort, .usability{
+.approach, .research, .copywriting, .cardSort, .usability{
   margin: 0 auto;
   width: 55%;
 }
