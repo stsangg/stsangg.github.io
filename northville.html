@@ -119,26 +119,26 @@ when choosing a clinic.<br>
 
 <h5>Task #1: Use the site to see whether a physiotherapy or chiropractic treatment would be better for you</h5>
 <h6>People did not understand what they were reading</h6>
-<img class='research-tasks' src='/images/northville/task-1.svg' alt='Task 1'>
+<!-- <img class='research-tasks' src='/images/northville/task-1.svg' alt='Task 1'>
 <p>This created a problem because there was an increased risk of information being missed. 60% of users would’ve just called or left the site if they couldn’t find what they were looking for. 
-Calling for information defeated the purpose of having the it on the website, and adds an extra step to the conversion process.</p>
+Calling for information defeated the purpose of having the it on the website, and adds an extra step to the conversion process.</p> -->
 
 <h5>Task #2: Do they accept private insurance or extended
 health coverage</h5>
 <h6>People were overwhelmed when just navigating a site they
 thought was too text-heavy</h6>
-<img class='research-tasks' src='/images/northville/task-2.svg' alt='Task 2'>
+<!-- <img class='research-tasks' src='/images/northville/task-2.svg' alt='Task 2'>
 <p class='p-sub'>When they were overwhelmed, various outcomes were observed:</p>
   <p><ul>
     <li>risk of no trust being developed</li>
     <li>leaving the site in frustration</li>
     <li>calling to find out information, thus adding an extra step to the conversion process</li>
   </ul></p>
-
+ -->
 <h5>Task #3: Try to book an appointment</h5>
 <h6>People expected to be guided on how they should take action</h6>
-<img class='research-tasks' src='images/northville/task-3.svg' alt='Task 3'>
-<p>If there was no guidance or instructions on how to book an appointment, users were uncertain whether they had missed an online booking option. This would’ve resulted in calling or emailing (adding an extra step to the conversion) or leaving the site in frustration. </p>
+<!-- <img class='research-tasks' src='images/northville/task-3.svg' alt='Task 3'>
+<p>If there was no guidance or instructions on how to book an appointment, users were uncertain whether they had missed an online booking option. This would’ve resulted in calling or emailing (adding an extra step to the conversion) or leaving the site in frustration. </p> -->
 
 <p class='p-sub'>Primary Research Impressions:</p>
 <p><ol>
@@ -154,6 +154,29 @@ information</li>
     - insurance information<br>
     - how to book an appointment</li>
   </ol></p>
+
+<input id='CTA' type='button' value='Detailed Analysis' onclick="myFunction()"></input>
+      <div id='primary-research'>
+
+<h5>Task #1: Use the site to see whether a physiotherapy or chiropractic treatment would be better for you</h5>
+      <img class='research-tasks' src='/images/northville/task-1.svg' alt='Task 1'>
+<p>This created a problem because there was an increased risk of information being missed. 60% of users would’ve just called or left the site if they couldn’t find what they were looking for. 
+Calling for information defeated the purpose of having the it on the website, and adds an extra step to the conversion process.</p>
+
+<h5>Task #2: Do they accept private insurance or extended
+health coverage</h5>
+<img class='research-tasks' src='/images/northville/task-2.svg' alt='Task 2'>
+<p class='p-sub'>When they were overwhelmed, various outcomes were observed:</p>
+  <p><ul>
+    <li>risk of no trust being developed</li>
+    <li>leaving the site in frustration</li>
+    <li>calling to find out information, thus adding an extra step to the conversion process</li>
+  </ul></p>
+
+<h5>Task #3: Try to book an appointment</h5>
+<img class='research-tasks' src='images/northville/task-3.svg' alt='Task 3'>
+<p>If there was no guidance or instructions on how to book an appointment, users were uncertain whether they had missed an online booking option. This would’ve resulted in calling or emailing (adding an extra step to the conversion) or leaving the site in frustration. </p>
+</div>
 
   <h5>Secondary research: contextual inquiry</h5>
   <p class='p-sub'>Goals:</p>
@@ -404,4 +427,25 @@ Redesigning the website for my old clinic brought me back all kinds of nostalgia
 </dl>
 </div>
 </body>
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("primary-research");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  
+   function interviewData() {
+  var y = document.getElementById("interview-data");
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}
+ 
+  </script>
 </html>
