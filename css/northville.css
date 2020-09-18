@@ -299,8 +299,8 @@ figcaption{
    box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
 }
 .homepage-comparison{
-  max-height: 200px
-  margin: auto auto 20px auto;
+  width: 100;
+  margin-bottom: 20px;
 }
 
 .h5-sub{
