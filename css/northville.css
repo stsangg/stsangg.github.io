@@ -294,7 +294,7 @@ figcaption{
 }
 
 .annotation-img{
-  width: 100%;
+  width: 75%;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -309,7 +309,7 @@ figcaption{
    box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
 }
 .homepage-comparison{
-  width: 100;
+  width: 100%;
   margin-bottom: 20px;
 }
 
