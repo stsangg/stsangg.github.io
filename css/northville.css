@@ -247,7 +247,7 @@ width: 100%;
 
 
 /*RESEARCH*/
-.approach, .research, .copywriting, .cardSort, .usability{
+.approach, .research, .copywriting, .cardSort, .wireframes, .usability{
   margin: 0 auto;
   width: 55%;
 }
@@ -288,6 +288,11 @@ figcaption{
   margin: 0 auto;
 }
 
+.lofi-1{
+  width: 100%
+  margin: 0 auto;
+
+}
 .round2{
   text-align: center;
 }
