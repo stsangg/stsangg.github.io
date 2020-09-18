@@ -331,3 +331,9 @@ figcaption{
   color: black;
 }
 
+/*javascript code*/
+#primary-research{
+ width: 100%;
+margin: 0 auto;
+  display: none;
+}
