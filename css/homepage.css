@@ -23,9 +23,9 @@ h3{
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  /*transform: scale(0.75 0.75);
-  -webkit-transform: scale(0.75, 0.75);
-  z-index: -1;*/
+/*  transform: scale(0.75 0.75);
+  -webkit-transform: scale(0.75, 0.75);*/
+  z-index: -1;
   opacity: 75%;
 }
 
