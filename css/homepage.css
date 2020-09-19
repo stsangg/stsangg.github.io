@@ -16,20 +16,27 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 
+.animation{
+margin-left: 85px;
+font-family: Montserrat, sans-serif;
+font-size: 16px;
+margin-top: 0px;
+}
+
 span:before{
-  content:'';
+  content:'why';
   animation: animate infinite 8s;
 }
 
 @keyframes animate{
   0%{
-    content:'idea';
+    content:'';
   }
   20%{
     content:'product';
   }
   40%{
-    content:'why';
+    content:'idea';
   }
 
   60%{
