@@ -46,7 +46,7 @@ h6{
   margin: 0 auto;
 }
 
-ol, li{
+ol, li, dd, dt{
   font-family: 'Lato', sans-serif;
   line-height: 35px;
   font-size: 16px;
@@ -247,7 +247,7 @@ width: 100%;
 
 
 /*RESEARCH*/
-.approach, .research, .copywriting, .cardSort, .wireframes, .usability, .takeaways{
+.approach, .research, .copywriting, .cardSort, .wireframes, .usability, .improvements, .takeaways{
   margin: 0 auto;
   width: 55%;
 }
