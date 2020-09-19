@@ -23,6 +23,10 @@ font-size: 16px;
 margin-top: 0px;
 }
 
+.highlight{
+  background: #81D8D0;
+}
+
 span:before{
   content:'why';
   animation: animate infinite 8s;
