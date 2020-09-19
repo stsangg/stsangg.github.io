@@ -16,6 +16,35 @@ h3{
   font-family: 'Montserrat', sans-serif;
 }
 
+span:before{
+  content:'';
+  animation: animate infinite 8s;
+}
+
+@keyframes animate{
+  0%{
+    content:'idea';
+  }
+  20%{
+    content:'product';
+  }
+  40%{
+    content:'why';
+  }
+
+  60%{
+    content:'design';
+  }
+
+  80%{
+    content:'user';
+  }
+
+  100%{
+    content:'goal';
+  }
+}
+
 .parallax{
   background-image: url("../images/homepage/parallax.svg");
   background-attachment: fixed;
