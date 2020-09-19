@@ -68,6 +68,11 @@ figure a{
 #fig-1{
   font-size: 13px;
 }
+
+#tags{
+  font-size: 13px;
+  color: grey;
+}
 figcaption:hover{
   font-weight: semi-bold;
 }
