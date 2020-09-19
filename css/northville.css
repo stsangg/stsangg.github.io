@@ -225,6 +225,11 @@ margin: 0 auto;
 
 /*NRC stuff*/
 
+.hero{
+  width: 100%;
+  margin: 0 auto;
+}
+
 /*OVERVIEW*/
 
 
@@ -247,7 +252,7 @@ width: 100%;
 
 
 /*RESEARCH*/
-.approach, .research, .copywriting, .cardSort, .wireframes, .usability, .improvements, .takeaways{
+.approach, .research, .copywriting, .cardSort, .lofi, .wireframes, .usability, .improvements, .takeaways{
   margin: 0 auto;
   width: 55%;
 }
@@ -288,7 +293,7 @@ figcaption{
   margin: 0 auto;
 }
 
-.lofi-1{
+.lofi-frames{
   width: 100%
   margin: 0 auto;
 }
