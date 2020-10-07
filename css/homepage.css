@@ -130,9 +130,15 @@ figure:hover ~ #hr-mirrors-name{
   font-family: 'Lato', sans-serif;
 }
 
-#footer-content{
-  text-align: center;
+#footer-phrase{
+  text-align: right;
   font-family: 'Lato', sans-serif;
-  margin: 0 auto;
+  margin-right: 30px;
   font-size: 12px;
+}
+
+.socials{
+	text-align: left;
+	padding: 30px;
+	font-family: 'Lato', sans-serif;
 }
