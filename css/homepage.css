@@ -78,14 +78,14 @@ font-family: 'Montserrat', sans-serif;
  z-index: 1;
 }
 
-.mirrors, .northville{
+.mirrors, .northville, .apple{
   width: 100%;
   height: 100%;
   -webkit-filter: grayscale(1);
   z-index: 1;
   box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
 }
-.mirrors:hover, .northville:hover{
+.mirrors:hover, .northville:hover, .apple:hover{
   animation-name: hover;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
