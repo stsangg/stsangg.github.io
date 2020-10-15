@@ -112,8 +112,10 @@ ol, li, dd, dt{
   max-width: 55%;
   margin-left: 212px;
 }
+
 .persona{
   display: flex;
+  justify-content: space-around;
   max-width: 100%;
 }
 
