@@ -108,3 +108,8 @@ ol, li, dd, dt{
 .solution-features{
   margin: 0 auto;
 }
+
+.persona{
+  display: flex;
+  max-width: 100%;
+}
