@@ -13,9 +13,9 @@ body, html{
 }
 }
 
-p{
-  font-family: 'Lato', sans-serif;
-  line-height: 32px;
+p, ul{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
   font-size: 16px;
   max-width: 100%;
   margin: 20px auto 30px auto;
@@ -31,9 +31,9 @@ h4{
 }
 
 h5{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  color:#8F5B36;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 24px;
+  color:#000000;
   margin-bottom: 0em;
 }
 
@@ -43,7 +43,58 @@ h6{
   color: black;
 }
 
+ol, li, dd, dt{
+  font-family: 'Lato', sans-serif;
+  line-height: 35px;
+  font-size: 16px;
+}
+
+.divider{
+    border-top: 1px solid #bbb;
+  width: 500px;
+  margin: 75px auto 75px auto;
+}
+
+/* CTA-style-start */
+
+.CTA{
+  display: flex;
+  align-items: center;
+}
+
+#CTA{
+  border-style: solid;
+  border-color: white;
+  background: white;
+  border-width: 2px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  margin: 30px auto 30px auto;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
+
+#CTA:hover{
+  animation-name: CTA-animation;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes CTA-animation{
+  100%{
+  color: black;
+ background: #81D8D0;
+  }
+}
+
+
+
+/*Apple Start*/
 .apple-hero{
   display: block;
   width: 100%;
+}
+
+.feature-frames{
+  margin: 0 auto;
 }
