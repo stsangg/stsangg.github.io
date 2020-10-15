@@ -112,3 +112,8 @@ ol, li, dd, dt{
   display: flex;
   max-width: 100%;
 }
+
+.image{
+  display: block;
+  margin: 0 auto;
+}
