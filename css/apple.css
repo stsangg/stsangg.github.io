@@ -39,7 +39,7 @@ h5{
 
 
 ol, li, dd, dt{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 35px;
   font-size: 16px;
 }
@@ -91,7 +91,6 @@ ol, li, dd, dt{
 }
 
 /*OVERVIEW*/
-
 
 .overview-columns{
   width: 55%;
