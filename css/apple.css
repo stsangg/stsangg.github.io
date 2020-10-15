@@ -108,6 +108,10 @@ ol, li, dd, dt{
   margin: 0 auto;
 }
 
+.section{
+  max-width: 55%;
+  margin-left: 212px;
+}
 .persona{
   display: flex;
   max-width: 100%;
