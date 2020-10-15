@@ -23,7 +23,7 @@ p, ul{
 
 h4{
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   max-width: 850px;
   margin: 0 auto;
@@ -93,6 +93,21 @@ ol, li, dd, dt{
 .apple-hero{
   display: block;
   width: 100%;
+}
+
+/*OVERVIEW*/
+
+
+.overview-columns{
+  width: 55%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview-design{
+  max-width: 55%;
+  margin: 0 auto;
 }
 
 .feature-frames{
