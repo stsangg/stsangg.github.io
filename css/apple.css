@@ -161,12 +161,19 @@ ol, li, dd, dt{
 .brainstorm-img{
   max-width: 500px;
   height:405px;
+  margin-left: 212px;
 }
 
 figcaption{
   margin: 15px 0 0 10px;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+}
+
+.lofi{
+  display:flex;
+  justify-content: space-around;
+  margin-left: 212px;
 }
 
 
@@ -182,7 +189,7 @@ max-width: 25%;
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
-  max-width:100% !important;
+  width:150%;
 }
 
 .imports{
