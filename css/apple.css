@@ -162,6 +162,11 @@ ol, li, dd, dt{
   max-width: 500px;
 }
 
+figcaption{
+  margin: 15px 0 0 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 /*brainstorm{
   margin:0 auto;
