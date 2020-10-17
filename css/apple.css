@@ -14,7 +14,7 @@ body, html{
 }
 
 p, ul{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 25px;
   font-size: 16px;
   max-width: 100%;
@@ -22,7 +22,7 @@ p, ul{
 }
 
 h4{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #828282;
   max-width: 850px;
@@ -33,14 +33,14 @@ h4{
 }
 
 h5{
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
   color:#000000;
   margin-bottom: 0em;
 }
 
 h6{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color:#000000;
   margin-bottom: 0em;
@@ -48,7 +48,7 @@ h6{
 
 
 ol, li, dd, dt{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 35px;
   font-size: 16px;
 }
@@ -165,7 +165,7 @@ ol, li, dd, dt{
 
 figcaption{
   margin: 15px 0 0 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 12px;
 }
 
