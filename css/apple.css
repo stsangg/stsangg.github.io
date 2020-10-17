@@ -153,10 +153,13 @@ ol, li, dd, dt{
 }
 
 .brainstorm{
-  display: flex;
-  justify-content: space-around;
   margin:0 auto;
 }
+
+.figure{
+max-width: 25%;
+}
+
 .image{
   display: block;
   margin: 0 auto;
