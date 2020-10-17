@@ -115,6 +115,7 @@ ol, li, dd, dt{
 .solution-features, .approach{
   margin: 0 auto;
   display: block;
+  max-width: 80%;
 }
 
 .section{
