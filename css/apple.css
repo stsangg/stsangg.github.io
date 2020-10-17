@@ -114,10 +114,16 @@ ol, li, dd, dt{
   margin: 0 auto;
 }
 
-.solution-features, .approach{
+.solution-features{
   margin: 0 auto;
   display: block;
   max-width: 80%;
+}
+
+.approach{
+  margin: 0 auto;
+  display: block;
+  max-width: 65%;
 }
 
 .section{
@@ -135,7 +141,7 @@ ol, li, dd, dt{
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
-  max-width:95% !important;
+  max-width:100% !important;
 }
 
 .imports{
