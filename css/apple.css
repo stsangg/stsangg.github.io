@@ -152,6 +152,11 @@ ol, li, dd, dt{
   margin-bottom: 46px;
 }
 
+.brainstorm{
+  display: flex;
+  justify-content: space-around;
+  margin:0 auto;
+}
 .image{
   display: block;
   margin: 0 auto;
