@@ -152,13 +152,20 @@ ol, li, dd, dt{
   margin-bottom: 46px;
 }
 
-.brainstorm{
+.brainstorm-top, .brainstorm-bottom{
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+}
+
+
+/*brainstorm{
   margin:0 auto;
 }
 
 .figure{
 max-width: 25%;
-}
+}*/
 
 .image{
   display: block;
