@@ -160,6 +160,7 @@ ol, li, dd, dt{
 
 .brainstorm-img{
   max-width: 500px;
+  max-height:405px;
 }
 
 figcaption{
