@@ -155,7 +155,7 @@ ol, li, dd, dt{
 .brainstorm-top, .brainstorm-bottom{
   display: flex;
   justify-content: space-around;
-  max-width: 80%;
+  margin-left: 212px;
 }
 
 .brainstorm-img{
@@ -165,6 +165,7 @@ ol, li, dd, dt{
 figcaption{
   margin: 15px 0 0 10px;
   font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
 }
 
 
