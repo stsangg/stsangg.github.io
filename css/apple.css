@@ -29,7 +29,7 @@ h4{
   margin: 0 auto;
   display: block;
   margin-bottom: 20px;
-  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 h5{
@@ -121,20 +121,21 @@ ol, li, dd, dt{
 }
 
 .section{
-  max-width: 55%;
+  max-width: 50%;
   margin-left: 212px;
 }
 
 .persona{
   display: flex;
   max-width: 100%;
+  margin-bottom: 46px;
 }
 
 .image{
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
-  max-width:95%;
+  max-width:95% !important;
 }
 
 .imports{
