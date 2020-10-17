@@ -28,6 +28,7 @@ h4{
   max-width: 850px;
   margin: 0 auto;
   display: block;
+  margin-bottom: 20px;
 }
 
 h5{
@@ -39,7 +40,7 @@ h5{
 
 h6{
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px
+  font-size: 20px;
   color:#000000;
   margin-bottom: 0em;
 }
@@ -111,8 +112,9 @@ ol, li, dd, dt{
   margin: 0 auto;
 }
 
-.solution-features{
+.solution-features, .approach{
   margin: 0 auto;
+  display: block;
 }
 
 .section{
@@ -122,11 +124,11 @@ ol, li, dd, dt{
 
 .persona{
   display: flex;
-  justify-content: space-around;
   max-width: 100%;
 }
 
 .image{
   display: block;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
