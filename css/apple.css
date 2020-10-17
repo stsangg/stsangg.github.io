@@ -114,6 +114,13 @@ ol, li, dd, dt{
   margin: 0 auto;
 }
 
+.solution-gif{
+  display:flex;
+  justify-content: space-between;
+  width:55%;
+  margin:0 auto;
+}
+
 .solution-features{
   margin: 0 auto;
   display: block;
