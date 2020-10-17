@@ -131,6 +131,7 @@ ol, li, dd, dt{
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
+  max-width:95%;
 }
 
 .imports{
