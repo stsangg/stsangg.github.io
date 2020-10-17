@@ -29,6 +29,7 @@ h4{
   margin: 0 auto;
   display: block;
   margin-bottom: 20px;
+  margin-block-start: 0em;
 }
 
 h5{
@@ -96,6 +97,7 @@ ol, li, dd, dt{
 .apple-hero{
   display: block;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 /*OVERVIEW*/
