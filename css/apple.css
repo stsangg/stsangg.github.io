@@ -139,7 +139,11 @@ ol, li, dd, dt{
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  max-width: 65%;
+  max-width: 80%;
+}
+
+.approach-img{
+  max-width: 250px;
 }
 
 .section{
