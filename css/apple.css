@@ -14,7 +14,7 @@ body, html{
 }
 
 p, ul{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 25px;
   font-size: 16px;
   max-width: 100%;
@@ -22,7 +22,7 @@ p, ul{
 }
 
 h4{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #828282;
   max-width: 850px;
@@ -40,7 +40,7 @@ h5{
 }
 
 h6{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   color:#000000;
   margin-bottom: 0em;
@@ -48,7 +48,7 @@ h6{
 
 
 ol, li, dd, dt{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 35px;
   font-size: 16px;
 }
@@ -165,7 +165,7 @@ ol, li, dd, dt{
 
 figcaption{
   margin: 15px 0 0 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
 }
 
