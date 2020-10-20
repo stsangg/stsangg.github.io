@@ -136,8 +136,9 @@ ol, li, dd, dt{
 }*/
 
 .approach{
+  display: flex;
+  justify-content: space-around;
   margin: 0 auto;
-  display: block;
   max-width: 65%;
 }
 
