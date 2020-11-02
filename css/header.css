@@ -15,6 +15,7 @@ a:active{
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
+  width: 100%;
 }
 
 .global-nav{
