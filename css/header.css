@@ -38,6 +38,11 @@ a:active{
   flex-direction: row-reverse;
   font-size:18px;
 }
+
+a{
+  font-family:'Playfair Display', sans-serif;
+  font-size:18px;
+}
 .work, .play, .writings, .about, .contact{
   list-style-type: none;
 margin: 10px;
