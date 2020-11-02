@@ -40,7 +40,7 @@ a:active{
 }
 
 a{
-  font-family:'Playfair Display', sans-serif;
+  font-family:'Playfair Display', sans-serif !important;
   font-size:18px;
 }
 .work, .play, .writings, .about, .contact{
