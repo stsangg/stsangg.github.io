@@ -31,6 +31,7 @@ a:active{
 }
 .global-nav ul{
   float: right;
+  line-height: 0px;
 }
 .global-nav li{
   font-family: 'Playfair Display', sans-serif;
