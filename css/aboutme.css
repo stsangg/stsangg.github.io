@@ -3,6 +3,12 @@ body, html{
   margin: auto;
 }
 
+@media (max-width: 875px){
+  .nav-global{
+  display: none;
+}
+}
+
 .page-wrapper{
   min-height: 100%;
 }
@@ -49,32 +55,6 @@ margin: auto 100px 60px 145px;
 .headshot{
   margin-top:75px;
   height:500px;
-}
-
-
-.steph{
-  float: right;
-  margin-right: 180px;
-  margin-top: 25px;
-  height: 450px;
-  box-shadow: 2px 3px 8px rgba(0,0,0,0.2);
-}
-.tx-plans{
-  max-width: 100%;
-    margin: 0px 180px 20px 180px;
-  image-rendering: crisp-edges;
-}
-
-.tx-plans img{
-  display: block;
-  margin: 0 auto;
-  margin-top: -50px;
-}
-
-.design-thinking-cartoon{
-  display: block;
-  margin: 0 auto;
-  margin-top: -50px;
 }
 
 .contact-me{
