@@ -35,11 +35,22 @@ ol, ul{
   line-height: 35px;
   font-size: 16px;
   margin-left: 110px;
+  margin-bottom:60px;
+}
+
+.pictures{
+  display: flex;
 }
 
 .timeline{
-margin: auto auto 60px 145px;
+margin: auto 100px 60px 145px;
 }
+
+.headshot{
+  margin-top:75px;
+  height:500px;
+}
+
 
 .steph{
   float: right;
