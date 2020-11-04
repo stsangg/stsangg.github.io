@@ -35,7 +35,7 @@ ol, ul{
   line-height: 35px;
   font-size: 16px;
   margin-left: 110px;
-  margin-bottom:60px;
+  margin-bottom:;
 }
 
 .pictures{
@@ -116,7 +116,7 @@ margin: 0 auto;
 }
 
 /*header*/
-@media (max-width: 875px){
+/*@media (max-width: 875px){
   .nav-global{
   display: none;
   }}
@@ -175,14 +175,14 @@ a{
   background: #81D8D0;
   border: none;
   transition: .5s ease-in-out;
-}  
+}  */
 
-.logo-head{
+/*.logo-head{
   display: flex;
   justify-content: space-around;
 }
-
-.logo{
+*/
+/*.logo{
   background-image: url('../images/stephanietsang-logo.svg');
   width: 50%;
   margin-top: 50px;
@@ -190,17 +190,17 @@ a{
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+*/
 /*navigation*/
-.global-nav{
+/*.global-nav{
   width: 100%;
 font-family: 'Lato', sans-serif;
   margin-right: 90px;
-  font-size: 16px;
+  font-size: 16px;}
   /*float: right;*/
-}
 
-.global-nav ul{
+
+/*.global-nav ul{
   float: right;
 }
 
@@ -208,5 +208,5 @@ font-family: 'Lato', sans-serif;
   display: inline-block;
   margin: 50px 20px 0px 20px;
   flex-direction: row-reverse;
-}
+}*/
 
