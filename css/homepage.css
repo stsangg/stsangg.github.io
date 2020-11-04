@@ -9,6 +9,9 @@ body, html{
 }
 }
 
+.page-wrapper{
+  min-height:100%;
+}
 h3{
   color: grey;
   position: block;
