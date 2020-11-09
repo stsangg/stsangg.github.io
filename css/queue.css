@@ -126,3 +126,8 @@ ol, li, dd, dt{
 .approach-img{
   max-width: 250px;
 }
+
+.section{
+  max-width: 50%;
+  margin-left: 212px;
+}
