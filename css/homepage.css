@@ -13,12 +13,12 @@ h3{
   color: grey;
   position: block;
   padding-top: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .animation{
 margin-left: 85px;
-font-family: Montserrat, sans-serif;
+font-family: Lato, sans-serif;
 font-size: 16px;
 margin-top: 0px;
 }
@@ -74,18 +74,18 @@ figure {
 margin: 100px auto 100px auto;
  max-width: 400px;
  height: auto;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
  z-index: 1;
 }
 
-.mirrors, .northville, .apple{
+.project{
   width: 100%;
   height: 100%;
   -webkit-filter: grayscale(1);
   z-index: 1;
   box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
 }
-.mirrors:hover, .northville:hover, .apple:hover{
+.project:hover{
   animation-name: hover;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
@@ -99,7 +99,7 @@ font-family: 'Montserrat', sans-serif;
 
 figcaption{
   margin: 15px 0 0 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 figure a{
   text-decoration: none;
