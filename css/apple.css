@@ -117,7 +117,7 @@ ol, li, dd, dt{
 .solution-gif{
   display:flex;
   justify-content: space-between;
-  width:55%;
+  max-width:55%;
   margin:0 auto;
   margin-bottom:100px;
 }
@@ -186,7 +186,7 @@ figcaption{
   display:block;
   margin:0 auto;
   margin-bottom:100px;
-  width:80%;
+  max-width:80%;
 }
 
 
