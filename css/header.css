@@ -28,6 +28,8 @@ a:active{
 }
 .global-nav a{
   text-decoration: none;
+  font-family:'Playfair Display', sans-serif;
+  font-size: 18px;
 }
 .global-nav ul{
   float: right;
@@ -42,10 +44,10 @@ a:active{
   line-height:35px;
 }
 
-a{
+/*a{
   font-family:'Playfair Display', sans-serif !important;
   font-size:18px;
-}
+}*/
 .work, .play, .writings, .about, .contact{
   list-style-type: none;
 margin: 10px;
