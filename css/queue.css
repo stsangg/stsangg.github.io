@@ -1,7 +1,10 @@
 .interview{
   max-width:100%;
-  margin: 0 auto;
+  margin-left: 102px;
+  margin-bottom:60px;
 }
+
 .deliverable{
   max-width:950px;
+  margin-bottom:60px;
 }
