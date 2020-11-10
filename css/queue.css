@@ -15,7 +15,8 @@
 
 .text-box{
   max-width:100%;
-  margin: 60px auto 60px 102px;
+  display: block;
+  margin: 60px auto 60px auto;
 }
 
 .deliverable{
