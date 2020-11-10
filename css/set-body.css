@@ -90,7 +90,7 @@ ol, li, dd, dt{
 .solution-gif{
   display:flex;
   justify-content: space-between;
-  max-width:55%;
+  max-width:60%;
   margin: 100px auto 100px auto;
 }
 
