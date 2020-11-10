@@ -145,3 +145,7 @@ ol, li, dd, dt{
 .interviews-right{
   margin-top:23px;
 }
+
+.deliverable{
+  max-width:950px;
+}
