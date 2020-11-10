@@ -116,5 +116,5 @@ ol, li, dd, dt{
 
 .section{
   max-width: 50%;
-  margin-left: 212px;
+margin:0 auto;
 }

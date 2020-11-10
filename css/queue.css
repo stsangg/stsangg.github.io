@@ -21,12 +21,13 @@
 .deliverable{
   max-width:950px;
   margin-bottom:60px;
+  margin: 0 auto;
 }
 
 .brainstorm{
   display: flex;
   justify-content: space-around;
-  margin-left:212px;
+margin: 0 auto;
 }
 
 .brainstorm img{
