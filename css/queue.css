@@ -131,3 +131,17 @@ ol, li, dd, dt{
   max-width: 50%;
   margin-left: 212px;
 }
+
+.interviews{
+  display: flex;
+  justify-content: space-between;
+  width:968px;
+}
+
+.interviews-left{
+  max-width: 600px;
+}
+
+.interviews-right{
+  margin-top:23px;
+}
