@@ -66,19 +66,6 @@ ol, li, dd, dt{
   align-items: center;
 }
 
-#CTA{
-  border-style: solid;
-  border-color: white;
-  background: #FF8243;
-  border-width: 2px;
-  padding: 10px;
-  font-size: 15px;
-  font-family: 'Lato', sans-serif;
-  display: block;
-  margin: 30px auto 30px auto;
-  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
-}
-
 /*Queue start*/
 .hero{
   display:block;
