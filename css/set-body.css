@@ -76,15 +76,15 @@ ol, li, dd, dt{
 /*OVERVIEW*/
 
 .overview-columns{
-  width: 55%;
-  margin: 0 auto;
+  width: 70%;
+  margin-left: 269px;
   display: flex;
   justify-content: space-between;
 }
 
 .overview-design{
   max-width: 55%;
-  margin: 0 auto;
+  margin-left: 269px;
 }
 
 .solution-gif{
