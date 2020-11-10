@@ -14,7 +14,7 @@
 }
 
 .text-box{
-  max-width:100%;
+  max-width:70%;
   display: block;
   margin: 60px auto 60px auto;
 }
@@ -33,5 +33,11 @@ margin-left:269px;
 
 .brainstorm img{
   max-width: 480px;
-  height:405px;
+margin-top:20px;
+}
+
+.brainstorm figcaption{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+
 }
