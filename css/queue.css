@@ -32,8 +32,13 @@ margin-left:269px;
 }
 
 .brainstorm img{
-  max-width: 480px;
+  max-width: 420px;
 margin-top:20px;
+}
+
+#brainstorm-2{
+  max-width:430px;
+  margin-left:52px;
 }
 
 .brainstorm figcaption{
@@ -42,6 +47,14 @@ margin-top:20px;
 
 }
 
+.task-flow{
+  width:902px;
+  display: block;
+  margin:0 auto;
+}
+
 .features{
-  margin-left: 269px;
+  width:904px;
+  display: block;
+  margin-left:269px;
 }
