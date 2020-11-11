@@ -58,3 +58,12 @@ margin-top:20px;
   display: block;
 margin-top:50px;
 }
+
+.lofi-1, .lofi-2, .lofi-3{
+  display:flex;
+  justify-content:space-between;
+  max-width:902px;
+}
+.lofi-1, .lofi-2, .lofi-3 img{
+width:294px;
+}
