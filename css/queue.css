@@ -87,8 +87,6 @@ margin-right:10px;
 
 .columns{
   display: flex;
-  justify-content: space-around;
-  max-width:1023px;
 }
 
 .column-left{
@@ -108,3 +106,4 @@ margin-right:140px;
 .columns-2-right{
   max-width:394px;
 }
+
