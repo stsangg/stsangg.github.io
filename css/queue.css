@@ -91,12 +91,12 @@ margin-right:10px;
   max-width:1023px;
 }
 
-.columns-left{
+.column-left{
   min-width: 600px;
   margin-right: 72px;
 }
 
-.columns-right{
+.column-right{
   min-width:350px;
 }
 
