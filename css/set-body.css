@@ -123,6 +123,12 @@ ol, li, dd, dt{
   animation-fill-mode: forwards;
 }
 
+@keyframes hover{
+  100%{
+    filter: none;
+  }
+}
+
 .section{
   max-width: 50%;
 margin-left: 269px;
