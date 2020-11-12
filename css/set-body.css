@@ -113,6 +113,16 @@ ol, li, dd, dt{
   max-width: 250px;
 }
 
+#approach-hover{
+  -webkit-filter: grayscale(1);
+}
+
+#approach-hover:hover{
+  animation-name: hover;
+  animation-duration:200ms;
+  animation-fill-mode: forwards;
+}
+
 .section{
   max-width: 50%;
 margin-left: 269px;
