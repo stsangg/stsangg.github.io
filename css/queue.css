@@ -66,7 +66,7 @@ margin-top:50px;
 }
 
 .lofi-1 img{
-width:294px;
+min-width:294px;
 height:183px;
 margin-right:10px;
 }
