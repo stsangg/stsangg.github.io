@@ -92,6 +92,10 @@ margin-right:10px;
 }
 
 .columns-left{
-  max-width: 58%;
+  min-width: 600px;
   margin-right: 72px;
+}
+
+.columns-right{
+  min-width:350px;
 }
