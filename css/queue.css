@@ -99,3 +99,12 @@ margin-right:10px;
 .columns-right{
   min-width:350px;
 }
+
+.columns-2-left{
+min-width:430px;
+margin-right:140px;
+}
+
+.columns-2-right{
+  max-width:394px;
+}
