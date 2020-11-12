@@ -84,3 +84,14 @@ margin-right:10px;
   height:183px;
   margin-right:10px;
 }
+
+.columns{
+  display: flex;
+  justify-content: space-around;
+  max-width:1023px;
+}
+
+.columns-left{
+  max-width: 58%;
+  margin-right: 72px;
+}
