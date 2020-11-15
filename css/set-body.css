@@ -106,8 +106,7 @@ ol, li, dd, dt{
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  max-width: 80%;
-  padding: 20px;
+  max-width: 902px;
 }
 
 .approach-img{
