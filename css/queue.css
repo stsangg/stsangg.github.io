@@ -40,13 +40,12 @@ box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104,
 
 #brainstorm-2{
   max-width:430px;
-  margin-left:52px;
 }
 
 .brainstorm figcaption{
   font-family: 'Lato', sans-serif;
   font-size:14px;
-  line-height:105%;
+  line-height:25px;
 
 }
 
