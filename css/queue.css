@@ -55,17 +55,17 @@ margin-top:20px;
   margin:0 auto;
 }
 
-.features,{
+.features{
   width:904px;
   display: block;
-margin-top:50px;
+margin-top:30px;
+margin-bottom:50px;
 }
 
 .midfi{
   width:904px;
   display: block;
   margin-top:50px;
-  margin-left: 269px;
 }
 
 .lofi-1, .lofi-2, .lofi-3{
