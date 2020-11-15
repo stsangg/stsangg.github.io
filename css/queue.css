@@ -13,8 +13,10 @@
   border-radius:30px;
 }
 
-#competitors{
+.competitors{
   margin-left: 269px;
+  width:50%;
+  margin-left:269px;
 }
 
 .text-box{
