@@ -13,6 +13,10 @@
   border-radius:30px;
 }
 
+#competitors{
+  margin-left: 269px;
+}
+
 .text-box{
   max-width:70%;
   display: block;
