@@ -16,7 +16,7 @@
 .text-box{
   max-width:70%;
   display: block;
-  margin: 60px auto 60px auto;
+  margin: 30px auto 60px auto;
   margin-left:198px;
 }
 
@@ -62,8 +62,9 @@ box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104,
 }
 
 .task-flow-a{
-  margin-left:269px;
+  margin-left:100px;
   margin-bottom:50px;
+  width:60%;
 }
 
 .features{
@@ -118,7 +119,7 @@ margin-right:10px;
 
 .columns-2-left{
 min-width:430px;
-margin-right:140px;
+margin-right:78px;
 }
 
 .columns-2-right{
@@ -138,7 +139,7 @@ margin-top:70px;
 }
 
 .usability-2{
-  max-width:85%;
+  max-width:100%;
   margin-bottom:50px;
 }
 
