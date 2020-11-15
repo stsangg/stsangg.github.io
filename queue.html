@@ -158,9 +158,9 @@ psychological perspective of wait times showed that anxiety, stress, and uncerta
 	<p>Using POV and HMW statements created, I did several brainstorming sessions to come up with creative solutions that would solve people’s pain points.<br>
 Following IDEO's guidelines, subsequent sessions were spent finding common themes amongst the ideas and further conceptualizing into final features.</p>
 
-	<div class='brainstorm'><!--insert box shadow-->
+	<div class='brainstorm'>
 		<figure>
-		<img src='images/queue/brainstorm-1.jpg' alt='brainstorm-1'>
+		<img src='images/queue/brainstorm-1.jpg' alt='brainstorm-1' onclick="openModal();currentSlide(1)">
 		<figcaption>People prefer not to use online booking because they need quick service and reassurance. <br>
 How might we improve the flow of the online booking experience? </figcaption>
 	</figure>
@@ -170,6 +170,15 @@ How might we improve the flow of the online booking experience? </figcaption>
 How might we create an experience that distracts people from the wait time? </figcaption>
 	</figure>
 	</div>
+
+<!-- lightbox stuff -->
+	<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img src="images/queue/brainstorm-1.jpg" style="width:100%">
+    </div>
 
 	<h6>Final features:</h6>
 	<img class='features' src='images/queue/features.svg' alt='Ideation features'>
@@ -346,6 +355,20 @@ I turned to headspace’s palette of classic, muted colors. While their colours 
     y.style.display = "none";
   }
 }
+
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
   </script>
 
 </body>
