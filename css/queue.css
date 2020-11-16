@@ -21,7 +21,7 @@
 }
 
 .text-box{
-  max-width:1044px;
+  max-width:950px;
   display: block;
   margin:50px auto 80px auto
 
@@ -33,7 +33,6 @@
 margin:0 auto;
 margin-top:50px;
 margin-bottom:80px
-    <img class='approach-img' src='images/queue/nav-4-color.svg' alt='Finals'></a>;
   box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
@@ -126,6 +125,7 @@ margin-right:10px;
 
 .column-left{
   min-width: 550px;
+  margin-right:75px;
 }
 
 .column-right{
