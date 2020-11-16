@@ -81,9 +81,9 @@ box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104,
 }
 
 .features{
-  width:914px;
+  width:100%;
   display: block;
-margin-top:50px;
+margin-top:20px;
 margin-bottom:80px;
 }
 
