@@ -18,6 +18,15 @@
   border-radius:30px;
 }
 
+#CTA:hover{
+  background:#275B81;
+  color: white;
+}
+
+#CTA:active{
+  background:#275B81;
+  color: black;
+}
 .competitors{
   width:50%;
  margin:20px auto;
