@@ -24,10 +24,10 @@
 }
 
 .empathymap{
-  max-height: 500px;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
+  display: block;
+  margin: 50px auto;
+  max-width:950px;
+box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 figcaption{
