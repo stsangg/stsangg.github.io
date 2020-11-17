@@ -42,7 +42,10 @@ figcaption{
 }
 
 .cardSort-chart{
-  max-height: 250px;
+max-width:950px;
+padding:30px;
+box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+display:block;
   margin: 0 auto;
 }
 
