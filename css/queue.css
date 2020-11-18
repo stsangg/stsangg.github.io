@@ -30,6 +30,7 @@
 .competitors{
   width:50%;
  margin:20px auto;
+ display:none;
 }
 
 .text-box{
