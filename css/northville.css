@@ -4,6 +4,11 @@
   margin:0px auto 80px auto
 }
 
+.boxed{
+  background-color:#FAFAFA;
+  padding-top: 50px;
+}
+
 #CTA{
   border-style: solid;
   border-color: #FACA78;
