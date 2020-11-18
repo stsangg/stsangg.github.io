@@ -90,8 +90,9 @@ display:block;
 }
 
 .lofi-frames{
-  width: 100%;
+  width: 1044px
   margin: 0 auto;
+  display:block;
 }
 
 .affinitymap{
@@ -162,7 +163,7 @@ display:block;
 
 /*javascript code*/
 #primary-research, #secondary-research{
- width: 100%;
-margin: 0 auto;
+ width: 55%;
+margin-left:269px;
   display: none;
 }
