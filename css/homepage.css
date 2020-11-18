@@ -76,6 +76,7 @@ margin: 100px auto 100px auto;
  height: auto;
 font-family: 'Lato', sans-serif;
  z-index: 1;
+ border-radius:8px;
 }
 
 .project{
