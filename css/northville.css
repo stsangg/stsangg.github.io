@@ -144,6 +144,13 @@ display:block;
   margin:50px auto;
 }
 
+.gif{
+  position: absolute;
+  top:11290px;
+  left:1016px;
+  width:356px;
+}
+
 /*javascript code*/
 #primary-research, #secondary-research{
  width: 100%;
