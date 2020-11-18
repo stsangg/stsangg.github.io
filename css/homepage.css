@@ -16,6 +16,16 @@ h3{
   font-family: 'Lato', sans-serif;
 }
 
+.column{
+  display:flex;
+  justify-content: space-between;
+}
+
+.left{
+  width:50%;
+  margin-right:500px;
+}
+
 .animation{
 margin-left: 85px;
 font-family: Lato, sans-serif;
