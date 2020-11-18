@@ -23,9 +23,11 @@ h3{
 
 .left{
   width:50%;
-  margin-right:500px;
 }
 
+.right{
+  width:50%;
+}
 .animation{
 margin-left: 85px;
 font-family: Lato, sans-serif;
