@@ -75,20 +75,20 @@ margin: 100px auto 100px auto;
  max-width: 400px;
 font-family: 'Lato', sans-serif;
  z-index: 1;
- border-radius:8px;
 }
 
 .project{
   width: 100%;
   height: 100%;
-  -webkit-filter: grayscale(1);
+/*  -webkit-filter: grayscale(1);*/
   z-index: 1;
-  box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
+   border-radius:8px;
 }
 .project:hover{
   animation-name: hover;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
+    box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
 }
 
 @keyframes hover{
@@ -100,16 +100,18 @@ font-family: 'Lato', sans-serif;
 figcaption{
   margin: 15px 0 0 10px;
   font-family: 'Lato', sans-serif;
+  font-size:18px;
+
 }
 figure a{
   text-decoration: none;
 }
 #fig-1{
-  font-size: 13px;
+  font-size: 15px;
 }
 
 #tags{
-  font-size: 13px;
+  font-size: 14px;
   color: grey;
 }
 figcaption:hover{
