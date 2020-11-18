@@ -152,6 +152,10 @@ display:block;
   width:356px;
 }
 
+.final{
+  margin-left:269px;
+}
+
 /*javascript code*/
 #primary-research, #secondary-research{
  width: 100%;
