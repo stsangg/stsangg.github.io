@@ -1,7 +1,7 @@
-body, html{
+/*body, html{
   height: 100%;
 /*   margin: auto; */
-}
+/*}
 
 .page-wrapper{
   min-height: 100%;
@@ -57,10 +57,10 @@ ol, li, dd, dt{
     border-top: 1px solid #bbb;
   width: 500px;
   margin: 75px auto 75px auto;
-}
+}*/
 
 /* CTA-style-start */
-
+/*
 .CTA{
   display: flex;
   align-items: center;
@@ -77,7 +77,7 @@ ol, li, dd, dt{
   display: block;
   margin: 30px auto 30px auto;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
-}
+}*/
 
 /*#CTA:hover{
   animation-name: CTA-animation;
@@ -145,7 +145,7 @@ ol, li, dd, dt{
 
 .approach-img{
   max-width: 250px;
-}
+}*/
 
 .section{
   max-width: 50%;
