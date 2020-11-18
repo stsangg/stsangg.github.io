@@ -105,3 +105,8 @@ margin: 10px;
   border: none;
   transition: .5s ease-in-out;
 }
+
+footer{
+  text-align:center;
+  padding:10px;
+}

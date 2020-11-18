@@ -164,6 +164,11 @@ display:block;
   margin-left:269px;
 }
 
+footer{
+  text-align:center;
+  padding:10px;
+}
+
 /*javascript code*/
 #primary-research, #secondary-research{
  width: 55%;
