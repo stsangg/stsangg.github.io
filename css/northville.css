@@ -1,7 +1,7 @@
 .text-box{
   width:100%;
   display: block;
-  margin:0px auto 80px auto
+  margin:0px auto 80px auto;
 }
 
 .boxed{
@@ -147,14 +147,17 @@ display:block;
 
 .gif{
   position: absolute;
-  top:11290px;
-  left:1016px;
+  top:11240px;
+  left:990px;
   width:356px;
   padding-left:20px;
 }
 
 .gif img{
-  width:350px;
+  width:265px;
+  border-style: solid;
+  border-width:1px;
+  border-color:#C4C4C4;
 }
 
 .final{
