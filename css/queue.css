@@ -20,13 +20,16 @@
 
 #CTA:hover{
   background:#275B81;
-  color: white;
 }
 
 #CTA:active{
   background:#275B81;
   color: black;
 }
+/*
+#CTA a{
+  color:white;
+}*/
 .competitors{
   width:50%;
  margin:20px auto;
@@ -34,7 +37,7 @@
 }
 
 .text-box{
-  max-width:100%;
+width:100%;
   display: block;
   margin:0px auto 80px auto
 }
