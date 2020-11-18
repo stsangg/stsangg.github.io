@@ -4,6 +4,31 @@
   margin:0px auto 80px auto
 }
 
+#CTA{
+  border-style: solid;
+  border-color: #275B81;
+  border-width: 2px;
+  background: white;
+  border-width: 2px;
+  padding: 15px 30px 15px 30px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  margin: 0px auto 30px auto;
+/*  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);*/
+  border-radius:30px;
+}
+
+#CTA:hover{
+  background:#275B81;
+  color: white;
+}
+
+#CTA:active{
+  background:#275B81;
+  color: black;
+}
+
 .title{
   font-family:'Playfair Display', serif;
   font-size:30px;
