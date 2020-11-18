@@ -1,9 +1,9 @@
-<svg width="3430" height="2311" viewBox="0 0 3430 2311" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="3430" height="2311" fill="white"/>
-<rect width="3430" height="2311" fill="url(#paint0_linear)"/>
-<rect x="291" y="173" width="2916" height="1884" fill="url(#pattern0)"/>
-<rect x="2472" y="851" width="500" height="1114" fill="url(#pattern1)"/>
-<rect x="2410" y="776" width="630" height="1254" fill="url(#pattern2)"/>
+<svg width="945" height="600" viewBox="0 0 945 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="945" height="600" fill="white"/>
+<rect width="945" height="600" fill="url(#paint0_linear)"/>
+<rect x="42" y="23" width="861" height="556" fill="url(#pattern0)"/>
+<rect x="710" y="296" width="120" height="267" fill="url(#pattern1)"/>
+<rect x="695" y="278" width="151" height="301" fill="url(#pattern2)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.4 -0.609375) scale(0.000435145 0.000660488)"/>
@@ -12,9 +12,9 @@
 <use xlink:href="#image1" transform="scale(0.00266667 0.00119608)"/>
 </pattern>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image2" transform="translate(-0.000110702) scale(0.000711901 0.000357654)"/>
+<use xlink:href="#image2" transform="translate(-0.000839657) scale(0.000712939 0.000357654)"/>
 </pattern>
-<linearGradient id="paint0_linear" x1="1846.38" y1="2311" x2="1846.38" y2="-2154" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="508.697" y1="600" x2="508.697" y2="-559.238" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FFD88C" stop-opacity="0.79"/>
 <stop offset="1" stop-color="#FACA78" stop-opacity="0"/>
 </linearGradient>
