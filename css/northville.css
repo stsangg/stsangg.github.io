@@ -42,12 +42,6 @@
   margin:0px auto 80px auto;
 }
 
-/*RESEARCH*/
-.approach, .research, .copywriting, .cardSort, .lofi, .wireframes, .usability, .improvements, .takeaways{
-  margin: 0 auto;
-  width: 55%;
-}
-
 .columns{
   display: flex;
   justify-content: space-between;
@@ -79,12 +73,16 @@ figcaption{
   justify-content: space-between;
 }
 
-.cardSort-chart{
+.cardSort-chart img{
 max-width:950px;
 padding:30px;
 box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 display:block;
   margin: 0 auto;
+}
+
+.cardSort-chart{
+  margin-bottom:50px;
 }
 
 .lofi-frames{
@@ -95,8 +93,9 @@ display:block;
 .affinitymap{
   display:block;
   width: 950px;
-  margin: 0 auto;
+  margin: 50 auto 80px auto;
   padding:30px;
+
   box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 
 }
@@ -135,9 +134,9 @@ display:block;
   font-weight: bold;
 }
 
-.highlight{
-  background-color: #82ACFF;
-  color: black;
+
+.usability{
+  margin:50px auto;
 }
 
 /*javascript code*/
