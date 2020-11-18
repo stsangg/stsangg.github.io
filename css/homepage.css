@@ -73,7 +73,7 @@ figure {
  display: block;
 margin: 100px auto 100px auto;
  max-width: 400px;
- height: auto;
+ height: 300px;
 font-family: 'Lato', sans-serif;
  z-index: 1;
  border-radius:8px;
