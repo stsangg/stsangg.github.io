@@ -1,9 +1,9 @@
-<svg width="4373" height="2193" viewBox="0 0 4373 2193" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="4373" height="2193" fill="white"/>
-<rect width="4373" height="2193" fill="url(#paint0_linear)"/>
-<rect x="728" y="173" width="2916" height="1884" fill="url(#pattern0)"/>
-<rect x="2909" y="851" width="500" height="1114" fill="url(#pattern1)"/>
-<rect x="2847" y="776" width="630" height="1254" fill="url(#pattern2)"/>
+<svg width="3430" height="2311" viewBox="0 0 3430 2311" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="3430" height="2311" fill="white"/>
+<rect width="3430" height="2311" fill="url(#paint0_linear)"/>
+<rect x="291" y="173" width="2916" height="1884" fill="url(#pattern0)"/>
+<rect x="2472" y="851" width="500" height="1114" fill="url(#pattern1)"/>
+<rect x="2410" y="776" width="630" height="1254" fill="url(#pattern2)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.4 -0.609375) scale(0.000435145 0.000660488)"/>
@@ -14,7 +14,7 @@
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image2" transform="translate(-0.000110702) scale(0.000711901 0.000357654)"/>
 </pattern>
-<linearGradient id="paint0_linear" x1="2354" y1="2193" x2="2354" y2="107.435" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="1846.38" y1="2311" x2="1846.38" y2="-2154" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FFD88C" stop-opacity="0.79"/>
 <stop offset="1" stop-color="#FACA78" stop-opacity="0"/>
 </linearGradient>
