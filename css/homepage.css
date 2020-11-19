@@ -1,7 +1,7 @@
 body, html{
   height: 100%;
   margin: auto;
-   overflow-x: scroll;
+overflow-x: scroll;
 }
 
 @media (max-width: 875px){
@@ -120,15 +120,6 @@ font-family: 'Lato', sans-serif;
     top:-15px;
 }*/}
 
-figure:hover > .project{
-  position:relative;
-  top:-15px;}
-
-@keyframes hover{
-  100%{
-    filter: none;
-  }
-}
 
 figcaption{
   margin: 15px 0 0 10px;
