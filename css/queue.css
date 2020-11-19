@@ -6,6 +6,7 @@
 .parallax{
   background-image:url('images/queue/hero.svg');
   min-height:600px;
+  width:100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
