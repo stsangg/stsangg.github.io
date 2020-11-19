@@ -1,6 +1,8 @@
 body, html{
   height: 100%;
   margin: auto;
+  overflow-y: scroll;
+   overflow-x: scroll;
 }
 
 @media (max-width: 875px){
