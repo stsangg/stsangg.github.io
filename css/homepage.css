@@ -110,8 +110,13 @@ font-family: 'Lato', sans-serif;
     top:-15px;*/
 }
 
-.column-piece figure:hover ~ .project{
+.column-piece figure:hover{
   position: relative;
+    top:-15px;
+}
+
+figcaption:hover .project{
+   position: relative;
     top:-15px;
 }
 
