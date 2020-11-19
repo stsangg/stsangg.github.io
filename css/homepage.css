@@ -31,7 +31,7 @@ h3{
 .column{
   display:flex;
   justify-content: space-between;
-  overflow:scroll;
+  overflow-x:scroll;
   min-width:100%;
 }
 
