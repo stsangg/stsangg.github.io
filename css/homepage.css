@@ -104,8 +104,13 @@ font-family: 'Lato', sans-serif;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
     box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
-position: relative;
-    top:-5px;
+  /*  position: relative;
+    top:-15px;*/
+}
+
+.column-piece figure:hover{
+  position: relative;
+    top:-15px;
 }
 
 @keyframes hover{
