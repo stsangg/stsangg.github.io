@@ -86,7 +86,7 @@ span:before{
 
 figure {
  display: block;
-margin: 100px auto 100px auto;
+margin: 100px auto 80px auto;
  max-width: 400px;
 font-family: 'Lato', sans-serif;
  z-index: 1;
@@ -104,6 +104,8 @@ font-family: 'Lato', sans-serif;
   animation-duration: 500ms;
   animation-fill-mode: forwards;
     box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
+position: relative;
+    top:-5px;
 }
 
 @keyframes hover{
