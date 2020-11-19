@@ -63,11 +63,11 @@ box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104,
 margin-bottom:50px;
 }
 
-.brainstorm-top, .brainstorm-bottom{
+.brainstorm-row{
   display: flex;
   justify-content: space-around;
  width:80%;
-  margin: 0px auto 30px auto;
+  margin: 0px auto 50px auto;
 }
 
 .brainstorm-img{
@@ -93,6 +93,7 @@ figcaption{
 margin:0 auto;
   margin-top: 50px;
   width:100%;
+  margin-left:94px;
 }
 
 .lofi img{
