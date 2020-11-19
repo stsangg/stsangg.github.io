@@ -65,7 +65,7 @@ margin-bottom:50px;
 
 .brainstorm-row{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
  width:80%;
   margin: 0px auto 50px auto;
 }
