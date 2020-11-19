@@ -23,6 +23,11 @@ h3{
 
 .column-piece{
   width:33%;
+}
+
+.column-piece img{
+  width:100%;
+}
 
 .animation{
 margin-left: 85px;
