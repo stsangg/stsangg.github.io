@@ -17,7 +17,9 @@ h3{
   font-family: 'Lato', sans-serif;
 }
 ::-webkit-scrollbar {
-	width:5px;
+	width:0px;
+	height:8px;
+
 }
 
 ::-webkit-scrollbar-thumb {
