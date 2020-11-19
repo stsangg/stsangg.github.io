@@ -112,7 +112,7 @@ font-family: 'Lato', sans-serif;
 
 figure:hover > .project{
   position:relative;
-  top:-15px;
+  top:-15px;}
 
 @keyframes hover{
   100%{
