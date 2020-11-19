@@ -19,6 +19,7 @@ h3{
 .column{
   display:flex;
   justify-content: space-between;
+  overflow:scroll;
 }
 
 .column-piece{
