@@ -20,10 +20,11 @@ h3{
   display:flex;
   justify-content: space-between;
   overflow:scroll;
+  min-width:100%;
 }
 
 .column-piece{
-  width:33%;
+  min-width:33%;
 }
 
 .column-piece img{
