@@ -67,6 +67,12 @@ figcaption{
   font-size: 12px;
 }
 
+.features{
+  display:block;
+  width:50%;
+  margin: 0px auto 80px auto;
+}
+
 .lofi{
   display: flex;
   justify-content: space-around;
