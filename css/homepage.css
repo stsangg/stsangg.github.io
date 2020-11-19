@@ -1,8 +1,8 @@
 body, html{
   height: 100%;
   margin: auto;
-overflow-x: scroll;
-overflow-y:hidden;
+/*overflow-x: scroll;
+overflow-y:hidden;*/
 }
 
 @media (max-width: 875px){
@@ -17,7 +17,7 @@ h3{
   padding-top: 50px;
   font-family: 'Lato', sans-serif;
 }
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
 	width:0px;
 	height:8px;
 
@@ -28,14 +28,15 @@ h3{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: black/*#4DD6C9*/; 
-}
+  background: black/*#4DD6C9*//*; 
+}*/
 
 .column{
   display:flex;
   justify-content: space-between;
-  overflow-x:scroll;
+/*  overflow-x:scroll;*/
   min-width:100%;
+  margin:0px 100px;
 }
 
 .column-piece{
@@ -46,17 +47,17 @@ h3{
   width:100%;
 }
 
-.animation{
+/*.animation{
 margin-left: 85px;
 font-family: Lato, sans-serif;
 font-size: 16px;
 margin-top: 0px;
-}
+}*/
 
-.highlight{
+/*.highlight{
   background: #81D8D0;
-}
-
+}*/
+/*
 span:before{
   content:'why';
   animation: animate infinite 8s;
@@ -85,7 +86,7 @@ span:before{
     content:'goal';
   }
 }
-
+*/
 .parallax{
   background-image: url("../images/homepage/parallax.svg");
   background-attachment: fixed;
