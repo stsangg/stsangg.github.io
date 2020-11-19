@@ -39,18 +39,21 @@
 
 .persona{
   display: flex;
-  max-width: 100%;
-  margin:50px auto;
+  max-width: 65%;
+  justify-content: space-around;
+  margin: 0px auto 50px auto;
 }
 
 .persona img{
-box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);;
+box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+margin-bottom:50px;
 }
 
 .brainstorm-top, .brainstorm-bottom{
   display: flex;
   justify-content: space-around;
-  margin-left: 212px;
+  max-width:50%;
+  margin: 0px auto 30px auto;
 }
 
 .brainstorm-img{
