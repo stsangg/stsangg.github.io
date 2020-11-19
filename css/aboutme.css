@@ -114,7 +114,12 @@ footer{
   text-align:center;
   padding:10px;
  font-family:'Lato', sans-serif;
- font-size:14px; 
+ font-size:15px; 
+}
+
+footer p{
+margin:10px auto;
+  width: 160px
 }
 
 /*header*/
