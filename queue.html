@@ -33,6 +33,7 @@
 <div class='page-wrapper'>
 	<div><img class='parallax' src='images/queue/hero.svg' alt='hero image'></div>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
 <div class='overview-columns'>
@@ -102,8 +103,6 @@ With transparent information about a businesses’ wait times and reservation av
 
 <div class='CTA'>;
 	<span id='CTA'><a href=#final-prototype style='text-decoration:none'> Jump to prototype</a></span></div>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <div class='divider'>
 	<hr id='research'/>
@@ -319,7 +318,7 @@ How might we create an experience that distracts people from the wait time? </fi
 </div>
 </div>
 
-<img class='usability-2' src='images/queue/usability2-1.svg'>
+<img class='usability-2' src='images/queue/usability2-1.svg' style='margin-top:50px'>
 <img class='usability-2' src='images/queue/usability2-2.svg'>
 <img class='usability-2' src='images/queue/usability2-3.svg'>
 </div>
@@ -407,10 +406,8 @@ function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
 
-var slideIndex = 1;
-showSlides(slideIndex);
 
-//Get the button:
+//Get the button
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -426,8 +423,8 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
   </script>
 
