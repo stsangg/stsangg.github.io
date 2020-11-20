@@ -113,13 +113,16 @@ footer{
   padding:10px;
   font-size:14px;
   right:0%;
+  background-color: black;
 }
 
 footer p{
   font-size:14px;
+  color: white;
 }
 
 footer a{
   text-decoration: none;
   font-family: 'Lato', sans-serif;
+  color:white;
 }
