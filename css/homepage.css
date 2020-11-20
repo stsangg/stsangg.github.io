@@ -101,7 +101,7 @@ span:before{
 
 figure {
  display: block;
-margin: 100px auto 30px auto;
+margin: 80px auto;
  max-width: 40%;
 font-family: 'Lato', sans-serif;
  z-index: 1;
@@ -136,6 +136,7 @@ figure a{
 
 #title{
   font-family:'Playfair Display', serif !important;
+  font-size:20px !important;
 }
 #fig-1{
   font-size: 15px;
