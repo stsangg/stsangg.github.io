@@ -25,13 +25,12 @@
 
 .solution-gif{
   display:flex;
-  justify-content: space-between;
   max-width:55%;
   margin:60px auto;
 }
 
 .solution-gif div{
-  margin:50%;
+  width:50%;
 }
 
 
