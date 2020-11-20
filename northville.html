@@ -23,8 +23,9 @@
     </nav> </div>
 
 <div class='page-wrapper'>
-  <div><img class='hero' style='margin-bottom:0px' src='images/northville/device-hero.png' alt='hero image'>
+  <div style='margin-bottom:100px'><img class='hero' style='margin-bottom:0px' src='images/northville/device-hero.png' alt='hero image'>
 </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	<!-- <div class='title' style='margin-bottom:80px'>
 		<h2> Northville Rehabiliation Centre </h2>
 		<p class='title-sub'> Redesigning the patient experience in the rehabiliation industry </p> </div> -->
@@ -332,5 +333,24 @@ Participants: two females, one male</p>
   }
 }
  
+ //Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
   </script>
 </html>

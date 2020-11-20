@@ -32,6 +32,8 @@
  <div><img class='hero' src="images/apple/apple-hero.svg" alt="feature addition">
   </div>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 <div class='overview-columns'>
 	<div style='width: 70%; padding-right: 80px;'>
 	<h6>Background</h6>
@@ -325,6 +327,29 @@ Given the scope of the project, I decided to follow their current UI so the feat
  <a href='resume-2020.pdf' target='_blank'>Resume  |  </a>
 <a href='https://www.linkedin.com/in/scytsang/' target='_blank'>LinkedIn</a>
 </footer>
+
+<script>
+	//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
 
 </body>
 </html>
