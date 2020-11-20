@@ -173,24 +173,24 @@ pre-scheduled events.</li>
 <div class='brainstorm'>
 	<div class='brainstorm-row'>
 		<figure>
-			<img class='brainstorm-img' src='images/apple/brainstorm-3.jpg' alt='Brainstorming3'>
+			<img class='brainstorm-img myImg'  src='images/apple/brainstorm-3.jpg' alt='Brainstorming3'>
 			<figcaption>How might we help Manager Mary see and organize the breakdown of her project tasks?</figcaption>
 		</figure>
 
 			<figure>
-				<img class='brainstorm-img' src='images/apple/brainstorm-4.png' alt='Brainstorming4'>
+				<img class='brainstorm-img myImg' src='images/apple/brainstorm-4.png' alt='Brainstorming4'>
 				<figcaption>How might we make Deadline Dan more aware of his upcoming due dates?</figcaption>
 			</figure>
 		</div>
 
 	<div class='brainstorm-row'>
 			<figure>
-		<img class='brainstorm-img' src='images/apple/brainstorm-1.png' alt='Brainstorming1'>
+		<img class='brainstorm-img myImg' src='images/apple/brainstorm-1.png' alt='Brainstorming1'>
 		<figcaption>How might we make entering tasks on an application more meaningful and memorable?</figcaption>
 	</figure>
 
 		<figure>
-			<img class='brainstorm-img' src='images/apple/brainstorm-2.png' alt='Brainstorming2'>
+			<img class='brainstorm-img myImg' src='images/apple/brainstorm-2.png' alt='Brainstorming2'>
 			<figcaption>How might we reduce the risk of distractions on the flow from phone to application?</figcaption>
 		</figure>
 </div>
@@ -336,6 +336,9 @@ Given the scope of the project, I decided to follow their current UI so the feat
 </footer>
 
 <script>
+
+//BACK TO TOP STUFF--
+
 	//Get the button
 var mybutton = document.getElementById("myBtn");
 
@@ -354,6 +357,33 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+//MODAL STUFF
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+var showModal = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+for (var i = 0; i < img.length; i++) {
+    img[i].addEventListener('click', showModal);
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
 }
 
 </script>
