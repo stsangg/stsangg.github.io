@@ -27,8 +27,13 @@
   display:flex;
   justify-content: space-between;
   max-width:55%;
-  margin:50px auto;
+  margin:60px auto;
 }
+
+.solution-gif div{
+  margin:50%;
+}
+
 
 .gif{
   height: 500px;
