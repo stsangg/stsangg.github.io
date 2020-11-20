@@ -35,6 +35,13 @@
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+<!-- modal stuff -->
+  <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
 
 <div class='overview-columns'>
 	<div style='width:55%; margin-right:155px'>
@@ -136,8 +143,8 @@ With transparent information about a businesses’ wait times and reservation av
 	<h5>Understanding people’s thoughts, questions, and emotions</h5>
 <p>I noticed that participants all had a similar emotion and thought process when explaining a negative experience waiting in line. To summarize my findings, a customer journey map was the best way to show the steps and feelings, and visualize where Queue’s features could plug in and help.</p>
 
-<img class='deliverable' style='margin-top:50px' src='images/queue/calling-to-reserve.png' alt='Customer Journey-1'>
-<img class='deliverable' style='margin-bottom:80px'src='images/queue/going-to-store.png' alt='Customer Journey-2'></div>
+<img class='deliverable myImg' style='margin-top:50px' src='images/queue/calling-to-reserve.png' alt='Making a reservation'>
+<img class='deliverable myImg' style='margin-bottom:80px'src='images/queue/going-to-store.png' alt='Going to the store'></div>
 
 <!-- <h4>Competitor Analysis</h4>
 <h5>Looking at the features in the competitive space</h5>
@@ -179,29 +186,16 @@ Following IDEO's guidelines, subsequent sessions were spent finding common theme
 
 	<div class='brainstorm'>
 		<figure>
-		<img src='images/queue/brainstorm-1.jpg' alt='brainstorm-1' onclick="openModal();currentSlide(1)">
+		<img class='myImg' src='images/queue/brainstorm-1.jpg' alt='How might we improve the flow of the online booking experience?' onclick="openModal();currentSlide(1)">
 		<figcaption>People prefer not to use online booking because they need quick service and reassurance. <br>
 How might we improve the flow of the online booking experience? </figcaption>
 	</figure>
 	<figure>
-		<img id='brainstorm-2' src='images/queue/brainstorm-2.jpg' alt='brainstorm-2' onclick='openModal();currentSlide(2)'>
+		<img id='brainstorm-2' class='myImg' src='images/queue/brainstorm-2.jpg' alt='How might we create an experience that distracts people from the wait time?'>
 		<figcaption>People want to be stimulated and engaged with because they need a distraction from waiting.<br> 
 How might we create an experience that distracts people from the wait time? </figcaption>
 	</figure>
 	</div>
-
-<!-- lightbox stuff -->
-	<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-  	<img src="images/queue/brainstorm-1.jpg" style="width:90%">
-  	<img src='images/queue/brainstorm-2.jpg' style='width:100%'>
-  </div></div>
-
-    <div class="mySlides">
-      <img src="images/queue/brainstorm-1.jpg" style="width:100%">
-    </div>
-
 </div>
 
 	<img class='features' src='images/queue/features.svg' alt='Ideation features'>
@@ -211,7 +205,7 @@ How might we create an experience that distracts people from the wait time? </fi
 <h5>Asking how people can achieve their goal</h5>
 <p>With my features in mind, I created a chart depicting the different task flows that a user could take depending on their wants. This helped me show how many screens would need to be created, and potentially where I could minimize lengthy task steps. </p>
 
-<img class='task-flow' src='images/queue/task-flows.svg' alt='Task Flows'>
+<img class='task-flow myImg' src='images/queue/task-flows.svg' alt='Task Flows'>
 <img class='task-flow-a' src='images/queue/task-flow-annotated.svg'>
 
 <h4>Wireframes</h4>
@@ -435,6 +429,33 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+//MODAL STUFF
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+var showModal = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+for (var i = 0; i < img.length; i++) {
+    img[i].addEventListener('click', showModal);
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
 }
   </script>
 
