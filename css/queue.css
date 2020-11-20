@@ -3,17 +3,6 @@
   padding-top: 50px;
 }
 
-body{
-   background-image:url('images/queue/hero.svg');
-  min-height:600px;
-  width:100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom:100px;
-  width:100%;
-}
 .parallax{
   background-image:url('images/queue/hero.svg');
   min-height:600px;
@@ -53,7 +42,7 @@ body{
 #CTA a{
   color:white;
 }*/
-.competitors{
+#competitors{
   width:50%;
  margin:20px auto;
  display:none;
@@ -187,6 +176,7 @@ margin-right:10px;
   max-width:100%;
   display:block;
   margin-left:184px;
+  margin-bottom:50px;
 }
 
 .usability-2{
