@@ -20,10 +20,10 @@
 
 .page-wrapper{
   min-height: 100%;
-  height: 100vh;
+  /*height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  perspective: 2px;
+  perspective: 2px;*/
 }
 
 /*.section{
