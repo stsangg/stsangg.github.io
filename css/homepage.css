@@ -31,20 +31,20 @@ h3{
   background: black/*#4DD6C9*//*; 
 }*/
 
-.column{
+/*.column{
   display:flex;
   justify-content: space-between;
 /*  overflow-x:scroll;*/
-  margin:23px 100px;
-}
+  /*margin:23px 100px;
+}*/
 
-.column-piece{
+/*.column-piece{
   min-width:33%;
 }
-
-.column-piece img{
+/**/
+/*.column-piece img{
   width:100%;
-}
+}*/
 
 /*.animation{
 margin-left: 85px;
