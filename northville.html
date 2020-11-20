@@ -26,9 +26,13 @@
   <div style='margin-bottom:100px'><img class='hero' style='margin-bottom:0px' src='images/northville/device-hero.png' alt='hero image'>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-	<!-- <div class='title' style='margin-bottom:80px'>
-		<h2> Northville Rehabiliation Centre </h2>
-		<p class='title-sub'> Redesigning the patient experience in the rehabiliation industry </p> </div> -->
+
+<!-- modal stuff -->
+  <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 
 <div class='overview-columns'>
   <div style='width:55%; margin-right:155px'>
@@ -268,7 +272,7 @@ The percentage indicates the number of participants who sorted the card (left) i
 Participants: two females, one male</p>
 </div></div></div>
 
-<img class='affinitymap' src='images/northville/usability-map2.png' alt='Usability Map-2'>
+<img class='affinitymap myImg' src='images/northville/usability-map2.png' alt='Usability Map-2'>
 <img class='usability' src='images/northville/usability2.1.svg'>
 <img class='usability' src='images/northville/usability2.2.svg'>
 
@@ -362,6 +366,33 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+//MODAL STUFF
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+var showModal = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+for (var i = 0; i < img.length; i++) {
+    img[i].addEventListener('click', showModal);
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
 }
   </script>
 </html>
