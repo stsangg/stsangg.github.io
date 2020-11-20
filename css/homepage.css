@@ -133,6 +133,10 @@ figcaption{
 figure a{
   text-decoration: none;
 }
+
+#title{
+  font-family:'Playfair Display', serif !important;
+}
 #fig-1{
   font-size: 15px;
 }
