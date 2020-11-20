@@ -184,7 +184,7 @@ width:100%;
 }
 
 /*modal css*/
-#myImg{
+ #myImg{
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -262,4 +262,4 @@ width:100%;
   .modal-content {
     width: 100%;
   }
-}
+} */
