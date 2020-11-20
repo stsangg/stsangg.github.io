@@ -101,8 +101,8 @@ span:before{
 
 figure {
  display: block;
-margin: 100px 20px 70px 20px;
- max-width: 400px;
+margin: 100px auto 30px auto;
+ max-width: 40%;
 font-family: 'Lato', sans-serif;
  z-index: 1;
 }
