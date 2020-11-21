@@ -32,6 +32,20 @@
 <p>Fuelled by curiousity and coffee, I am a UX Designer hoping to improve the world one interaction at a time.</p>
 <p>I value understanding the end to end design process, and have skills in:</p>
 
+<input id='button-skill' type='button' value='Design' onclick="skill1()"></input>
+<input id='button-skill' type='button' value='Research' onclick="skill2()"></input>
+<input id='button-skill' type='button' value='Code' onclick="skill3()"></input>
+
+<div id='skill1'>
+  <p>I operate in a limitless thinking space to piece creative solutions together.</p>
+</div>
+
+<div id='skill2'>
+  <p>With a background in healthcare, I rely heavily on research to make evidence based design decisions.</p>
+</div>
+
+<div id='skill3'>
+  <p>Understanding code strengthens my communication with developers. This portfolio is my hand-coded child and like humans, it will grow and change over time.</p>
 </div>
 
 <!-- <h2 class='animation'>What is your <span class='highlight'></span></h2>
@@ -89,6 +103,33 @@
 <a href='https://www.linkedin.com/in/scytsang/' target='_blank'>LinkedIn</a>
 </footer>
  
-  
+
+<script>
+  function skill1() {
+  var x = document.getElementById("skill1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function skill2() {
+  var y = document.getElementById("skill2");
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}
+
+function skill3() {
+  var z = document.getElementById("skill3");
+  if (z.style.display === "none") {
+    z.style.display = "block";
+  } else {
+    z.style.display = "none";
+  }
+}
 </body>
 </html>
