@@ -111,10 +111,8 @@ border: 0.5px solid #c3c3c3;
 /*background and details*/
 
 .overview-columns{
-  width: 70%;
+  width: 100%
   margin-left: 269px;
-  margin-bottom:80px;
-  display: flex;
 }
 
 .overview-design{
