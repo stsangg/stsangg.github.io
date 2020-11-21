@@ -89,15 +89,13 @@ figcaption{
 
 .lofi{
   margin-top: 30px;
-  width:100%;
-  margin-bottom:-1040px;
+  width:65%;
 }
 
 .lofi img{
   display:block;
   margin:0px;
- width:25%;
- height:25%;
+width:100%;
 }
 
 .midfi{
