@@ -29,15 +29,16 @@ figure{
     width:90%;
   }
 
-  .skill1, .skill2, .skill3{
-    display:none;
-  }
-
+ 
   figure{
     margin:80px 30px;
     width:100%;
   }
 }
+
+ .skill1, .skill2, .skill3{
+    display:none;
+  }
 h3{
   color: grey;
   position: block;
