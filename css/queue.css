@@ -243,13 +243,27 @@ margin-right:10px;
 
 /*media queries*/
 @media (max-width: 768px){
+ .parallax{
+  margin-bottom:50px;
+  min-height: auto;
+width:100%;
+ }
+
  .overview-columns{
   margin:0 30px;
   width:100%;
  }
 
+ .overview-columns div{
+  margin-right:80px;
+ }
+ 
+
+.approach{
+width:100%;}
+
  .approach img{
-  max-width:25%
+width:100%;
  }
 
  .overview-design{
@@ -258,13 +272,13 @@ margin-right:10px;
  }
 
  .design-solution{
-  width:80%;
-  margin:30px;
+  width:90%;
+  margin:30px auto;
  }
 
  .section{
   margin: 0 auto;
-  width:90%;
+  min-width:90%;
  }
 
  .deliverable{
@@ -274,7 +288,7 @@ margin-right:10px;
 
  #CTA{
   font-size: 12px;
-  margin:30px;
+margin:0 auto;
  }
 
 .brainstorm{
@@ -282,22 +296,38 @@ margin-right:10px;
   margin:0 auto;
 }
 
-.text-box .features{
+.brainstorm img{
+  display:block;
+  margin:0 auto;
+  min-width:100%;
+}
+.text-box{
+  transform:scale(1.3);
+  overflow:hidden;
+  margin-bottom:120px;
+}
+
+.features{
   margin-left:-70px;
+  transform: scale(1.4);
 }
 
 .task-flow{
-  width:80%;
+  width:100%;
   margin-top:30px;
 }
 
 .task-flow-a{
-width:50%;
+width:60%;
 }
 
-.lofi-1, .lofi-2 img{
-  width:60%;
-  height:60%;
+.lofi-1, .lofi-2{
+  display:block;
+
+}
+.lofi-1 img, .lofi-2 img{
+  width:50%;
+  height:50%;
 }
 
 .columns{
@@ -309,10 +339,13 @@ width:50%;
 }
 
 .midfi{
-  width:100%;
-  margin:30px;
+  width:90%;
+  margin:30px auto;
 }
 
+.section iframe{
+  max-width:100%;
+}
 .uability-2{
   max-width:80%;
 }
@@ -323,6 +356,12 @@ width:50%;
 
 .moodboard{
 margin: 0 auto;
+  width:85%;
+}
+
+.moodboard img{
+  display:block;
+  margin:30px auto;
   width:100%;
 }
 
