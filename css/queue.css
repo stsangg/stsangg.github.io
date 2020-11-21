@@ -391,8 +391,8 @@ width:100%;
   width:100%;
  }
 
- .overview-columns div{
-width:90%;
+.overview-columns div{
+min-width:90%;
 margin:30px auto;
  }
  
@@ -411,12 +411,12 @@ width:100%;}
  }
 
  .overview-design h5{
-  width: auto;
+ max-width:100%;
  }
 
  .design-solution{
-  width:70%;
-  margin:0px auto;
+  width:90%;
+  margin:20px auto;
  }
 
  .section{
@@ -442,7 +442,7 @@ margin:0 auto;
 .brainstorm img{
   display:block;
   margin:0 auto;
-  min-width:100%;
+  max-width:100%;
 }
 .text-box{
   display:none;
@@ -450,11 +450,11 @@ margin:0 auto;
 
 .text-mobile{
   width:100%;
+  display:block;
 }
 
 .features{
-  margin-left:-70px;
-  transform: scale(1.4);
+ margin:-20px auto 50px auto;
 }
 
 .task-flow{
@@ -463,11 +463,13 @@ margin:0 auto;
 }
 
 .task-flow-a{
-width:60%;
+width:70%;
+margin:0px auto 50px auto;
 }
 
 .lofi-1, .lofi-2{
   display:block;
+  max-width:100%;
 
 }
 .lofi-1 img, .lofi-2 img{
@@ -477,6 +479,11 @@ width:60%;
 
 .columns{
   display:block;
+}
+
+.columns-left{
+  min-width:100%;
+  margin-bottom: 30px;
 }
 
 .columns-right{
