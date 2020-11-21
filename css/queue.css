@@ -249,7 +249,7 @@ margin-right:10px;
  }
 
  .approach img{
-  max-width:190px;
+  max-width:25%
  }
 
  .overview-design{
@@ -263,7 +263,7 @@ margin-right:10px;
  }
 
  .section{
-  margin:30px;
+  margin: 0 auto;
   width:90%;
  }
 
@@ -282,7 +282,52 @@ margin-right:10px;
   margin:0 auto;
 }
 
-.text-boxm .features{
+.text-box .features{
   margin-left:-70px;
+}
+
+.task-flow{
+  width:80%;
+  margin-top:30px;
+}
+
+.task-flow-a{
+width:50%;
+}
+
+.lofi-1, .lofi-2 img{
+  width:60%;
+  height:60%;
+}
+
+.columns{
+  display:block;
+}
+
+.columns-right{
+    margin-top:30px;
+}
+
+.midfi{
+  width:100%;
+  margin:30px;
+}
+
+.uability-2{
+  max-width:80%;
+}
+
+.iterations{
+  max-width:100%;
+}
+
+.moodboard{
+margin: 0 auto;
+  width:100%;
+}
+
+.branding{
+  margin:30px -30px;
+}
 }
 }
