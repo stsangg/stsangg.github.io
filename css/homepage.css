@@ -10,17 +10,29 @@ overflow-y:hidden;*/
     margin-left:30px;
     max-width:80%;
   }
-
 .column-piece{
   max-width:80%;
 }
-
 figure{
   margin:60px 30px;
   width:100%;
 }
- 
 }
+
+@media (max-width:480px){
+  .logo{
+    margin-left: auto;
+  }
+
+  .intro{
+    margin-left:20px;
+    width:90%;
+  }
+
+  figure{
+    margin:80px 30px;
+    width:100%;
+  }
 }
 h3{
   color: grey;
