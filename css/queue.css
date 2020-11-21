@@ -261,3 +261,28 @@ margin-right:10px;
   width:80%;
   margin:30px;
  }
+
+ .section{
+  margin:30px;
+  width:90%;
+ }
+
+ .deliverable{
+  margin:30px auto;
+  max-width:100%;
+ }
+
+ #CTA{
+  font-size: 12px;
+  margin:30px;
+ }
+
+.brainstorm{
+  display:block;
+  margin:0 auto;
+}
+
+.text-boxm .features{
+  margin-left:-70px;
+}
+}
