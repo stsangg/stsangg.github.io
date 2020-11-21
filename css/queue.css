@@ -307,6 +307,148 @@ margin:0 auto;
   margin-bottom:120px;
 }
 
+.text-mobile{
+  display:none;
+}
+
+.features{
+  margin-left:-30px;
+  transform: scale(1.1);
+  margin-top:40px;
+}
+
+.task-flow{
+  width:100%;
+  margin-top:30px;
+}
+
+.task-flow-a{
+width:60%;
+}
+
+.lofi-1, .lofi-2{
+  display:block;
+  width:100%;
+
+}
+.lofi-1 img, .lofi-2 img{
+  width:100%;
+}
+
+.columns{
+  display:block;
+}
+
+.columns-right{
+    margin-top:30px;
+}
+
+.midfi{
+  width:90%;
+  margin:30px auto;
+}
+
+.section iframe{
+  max-width:100%;
+}
+.uability-2{
+  max-width:80%;
+}
+
+.iterations{
+  max-width:100%;
+}
+
+.moodboard{
+margin: 0 auto;
+  width:85%;
+}
+
+.moodboard img{
+  display:block;
+  margin:30px auto;
+  width:100%;
+}
+
+.branding{
+  margin:30px -30px;
+}
+}
+
+@media (max-width: 375px){
+ .parallax{
+  margin-bottom:50px;
+  min-height: auto;
+width:100%;
+ }
+
+ .overview-columns{
+  display:block;
+  margin:0 30px;
+  width:100%;
+ }
+
+ .overview-columns div{
+width:90%;
+margin:30px auto;
+ }
+ 
+.approach{
+  display:block;
+  margin:0 auto;
+width:100%;}
+
+.approach img{
+  margin-top:;
+}
+
+ .overview-design{
+  max-width:70%;
+  margin:30px;
+ }
+
+ .overview-design h5{
+  width: auto;
+ }
+
+ .design-solution{
+  width:70%;
+  margin:0px auto;
+ }
+
+ .section{
+  margin: 0 auto;
+  min-width:90%;
+ }
+
+ .deliverable{
+  margin:30px auto;
+  max-width:100%;
+ }
+
+ #CTA{
+  font-size: 12px;
+margin:0 auto;
+ }
+
+.brainstorm{
+  display:block;
+  margin:0 auto;
+}
+
+.brainstorm img{
+  display:block;
+  margin:0 auto;
+  min-width:100%;
+}
+.text-box{
+  display:none;
+}
+
+.text-mobile{
+  width:100%;
+}
+
 .features{
   margin-left:-70px;
   transform: scale(1.4);
@@ -367,6 +509,5 @@ margin: 0 auto;
 
 .branding{
   margin:30px -30px;
-}
 }
 }
