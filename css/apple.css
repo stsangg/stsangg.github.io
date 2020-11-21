@@ -65,17 +65,17 @@
 box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 margin-bottom:50px;
 }
-
+/*
 .brainstorm-row{
   display:flex;
   justify-content:space-between;
   margin: 0px 200px 50px 200px;
-}
+}*/
 
-.brainstorm-row figure{
+/*.brainstorm-row figure{
   width:50%;
   height:50%;
-}
+}*/
 
 .brainstorm-img{
   width:100%;
