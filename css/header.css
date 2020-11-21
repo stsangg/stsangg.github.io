@@ -6,6 +6,27 @@ a:visited{
 a:active{
   color: grey;}
 
+
+@media (max-width: 768px){
+
+  .logo{
+    margin-left: auto;
+    width:80%;
+  }
+
+  .global-nav{
+    width:80%;
+  }
+}
+
+.logo{
+  background-image: url('../images/homepage/logo-2.svg');
+  margin-left: 90px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
 .logo-head{
   display: flex;
   min-height:140px;
