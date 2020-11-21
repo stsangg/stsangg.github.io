@@ -130,11 +130,9 @@ border: 0.5px solid #c3c3c3;
 
 /*approach navigation*/
 .approach{
-  display: flex;
-  justify-content: space-between;
-  margin:0 auto;
-  max-width: 904px;
-  margin-bottom:80px;
+  max-width:70%;
+  margin-left:269px;
+  margin-bottom:30px;
 }
 
 .approach img{

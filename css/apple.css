@@ -28,6 +28,8 @@
   display:flex;
   max-width:55%;
   margin:60px auto;
+  margin-bottom:-540px;
+
 }
 
 .solution-gif div{
