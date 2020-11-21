@@ -39,7 +39,7 @@ figure{
   }
 }
 
- .skill1, .skill2, .skill3{
+ #skill1, #skill2, #skill3{
     display:none;
   }
 
