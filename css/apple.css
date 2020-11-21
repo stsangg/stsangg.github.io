@@ -28,7 +28,7 @@
   display:flex;
   max-width:55%;
   margin:60px auto;
-  margin-bottom:-540px;
+  margin-bottom:100px;
 
 }
 
@@ -39,8 +39,6 @@
 
 .gif{
   height: 500px;
-  width:250px;
-  padding-right: 60px;
 }
 
 .columns{
@@ -90,11 +88,9 @@ figcaption{
 }
 
 .lofi{
-  display: flex;
-  justify-content: center;
-margin:0 auto;
-  margin-top: 50px;
+  margin-top: 30px;
   width:100%;
+  margin-bottom:-1040px;
 }
 
 .lofi img{
