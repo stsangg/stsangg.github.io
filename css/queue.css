@@ -239,3 +239,25 @@ margin-right:10px;
 /* Hide the slides by default */
 .mySlides {
   display: none;
+}
+
+/*media queries*/
+@media (max-width: 768px){
+ .overview-columns{
+  margin:0 30px;
+  width:100%;
+ }
+
+ .approach img{
+  max-width:190px;
+ }
+
+ .overview-design{
+  max-width:90%;
+  margin:30px;
+ }
+
+ .design-solution{
+  width:80%;
+  margin:30px;
+ }
