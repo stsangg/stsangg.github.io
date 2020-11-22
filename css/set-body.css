@@ -262,6 +262,9 @@ width:100%;
 
 @media (max-width:640px){
 
+.hero{
+  min-width:100%;
+}
   .page-wrapper{
     padding:20px;
     max-width:600px;
@@ -331,7 +334,6 @@ h4{
   display: block;
   margin-bottom: 0px;
   margin-block-end: 0em;
-  text-transform: uppercase;
 }
 
 h5{
