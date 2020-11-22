@@ -260,7 +260,7 @@ width:100%;
 }
 }
 
-@media (min-width: 641px) and (max-width: 1007px){
+/*@media (min-width: 641px) and (max-width: 1007px){
   .page-wrapper{
     margin:30px;
   }
@@ -355,7 +355,7 @@ border: 0.5px solid #c3c3c3;
   display: flex;
   align-items: center;
 }
-}
+}*/
 
 
 @media (max-width:640px){
