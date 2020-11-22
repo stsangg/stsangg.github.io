@@ -19,6 +19,13 @@ a:active{
   }
 }
 
+@media (max-width: 375px){
+  $items: 3;
+$transition-duration: 0.5s;
+$transition-delay: 0.05s;
+
+}
+
 .logo{
   background-image: url('../images/homepage/logo-2.svg');
   margin-left: 90px;

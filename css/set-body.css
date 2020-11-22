@@ -16,6 +16,10 @@ overflow-x: hidden;
 }
 }
 
+.container-sm, .container-md{
+  margin:20px;
+}
+
 /*back to top button*/
 #myBtn {
   display: none;
