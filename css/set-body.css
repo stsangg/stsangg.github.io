@@ -1,4 +1,4 @@
-@media (min-width: 769px){
+@media (min-width: 1008px){
 body, html{
 /*   margin: auto; */
 overflow-x: hidden;
@@ -175,7 +175,8 @@ width:100%;
 /*grey background to match textbox*/
 .boxed{
   background-color:#FAFAFA;
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom:10px;
 }
 
 /*up-next links*/
