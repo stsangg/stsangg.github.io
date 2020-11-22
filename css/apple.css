@@ -24,7 +24,11 @@
   color: black;
 }
 
-.solution-gif{
+.solution-gif-1{
+  flex-direction: row-reverse;
+}
+
+.solution-gif, .solution-gif-1{
   display:flex;
   max-width:55%;
   margin:60px auto;
@@ -118,7 +122,11 @@ width:75%;
 }
 
 @media (min-width: 641px) and (max-width: 1007px){
-  .solution-gif{
+  .soution-gif-1{
+    flex-direction:row-reverse;
+  }
+
+  .solution-gif, .solution-gif-1{
     justify-content: center;
     margin:50px auto;
   }
