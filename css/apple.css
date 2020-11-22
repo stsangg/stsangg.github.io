@@ -59,6 +59,10 @@
   min-width:350px;
 }
 
+.mob-textbox{
+  display:none;
+}
+
 .persona{
   display: flex;
   max-width: 65%;
@@ -131,6 +135,10 @@ width:75%;
     margin:50px auto;
   }
   
+  .mob-textbox{
+  display:none;
+}
+
   .gif{
     width:100%;
   }
@@ -149,9 +157,19 @@ width:75%;
     margin-left: auto;
   }
 
+.text-box{
+  display:none;
+}
+
+.mob-textbox{
+  display:block;
+  width:100%;
+}
+
   .lofi{
     max-width:100%;
   }
+
 
   .gif{
 width:50%;
