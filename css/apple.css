@@ -157,6 +157,10 @@ width:75%;
     margin-left: auto;
   }
 
+  .solution-gif, .solution-gif-1{
+    margin-top:30px;
+  }
+
 .text-box{
   display:none;
 }
