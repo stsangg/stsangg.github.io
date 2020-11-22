@@ -7,6 +7,7 @@
 <link href='css/queue.css' rel='stylesheet'>
   <!--header-->
  <link rel="stylesheet" href="css/header.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--fonts-->
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 <!-- favicon -->
@@ -42,7 +43,7 @@
 
 
 <div class='page-wrapper'>
-	<div><img class='parallax' src='images/queue/hero.svg' alt='hero image'></div>
+	<div><img class='parallax img-fluid' src='images/queue/hero.svg' alt='hero image'></div>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -54,12 +55,12 @@
 </div>
 
 
-<div class='overview-columns'>
-	<div style='width:55%; margin-right:155px'>
+<div class='overview-columns row'>
+	<div class='col-md' style='width:55%; margin-right:155px'>
 		<h6>Background</h6>
 		<p>This project stemmed from my own frustrations of arriving to a destination and being faced with an unexpected wait time. Unlike Disneyland, <a href='https://www.latimes.com/projects/la-fi-disneyland-ride-wait-time/'>where people are happy to wait over an hour</a>, there’s little to do in grocery store lines except look around or down at your phone. This project aimed to solve this emotional frustration by creating a system to provide people with the information and options to avoid unexpected wait times.</p></div>
 	
-	<div>
+	<div class='col-md'>
 	<h6>Details</h6>
 	<p>Role: UX/UI Designer<br>
 		Timeline: 4 weeks<br>
@@ -67,24 +68,27 @@
 	</p></div>
 </div>
 
-<div class='boxed'>
-<h6 style='margin-top:15px; margin-left:269px'>Approach</h6>
-<div class='approach'>
+<div class='boxed'><h6 style='margin-top:15px; margin-left:269px;'>Approach</h6>
+	<div class='row approach'>
+<div class='col-md-3'>
 	<a href=#research>
-	<img src='images/queue/nav-1-color.svg' alt='Research'></a>
+	<img src='images/queue/nav-1-color.svg' alt='Research'></a></div>
+	<div class='col-md-3'>
 	<a href=#design>
-		<img src='images/queue/nav-2-color.svg' alt='Design'></a>
+		<img src='images/queue/nav-2-color.svg' alt='Design'></a></div>
+		<div class='col-md-3'>
 	<a href=#usability>
-		<img src='images/queue/nav-3-color.svg' alt='Usability'></a>
+		<img src='images/queue/nav-3-color.svg' alt='Usability'></a></div>
+		<div class='col-md-3'>
 	<a href=#finals>
-		<img src='images/queue/nav-4-color.svg' alt='Finals'></a>
+		<img src='images/queue/nav-4-color.svg' alt='Finals'></a></div>
 </div></div>
 
-<div class='overview-design'>
+<div class='overview-design container-md'>
 	<h6>Design Opportunity</h6>
 	<p>A <a href='https://www.sciencedirect.com/science/article/abs/pii/S0305048300000190'>study done on the social and psychological perspective of what times</a> showed that anxiety, stress, and uncertainty are just a few of the emotions that people can experience while waiting in line. While local businesses had a place to display their peak hours and wait times, there was no actual system in place to provide action in avoiding wait times.</p>
 
-<h5 style='width:770px; margin-top:20px; margin-bottom:80px;'>What could be done to address the emotional frustration that people felt?</h5>
+<h5 style='width:770px; margin-top:20px; margin-bottom:50px;'>What could be done to address the emotional frustration that people felt?</h5>
 
 <!-- don Norman quote <img style='margin-bottom:30px' src='images/queue/quote-DN.svg' alt='Don Norman quote'></a> -->
 
@@ -92,7 +96,7 @@
 <p>Queue is an online application where people can connect with local businesses and mitigate wait times through various unique features. 
 With transparent information about a businesses’ wait times and reservation availabilities, people remain in control to efficiently go about their day. The app provides people with options to join a virtual Queue, make a reservation, and even order from a menu ahead of time. By creating a central place for communicating important information between businesses and consumers, people can remain in control to efficiently go about their day. </p></div>
 
-<img class='design-solution' src='images/queue/design-solution.jpg' alt='Design Solution'>
+<img class='design-solution img-fluid' src='images/queue/design-solution.jpg' alt='Design Solution'>
 
 
 
@@ -126,16 +130,20 @@ With transparent information about a businesses’ wait times and reservation av
 	<hr id='research'/>
 </div>
 
-<div class='approach'>
+	<div class='row approach'>
+<div class='col-md-3'>
 	<a href=#research>
-	<img class='approach-img' src='images/queue/nav-1-color.svg' alt='Research'></a>
+	<img src='images/apple/nav-1-color.svg' alt='Research' ></a></div>
+	<div class='col-md-3'>
 	<a href=#design>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-2-color.svg' alt='Design'></a>
+		<img src='images/apple/nav-2-color.svg' alt='Design' id='hover'></a></div>
+		<div class='col-md-3'>
 	<a href=#usability>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-3-color.svg' alt='Usability'></a>
-		<a href=#finals>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-4-color.svg' alt='Finals'></a>
-</div>
+		<img src='images/apple/nav-3-color.svg' alt='Usability' id='hover'></a></div>
+		<div class='col-md-3'>
+	<a href=#finals>
+		<img src='images/apple/nav-4-color.svg' alt='Finals' id='hover'></a></div>
+</div></div>
 
 <!-- <div class='section'>
 	<h4>User interviews</h4>
@@ -143,20 +151,20 @@ With transparent information about a businesses’ wait times and reservation av
 <p>I went into this project with the assumption that people hated waiting in line. <b>But, I wanted to know why.</b> Why were people so angry and frustrated while waiting, and did they ever have positive experiences waiting in line?</p> </div>
  -->
 <div class='boxed'>
-<img class='text-box' src='images/queue/user-interviews.svg' alt='User Interviews' style='margin-bottom:0px'>
-<img class='text-mobile' src='images/queue/mobile/mob-research.svg' alt='User Interviews'>
+<img class='text-box img-fluid' src='images/queue/user-interviews.svg' alt='User Interviews' style='margin-bottom:0px'>
+<img class='text-mobile img-fluid' src='images/queue/mobile/mob-research.svg' alt='User Interviews'>
 
 <div class='CTA'>
 	<span id='CTA'><a href='#brainstorming' style='text-decoration:none'>See ideation process</a></span></div>
 </div>
 
-<div class='section' style='margin-top:50px'>
+<div class='section container-md' style='margin-top:50px'>
 	<h4>Customer journey map</h4>
 	<h5>Understanding people’s thoughts, questions, and emotions</h5>
 <p>I noticed that participants all had a similar emotion and thought process when explaining a negative experience waiting in line. To summarize my findings, a customer journey map was the best way to show the steps and feelings, and visualize where Queue’s features could plug in and help.</p>
 
-<img class='deliverable myImg' style='margin-top:50px' src='images/queue/calling-to-reserve.png' alt='Making a reservation'>
-<img class='deliverable myImg' style='margin-bottom:80px'src='images/queue/going-to-store.png' alt='Going to the store'></div>
+<img class='deliverable myImg img-fluid' style='margin-top:50px' src='images/queue/calling-to-reserve.png' alt='Making a reservation'>
+<img class='deliverable myImg img-fluid' style='margin-bottom:80px'src='images/queue/going-to-store.png' alt='Going to the store'></div>
 
 <!-- <h4>Competitor Analysis</h4>
 <h5>Looking at the features in the competitive space</h5>
@@ -165,13 +173,13 @@ With transparent information about a businesses’ wait times and reservation av
 </div> -->
 
 <div class='boxed'>
-<img class='text-box' src='images/queue/secondary-research.svg' alt='Secondary Research' style='margin-bottom:0px'>
+<img class='text-box img-fluid' src='images/queue/secondary-research.svg' alt='Secondary Research' style='margin-bottom:0px'>
 
 <input id='CTA' type='button' value='Detailed analysis' onclick="competitors()"></input>
 
 <!-- <button id='CTA' onclick="competitors()">Detailed Analysis</button> -->
 
-<div id='competitors'>
+<div id='competitors container-md'>
 <p style='width:700px'>Using the information I found from reviews over the past year on capterra.com and sitejabber.com, I created a chart to compare the commonalities and differences between each competitor.</p>
 <img class='competitors' src='images/queue/competitor-chart.png' alt='Competitive analysis'>
 </div>
@@ -179,60 +187,66 @@ With transparent information about a businesses’ wait times and reservation av
 
 <hr class='divider' id='design'>
 
-<div class='approach'>
+	<div class='row approach'>
+<div class='col-md-3'>
 	<a href=#research>
-	<img class='approach-img' id='approach-hover' src='images/queue/nav-1-color.svg' alt='Research'></a>
+	<img src='images/apple/nav-1-color.svg' alt='Research' id='hover'></a></div>
+	<div class='col-md-3'>
 	<a href=#design>
-		<img class='approach-img' src='images/queue/nav-2-color.svg' alt='Design'></a>
+		<img src='images/apple/nav-2-color.svg' alt='Design' ></a></div>
+		<div class='col-md-3'>
 	<a href=#usability>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-3-color.svg' alt='Usability'></a>
+		<img src='images/apple/nav-3-color.svg' alt='Usability' id='hover'></a></div>
+		<div class='col-md-3'>
 	<a href=#finals>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-4-color.svg' alt='Finals'></a>
-</div>
+		<img src='images/apple/nav-4-color.svg' alt='Finals' id='hover'></a></div>
+</div></div>
 
-<div class='section' id='brainstorming'>
+<div class='section container-md' id='brainstorming'>
 	<h4>Brainstorming</h4>
 	<h5>Creating for the users</h5>
 	<p>Using POV and HMW statements created, I did several brainstorming sessions to come up with creative solutions that would solve people’s pain points.<br>
 Following IDEO's guidelines, subsequent sessions were spent finding common themes amongst the ideas and further conceptualizing into final features.</p>
 
-	<div class='brainstorm'>
+	<div class='brainstorm row'>
+		<div class='col-md-6'>
 		<figure>
 		<img class='myImg' src='images/queue/brainstorm-1.jpg' alt='How might we improve the flow of the online booking experience?' onclick="openModal();currentSlide(1)">
 		<figcaption>People prefer not to use online booking because they need quick service and reassurance. <br>
 How might we improve the flow of the online booking experience? </figcaption>
-	</figure>
+	</figure></div>
+	<div class='col-md-6'>
 	<figure>
 		<img id='brainstorm-2' class='myImg' src='images/queue/brainstorm-2.jpg' alt='How might we create an experience that distracts people from the wait time?'>
 		<figcaption>People want to be stimulated and engaged with because they need a distraction from waiting.<br> 
 How might we create an experience that distracts people from the wait time? </figcaption>
 	</figure>
-	</div>
+	</div></div>
 </div>
 
-	<img class='features' src='images/queue/features.svg' alt='Ideation features'>
+	<img class='features img-fluid' src='images/queue/features.svg' alt='Ideation features'>
 
-<div class='section'>
+<div class='section container-md'>
 <h4>Task flows</h4>
 <h5>Asking how people can achieve their goal</h5>
 <p>With my features in mind, I created a chart depicting the different task flows that a user could take depending on their wants. This helped me show how many screens would need to be created, and potentially where I could minimize lengthy task steps. </p>
 
-<img class='task-flow myImg' src='images/queue/task-flows.svg' alt='Task Flows'>
-<img class='task-flow-a' src='images/queue/task-flow-annotated.svg'>
+<img class='task-flow myImg img-fluid' src='images/queue/task-flows.svg' alt='Task Flows'>
+<img class='task-flow-a img-fluid' src='images/queue/task-flow-annotated.svg'>
 
 <h4>Wireframes</h4>
 <h5>Creating and choosing the best designs</h5>
 <p>To test out different ideas and layouts for the screens I needed, I created a collection of low fidelity wireframes.</p>
 <div class='lofi-1' style='margin-top:50px'> <!--insert box shadow-->
-	<img src='images/queue/lofi/lofi-1.jpg'>
-	<img src='images/queue/lofi/lofi-2.jpg'>
-	<img src='images/queue/lofi/lofi-3.jpg'>
+	<img class='img-fluid' src='images/queue/lofi/lofi-1.jpg'>
+	<img class='img-fluid' src='images/queue/lofi/lofi-2.jpg'>
+	<img class='img-fluid' src='images/queue/lofi/lofi-3.jpg'>
 </div>
 <div class='lofi-2' style='margin-top:30px'>
-	<img src='images/queue/lofi/lofi-4.jpg'>
-	<img src='images/queue/lofi/lofi-5.jpg'>
-	<img src='images/queue/lofi/lofi-6.jpg'>
-	<img src='images/queue/lofi/lofi-7.jpg'>
+	<img class='img-fluid' src='images/queue/lofi/lofi-4.jpg'>
+	<img class='img-fluid' rc='images/queue/lofi/lofi-5.jpg'>
+	<img class='img-fluid' src='images/queue/lofi/lofi-6.jpg'>
+	<img class='img-fluid' src='images/queue/lofi/lofi-7.jpg'>
 </div></div>
 <!-- <div class='lofi-3' style='margin-top:30px'>
 	<img src='images/queue/lofi/lofi-7.jpg'>
@@ -247,22 +261,26 @@ How might we create an experience that distracts people from the wait time? </fi
 
 <hr class='divider' id='usability'>
 
-<div class='approach'>
+	<div class='row approach'>
+<div class='col-md-3'>
 	<a href=#research>
-	<img class='approach-img' id='approach-hover' src='images/queue/nav-1-color.svg' alt='Research'></a>
+	<img src='images/apple/nav-1-color.svg' alt='Research' id='hover'></a></div>
+	<div class='col-md-3'>
 	<a href=#design>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-2-color.svg' alt='Design'></a>
+		<img src='images/apple/nav-2-color.svg' alt='Design' id='hover'></a></div>
+		<div class='col-md-3'>
 	<a href=#usability>
-		<img class='approach-img' src='images/queue/nav-3-color.svg' alt='Usability'></a>
+		<img src='images/apple/nav-3-color.svg' alt='Usability' ></a></div>
+		<div class='col-md-3'>
 	<a href=#finals>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-4-color.svg' alt='Finals'></a>
-</div>
+		<img src='images/apple/nav-4-color.svg' alt='Finals' id='hover'></a></div>
+</div></div>
 
-<div class='section'>
+<div class='section container-md'>
 <h4>First usability testing</h4>
 <h5>Testing  design flows</h5>
-<div class='columns'>
-	<div class='column-left'>
+<div class='columns row'>
+	<div class='column-left col-md-6'>
 <p>For the first round of usability testing, I wanted to focus on the task flows of newly implemented features. My goals were to:</p>
 <ol>
 	<li>Assess the task flow of the new features in the prototype</li>
@@ -272,7 +290,7 @@ How might we create an experience that distracts people from the wait time? </fi
 <p>Using the mid-fidelity wireframes, I created an interactive prototype to be used for testing. Afterwards, I created an affinity map to see where the most common problems were happening. This helped me prioritize what I should iterate on.</p>
 </div>
 
-<div class='column-right'>
+<div class='column-right col-md-6'>
 	<p><b>Participants:</b> three<br>
 	<b>Age group:</b> 24-35 years old<br>
 	<b>Method:</b> remote task-based interviews<br>
@@ -284,28 +302,28 @@ How might we create an experience that distracts people from the wait time? </fi
 </div>
 </div>
 
-<img class='midfi' src='images/queue/midfi.png'>
+<img class='midfi img-fluid' src='images/queue/midfi.png'>
 
 <div class='boxed'>
-<div class='section'>
+<div class='section container-md'>
 <h6>Affinity Map</h6>
 <p>The general flow of the prompted tasks went smoothly. They all had a 100% completion rate. However, it was the details in the prototype where I uncovered the areas that users had uncertainty.</p>
+<img class='img-fluid myImg' src='images/queue/affinitymap.jpg' alt='Affinity Map'>
 
-<iframe style='margin: 50px auto' width="902" height="375" src="https://miro.com/app/live-embed/o9J_kg3uRsg=/?moveToViewport=1127,-2174,6639,3657" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 </div></div>
 
-<img class='text-box' src='images/queue/usability1-all.svg'>
+<img class='text-box img-fluid' src='images/queue/usability1-all.svg'>
 
 <!-- <div class='section'>
 <p style='margin-bottom:20px'>To pay from the application, 100% of users weren’t expecting to be able to click on the reservation to access more options. They thought of the “queues” page as only a quick overview or a way to make changes.</p>
 </div>
 <img class='text-box' src='images/queue/usability1-2.svg'> -->
 
-<div class='section'>
+<div class='section container-md'>
 	<h4>Second usability testing</h4>
 	<h5>Making the most out of little time</h5>
-<div class='columns'>
-	<div class='column-left'>
+<div class='columns row'>
+	<div class='column-left col-md-6'>
 <p style='margin-bottom:0px'>This time around, I was mainly focusing on the UI design of the prototype and testing the iterations made to the task flows. Maze was used for remote, unmoderated testing because it allowed me to collect more responses within a short time frame. My goals were:
 </p>
 <ol style='margin-top:0px'>
@@ -313,7 +331,7 @@ How might we create an experience that distracts people from the wait time? </fi
 	<li>Assess the UI design</li>
 </ol>
 </div>
-<div class='column-right'>
+<div class='column-right col-md-6'>
 	<p><b>Participants:</b> sixteen<br>
 	<b>Age group:</b> 24-35 years old<br>
 	<b>Method:</b> unmoderated testing<br>
@@ -324,11 +342,11 @@ How might we create an experience that distracts people from the wait time? </fi
 </div>
 </div>
 
-<img class='usability-2' src='images/queue/usability2-1.svg' style='margin-top:50px'>
-<img class='usability-2' src='images/queue/usability2-2.svg'>
-<img class='usability-2' src='images/queue/usability2-3.svg'>
+<img class='usability-2 img-fluid' src='images/queue/usability2-1.svg' style='margin-top:50px'>
+<img class='usability-2 img-fluid' src='images/queue/usability2-2.svg'>
+<img class='usability-2 img-fluid' src='images/queue/usability2-3.svg'>
 </div>
-<img class='iterations' src='images/queue/iteration-colors.svg'>
+<img class='iterations img-fluid' src='images/queue/iteration-colors.svg'>
 
 <!-- <div class='columns'>
 	<div class='columns-2-left'>
@@ -344,28 +362,32 @@ I turned to headspace’s palette of classic, muted colors. While their colours 
 
 <hr class='divider' id='finals' />
 
-<div class='approach'>
+	<div class='row approach'>
+<div class='col-md-3'>
 	<a href=#research>
-	<img class='approach-img' id='approach-hover' src='images/queue/nav-1-color.svg' alt='Research'></a>
+	<img src='images/apple/nav-1-color.svg' alt='Research' id='hover'></a></div>
+	<div class='col-md-3'>
 	<a href=#design>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-2-color.svg' alt='Design'></a>
+		<img src='images/apple/nav-2-color.svg' alt='Design' id='hover'></a></div>
+		<div class='col-md-3'>
 	<a href=#usability>
-		<img class='approach-img' id='approach-hover' src='images/queue/nav-3-color.svg' alt='Usability'></a>
+		<img src='images/apple/nav-3-color.svg' alt='Usability' id='hover'></a></div>
+		<div class='col-md-3'>
 	<a href=#finals>
-		<img class='approach-img' src='images/queue/nav-4-color.svg' alt='Finals'></a>
-</div>
+		<img src='images/apple/nav-4-color.svg' alt='Finals' ></a></div>
+</div></div>
 
-<div class='section'>
+<div class='section container-md'>
 	<h4>Branding guide</h4>
 	<h5>Queue is friendly, trustworthy, and professional </h5>
 	<p>Queue’s brand is meant to act like a messenger between the customers and businesses. Keeping it professional will help establish customer trust, but incorporating a level of friendliness will further the customer-application relationship.</p>
 </div>
 	<figure class='moodboard'>
-		<img src='images/queue/moodboard.png' alt='moodboard'>
+		<img class='img-fluid' src='images/queue/moodboard.png' alt='moodboard'>
 		<figcaption>Moodboard- courtesy of pinterest.ca</figcaption>
 	</figure>
 
-	<img class='branding' src='images/queue/branding.svg' alt='Branding'>
+	<img class='branding img-fluid' src='images/queue/branding.svg' alt='Branding'>
 </div></div>
 
 	<div class='CTA'>
@@ -376,7 +398,7 @@ I turned to headspace’s palette of classic, muted colors. While their colours 
 	<h6 style='text-align: center'>Final prototype</h6>
 
 		
-            	<div class='prototype'>
+<div class="prototype embed-responsive embed-responsive-1by1">
         <video width="400" controls>
           <source src='images/queue/final-prototype.mp4' type='video/mp4'>
       </video></div>
