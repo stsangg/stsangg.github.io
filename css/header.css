@@ -70,6 +70,12 @@ $transition-delay: 0.05s;
   width: 100%;
 }
 
+.approach img{
+  width:80%;
+  display:block;
+margin: 0 auto;
+}
+}
 .global-nav{
   width: 100%;
   font-weight: 400;
