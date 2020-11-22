@@ -120,7 +120,9 @@ width:75%;
 @media (min-width: 641px) and (max-width: 1007px){
   .solution-gif{
     justify-content: center;
+    margin:50px auto;
   }
+  
   .gif{
     width:100%;
   }
@@ -132,7 +134,7 @@ width:75%;
 .approach{
   margin: 0px 10px;
 }
-
+}
 
 @media (max-width:640px){
   .approach-header h6{
