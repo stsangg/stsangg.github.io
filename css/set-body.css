@@ -1,4 +1,4 @@
-@media (min-width: 1008px){
+@media only screen and (min-width: 1008px){
 body, html{
 /*   margin: auto; */
 overflow-x: hidden;
@@ -6,12 +6,6 @@ overflow-x: hidden;
 
 .page-wrapper{
   min-height: 100%;
-}
-
-@media (max-width: 875px){
-  .nav-global{
-  display: none;
-}
 }
 
 .container-sm, .container-md{
@@ -260,12 +254,18 @@ width:100%;
 }
 }
 
-/*@media (min-width: 641px) and (max-width: 1007px){
+@media only screen and (max-width: 875px){
+  .nav-global{
+  display: none;
+}
+}
+
+@media (min-width: 641px) and (max-width: 1007px){
   .page-wrapper{
     margin:30px;
   }
 
-    .approach img{
+.approach img{
     width:100%;
     margin:0 auto;
   }
@@ -355,10 +355,11 @@ border: 0.5px solid #c3c3c3;
   display: flex;
   align-items: center;
 }
-}*/
+
+}
 
 
-@media (max-width:640px){
+@media only screen and (max-width:640px){
 
 .hero{
   min-width:100%;
