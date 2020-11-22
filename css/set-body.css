@@ -258,5 +258,11 @@ width:100%;
   text-decoration: none;
   cursor: pointer;
 }
+}
 
+@media (max-width:640px){
+
+  .page-wrapper{
+    padding:20px;
+  }
 }
