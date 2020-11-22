@@ -23,28 +23,30 @@
   </div> -->
 
   <!-- .navbar -->
-<nav class="navbar navbar-full">
-	<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
-	&#9776;
-	</button>
-	<a class="navbar-brand" href="#">
-	<img class="logo"><a href='index.html'></a></div>
-	</a>
-	<div class="collapse navbar-toggleable-md" id="mainNavbarCollapse">
-		<ul class="nav navbar-nav pull-lg-right">
-			<li class="nav-item">
-				<a class="nav-link" href="index.html">Work <span class="sr-only">(current)</span></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="aboutme.html">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="mailto:scytsang42@gmail.com">Contact</a>
-			</li>
-		
-		</ul>
-	</div>
-</nav>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header"></div>
+      <!-- responsive button-->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span> <!-- for screen readers -->
+        <span class="icon-bar"></span> <!-- the 3 horz bars -->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <div class='logo'><a href="index.html" class="navbar-brand"></a></div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right"> <!-- align links right -->
+        <li class="active"><a href="index.html">Work</a></li>
+        <li class=""><a href="aboutme.html">About Me</a></li>
+        <li class=""><a href="mailto:scytsang42@gmail.com">Contact</a></li>
+         
+      </ul>
+    </div>
+  </div>
+</div>
+
+
 <!-- /.navbar -->
 <!-- <nav class="global-nav navbar navbar-inverse">
 	<div class='container-fluid'>
@@ -448,6 +450,13 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
     modal.style.display = "none";
 }
+
+// navigation
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+});
 
 </script>
 
