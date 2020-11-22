@@ -265,6 +265,11 @@ width:100%;
     margin:30px;
   }
 
+    .approach img{
+    width:100%;
+    margin:0 auto;
+  }
+
   #myBtn {
   display: none;
   position: fixed;
@@ -350,15 +355,8 @@ border: 0.5px solid #c3c3c3;
   display: flex;
   align-items: center;
 }
-  
-  
 }
 
-@media (min-width: 641px) and (max-width: 1007px){
-  .approach img{
-    width:100%;
-    margin:0 auto;
-  }
 
 @media (max-width:640px){
 

@@ -111,23 +111,7 @@ margin: 10px;
 .work:hover{
   font-weight: bold;
 }
-/*
-.play:hover ~ .nav-global{
-  margin-left: 20%;
-  width: 10%;
-  opacity: 100%;
-}
-.play:hover{
-  font-weight: bold;
-}
-.writings:hover ~ .nav-global{
-  margin-left: 35%;
-  width: 18%;
-  opacity: 100%;
-}
-.writings:hover{
-  font-weight: bold;
-}*/
+
 .about:hover ~ .nav-global{
   margin-left: 32%;
   width: 30%;
