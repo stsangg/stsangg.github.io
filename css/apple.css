@@ -117,6 +117,16 @@ width:75%;
 }
 }
 
+@media (min-width: 641px) and (max-width: 1007px){
+  .solution-gif{
+    justify-content: center;
+  }
+  .gif{
+    width:100%;
+  }
+
+
+
 @media (max-width:640px){
   .approach-header h6{
     margin-left: auto;
