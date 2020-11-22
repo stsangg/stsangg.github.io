@@ -264,5 +264,14 @@ width:100%;
 
   .page-wrapper{
     padding:20px;
+    max-width:600px;
+  }
+
+    .approach div{
+    max-width:70%;
+  }
+
+  .overview-design{
+    margin-top:15px;
   }
 }
