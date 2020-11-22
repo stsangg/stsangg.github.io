@@ -116,3 +116,16 @@ width:75%;
   margin:0px auto 80px auto;
 }
 }
+
+@media (max-width:640px){
+  .approach-header{
+    margin-left: auto;
+  }
+
+  .approch img{
+    max-width:100%;
+  }
+
+  .overview-design{
+    margin-top:15px;
+  }
