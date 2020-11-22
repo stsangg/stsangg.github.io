@@ -2,6 +2,12 @@
 <html>
 <head>
 	<!--css style sheet--> 
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- css -->
 <link href='css/northville.css' rel='stylesheet'>
 <link rel='stylesheet' href='css/header.css'>
 <link href='css/set-body.css' rel='stylesheet'>
@@ -23,7 +29,7 @@
     </nav> </div>
 
 <div class='page-wrapper'>
-  <div style='margin-bottom:100px'><img class='hero' style='margin-bottom:0px' src='images/northville/device-hero.png' alt='hero image'>
+  <div style='margin-bottom:100px'><img class='hero img-fluid' style='margin-bottom:0px' src='images/northville/device-hero.png' alt='hero image'>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -34,15 +40,15 @@
   <div id="caption"></div>
 </div>
 
-<div class='overview-columns'>
-  <div style='width:55%; margin-right:155px'>
+<div class='overview-columns row'>
+  <div class='col-md'>
     <h6>Background</h6>
     <p>Northville Rehabilitation Centre is a multidisciplinary clinic located in Markham, ON. This is the
 second location that the owners have opened, with the first location having been in operation for
 over 30 years. Though word of mouth is currently their primary source of referrals, Northville
 would like to expand their marketing efforts and audience demographic.</p></div>
   
-  <div>
+  <div class='col-md'>
   <h6>Details</h6>
   <p>Role: UX/UI Designer<br>
     Timeline: 4 weeks<br>
@@ -52,22 +58,26 @@ would like to expand their marketing efforts and audience demographic.</p></div>
 
 <div class='boxed'>
 <h6 style='margin-top:15px; margin-left:269px'>Approach</h6>
-<div class='approach'>
+<div class='row approach'>
+  <div class='col-md-3'>
   <a href=#research>
-  <img src='images/queue/nav-1-color.svg' alt='Research'></a>
+  <img src='images/northville/nav-1.svg' alt='Research'></a></div>
+  <div class='col-md-3'>
   <a href=#design>
-    <img src='images/queue/nav-2-color.svg' alt='Design'></a>
+    <img src='images/northville/nav-2.svg' alt='Design'></a></div>
+    <div class='col-md-3'>
   <a href=#usability>
-    <img src='images/queue/nav-3-color.svg' alt='Usability'></a>
+    <img src='images/northville/nav-3.svg' alt='Usability'></a></div>
+    <div class='col-md-3'>
   <a href=#finals>
-    <img src='images/queue/nav-4-color.svg' alt='Finals'></a>
+    <img src='images/northville/nav-4.svg' alt='Finals'></a></div>
 </div></div>
 
-<div class='overview-design'>
+<div class='overview-design container-md'>
   <h6>Design Opportunity</h6>
   <p>As a new and local rehabilitation clinic, Northville’s goal is to increase their number of walk-ins and referrals. With over 55% of millenials researching their healthcare online (and finding it just as reliable as a doctor), Northville hopes to establish its online presence and align its values with this younger demographic and the community.</p>
 
-<h6>Design Solution</h6>
+<h6 style='margin-top:50px'>Design Solution</h6>
 <p>By creating an educational and responsive website, Northville hopes to capture the younger millenial demographic. Revamped copywriting will help succintly inform website visitors on offered clinic services and their benefits. Coupled with an intuitive informational architecture, website visitors can easily navigate around and make an informed decision about their health.</p></div>
 
 <!-- insert image or video of the final prototype in a device mockup - maybe a gif?  -->
@@ -79,9 +89,25 @@ would like to expand their marketing efforts and audience demographic.</p></div>
 
 <hr class='divider'id='research'/>
 
+<h6 style='margin-top:15px; margin-left:269px'>Approach</h6>
+<div class='row approach'>
+  <div class='col-md-3'>
+  <a href=#research>
+  <img src='images/northville/nav-1.svg' alt='Research' ></a></div>
+  <div class='col-md-3'>
+  <a href=#design>
+    <img src='images/northville/nav-2.svg' alt='Design' id='hover'></a></div>
+    <div class='col-md-3'>
+  <a href=#usability>
+    <img src='images/northville/nav-3.svg' alt='Usability' id='hover'></a></div>
+    <div class='col-md-3'>
+  <a href=#finals>
+    <img src='images/northville/nav-4.svg' alt='Finals' id='hover'></a></div>
+</div></div>
+
 <!-- RESEARCH SECTION -->
 <div class='boxed'>
-<img class='text-box' src='images/northville/research-user.svg' alt='User Research' style='margin-bottom:0px'>
+<img class='text-box img-fluid' src='images/northville/research-user.svg' alt='User Research' style='margin-bottom:0px'>
 
 <!-- To test my assumptions, I created a set of tasks based on the three most frequently asked questions I encountered during my working clinic experience.</p>
 
@@ -111,6 +137,7 @@ thought was too text-heavy</h6> -->
 <input id='CTA' type='button' value='Detailed Analysis' onclick="myFunction()"></input>
       <div id='primary-research' style='max-width:55%;' 'margin-left:269px;'>
 
+<div class='container-md'>
 <h6>Task #1: Use the site to see whether a physiotherapy or chiropractic treatment would be better for you</h6>
       <img class='research-tasks' src='/images/northville/task-1.svg' alt='Task 1'>
 <p>This created a problem because there was an increased risk of information being missed. 60% of users would’ve just called or left the site if they couldn’t find what they were looking for. 
@@ -130,19 +157,20 @@ health coverage</h6>
 <img class='research-tasks' src='images/northville/task-3.svg' alt='Task 3'>
 <p>If there was no guidance or instructions on how to book an appointment, users were uncertain whether they had missed an online booking option. This would’ve resulted in calling or emailing (adding an extra step to the conversion) or leaving the site in frustration. </p>
 </div></div>
+</div>
 
-<div class='section'>
+<div class='section container-md'>
   <h4>Empathy Map</h4>
   <h5>Understanding the average user</h5>
   <p>I created an empathy map based on the collective data to help remind me of the user expectations that I was designing for.</p><p style='color:#535353'>I found that the redesign had to be focused around the assumption that the average user had no prior knowledge of any medical or rehabilitation terminology.</p></div>
-<div class='empathymap'>
+<div class='empathymap img-fluid'>
   <img src='images/northville/empathymap.png' alt='Empathy Map'>
 </div>
 
-<div class='section'>
+<div class='section contianer-md'>
   <h4>Competitor task flow comparison</h4>
     <h5>What’re the best practices in existing sites?</h5>
-  <img class='competitors' src='/images/northville/competitors.svg' alt='Competitor Logos'>
+  <img class='competitors img-fluid' src='/images/northville/competitors.svg' alt='Competitor Logos'>
 
 <p>I assessed four random existing clinic websites based on the top three factors that people considered when choosing a clinic:
   <ol>
@@ -163,7 +191,7 @@ global navigation</li>
 </div>
 
 <input id='CTA' type='button' value='Detailed Analysis' onclick="myFunction()"></input>
-      <div id='secondary-research'>
+      <div id='secondary-research' class='container-md'>
       	<h5>Learning about the offered services</h5>
 <p></p>>All the sites had their offered services under “services” in the
 global navigation.Each service had it’s own desinated page, and a description
@@ -196,24 +224,39 @@ organized by location on one page.</p>
 
 <hr class='divider' />
 
+<div class='row approach'>
+  <div class='col-md-3'>
+  <a href=#research>
+  <img src='images/northville/nav-1.svg' alt='Research' id='hover'></a></div>
+  <div class='col-md-3'>
+  <a href=#design>
+    <img src='images/northville/nav-2.svg' alt='Design'></a></div>
+    <div class='col-md-3'>
+  <a href=#usability>
+    <img src='images/northville/nav-3.svg' alt='Usability' id='hover'></a></div>
+    <div class='col-md-3'>
+  <a href=#finals>
+    <img src='images/northville/nav-4.svg' alt='Finals' id='hover'></a></div>
+</div></div>
+
 <div class='boxed'>
-<img style='width:100%' src='images/northville/content-copywriting.svg' alt='Content Copywriting'>
+<img class='img-fluid' style='width:100%' src='images/northville/content-copywriting.svg' alt='Content Copywriting'>
 <div class='CTA' style='margin-bottom:80px'>
   <span id='CTA' style='margin-bottom:50px'><a href='/images/northville/copywriting-style-guide.pdf' target='_blank'>View Copywriting Style Guide</a></span></div>
 </div></div>
 
-<div class='section'>
+<div class='section container-md'>
   <h4>Remote card sorting analysis</h4>
   <h5>Addressing information architecture assumptions</h5>
-  <div class='columns'>
-  <div style="width: 70%; padding-right: 80px;">
+  <div class='columns row'>
+  <div class='columns-left col-md'>
   <p>Since I wasn't able to obtain familiar design patterns from competitors, I decided to ask the users msyself through a cardsorting activity. In keeping with the business' goals, it was important to create an architecture that was intuitive to the user’s flow. I wanted to find out:</p>
   <ol>
     <li>Where would people look for clinic details?</li>
     <li>Where would people look for insurance information?</li></ol>
 </div>
 
-<div>
+<div class='columns-right col-md'>
 <h6>Details</h6>
 <p>
 Platform: remote card sorting activity via OptimalSort<br>
@@ -223,12 +266,12 @@ Number of cards: eight</p>
 </div>
 </div>
 
-<figure class='cardSort-chart'>
+<figure class='cardSort-chart img-fluid'>
 <img src='images/northville/cardsort-chart.png' alt='Card Sorting Chart'> 
 <figcaption> OptimalSort’s Popular Placements Matrix<br>
 The percentage indicates the number of participants who sorted the card (left) into the corresponding category (top).</figcaption>
 </figure>
-<div class='section'>
+<div class='section container-md'>
 <h4>Card sorting takeaways</h4>
 <ol>
   <li>“Contact” would be the most likely place people would look to find clinic details</li>
@@ -236,29 +279,44 @@ The percentage indicates the number of participants who sorted the card (left) i
 </ol>
 </div>
 
-<div class='section' style='margin-top:80px'>
+<div class='section container-md' style='margin-top:80px'>
   <h6>Low fidelity wireframes</h6>
   <p>Thanks to the above learnings, I had a better idea of the type of content needed on the website. It was finally time to design! Since I wasn’t creating any new pages, I referenced the site’s existing site map and drew out potential layouts for diffrent pages. During the weekly check-in, the client and I chose what would be the best. </p>
 </div>
-  <img class='lofi-frames' src='/images/northville/lofi-frames.png' alt='Low Fidelity Sketches'> 
+  <img class='lofi-frames img-fluid' src='/images/northville/lofi-frames.png' alt='Low Fidelity Sketches'> 
 
 <hr class='divider' />
 
+<div class='row approach'>
+  <div class='col-md-3'>
+  <a href=#research>
+  <img src='images/northville/nav-1.svg' alt='Research' id='hover'></a></div>
+  <div class='col-md-3'>
+  <a href=#design>
+    <img src='images/northville/nav-2.svg' alt='Design' id='hover'></a></div>
+    <div class='col-md-3'>
+  <a href=#usability>
+    <img src='images/northville/nav-3.svg' alt='Usability'></a></div>
+    <div class='col-md-3'>
+  <a href=#finals>
+    <img src='images/northville/nav-4.svg' alt='Finals' id='hover'></a></div>
+</div></div>
+
 <div>
-<img class='text-box' src='images/northville/usability-1.svg' alt='Usability Testing-1'>
-<div class='gif'>
+<img class='text-box img-fluid' src='images/northville/usability-1.svg' alt='Usability Testing-1'>
+<div class='gif img-fluid'>
 	<img src='images/northville/f-pattern.gif' alt='F pattern gif'>
 	</div>
 </div>
 
 
-<div class='section'> 
+<div class='section container-md'> 
   <h4>Usability testing round 2</h4>
   <h5>If you fail, try try try again</h5>
 
 
-  <div class='columns'>
-    <div style="width: 70%; padding-right: 80px;">
+  <div class='columns row'>
+    <div class='col-md'>
      <p>In addition to making layout changes, I also iterated on the “book an appointment” flow. In this round of testing, I kept the questions the same to also assess the UI and chosen colour scheme. My goals for this round of testing were to:</p>
   <ol>
     <li>Assess the high-fidelity layout</li>
@@ -267,18 +325,33 @@ The percentage indicates the number of participants who sorted the card (left) i
   <p>Based on the data, I created an affinity map to identify the most common, and therefore highest priority, problems.</p>
     </div>
 
-    <div>
+    <div class='col-md'>
     <p>Type: Remote task-based usability testing<br>
 Participants: two females, one male</p>
 </div></div></div>
 
-<img class='affinitymap myImg' src='images/northville/usability-map2.png' alt='Usability Map-2'>
-<img class='usability' src='images/northville/usability2.1.svg'>
-<img class='usability' src='images/northville/usability2.2.svg'>
+<img class='affinitymap myImg img-fluid' src='images/northville/usability-map2.png' alt='Usability Map-2'>
+<img class='usability img-fluid' src='images/northville/usability2.1.svg'>
+<img class='usability img-fluid' src='images/northville/usability2.2.svg'>
 
-<hr class='divider'/>
+<hr class='divider'id='finals'>
 
-<div class='final'>
+<div class='row approach'>
+  <div class='col-md-3'>
+  <a href=#research>
+  <img src='images/northville/nav-1.svg' alt='Research' id='hover'></a></div>
+  <div class='col-md-3'>
+  <a href=#design>
+    <img src='images/northville/nav-2.svg' alt='Design' id='hover'></a></div>
+    <div class='col-md-3'>
+  <a href=#usability>
+    <img src='images/northville/nav-3.svg' alt='Usability' id='hover'></a></div>
+    <div class='col-md-3'>
+  <a href=#finals>
+    <img src='images/northville/nav-4.svg' alt='Finals'></a></div>
+</div></div>
+
+<div class='final container-md'>
 <h4 style='margin-left:0px'>Final Product</h4>
 <p>*The site is still continuously being updated, so live site may not appear the same as the frames below</p>
 </div>
@@ -286,12 +359,12 @@ Participants: two females, one male</p>
 <div class='CTA'>
 	<span id='CTA'><a href='www.northvillerehab.com'>Live website</a></span></div>
 </div>
-<img class='text-box' src='images/northville/final.png' alt='Final frames'>
+<img class='text-box img-fluid' src='images/northville/final.png' alt='Final frames'>
 
 
 <hr class='divider'/>
 
-<div class='section'>
+<div class='section container-md'>
 	<h4>Learnings</h4>
 	<<h6>Final thoughts</h6>
 <p>Redesigning the website for my old clinic brought back all kinds of nostalgia. I loved being able to take one step towards my goals of returning to the healthcare industry through a design focus to improve the patient user experience. I hope that the redesign helps educate my generation on the benefits of rehabiliative and maintenace therapy to keep the physical body in tip top shape!
