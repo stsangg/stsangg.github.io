@@ -127,13 +127,17 @@ border: 0.5px solid #c3c3c3;
 }
 
 /*approach navigation*/
-.approach{
+.approach, .approach-1{
   max-width:70%;
   margin-left:269px;
   margin-bottom:30px;
 }
 
 .approach img{
+  max-width: 245px;
+}
+
+.approach-1 img{
   max-width: 245px;
 }
 
@@ -265,10 +269,17 @@ width:100%;
     margin:30px;
   }
 
-.approach img{
-    width:100%;
+.approach-1{
+  margin: 0px 10px;}
+
+.approach-1 img{ 
+  width:100%;
     margin:0 auto;
-  }
+}
+
+.approach{
+  display:none;
+}
 
   #myBtn {
   display: none;
@@ -369,10 +380,13 @@ border: 0.5px solid #c3c3c3;
     max-width:600px;
   }
 
-    .approach div{
+    .approach-1 div{
     max-width:70%;
   }
 
+.approach{
+  display:none;
+}
   .overview-design{
     margin-top:15px;
   }

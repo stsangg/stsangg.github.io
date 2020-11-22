@@ -125,6 +125,7 @@ width:75%;
 }
 }
 
+/*BETWEEN 641 PX AND 1007 PX - TABLET SCREENS*/
 @media (min-width: 641px) and (max-width: 1007px){
   .soution-gif-1{
     flex-direction:row-reverse;
@@ -146,16 +147,18 @@ width:75%;
 .brainstorm{
   justify-content:center;
 }
-
-.approach{
-  margin: 0px 10px;
-}
 }
 
+/*SMALLER THAN 640 PX - MOBILE SCREENS*/
 @media (max-width:640px){
   .approach-header h6{
     margin-left: auto;
   }
+
+  .approach{
+    display:none;
+  }
+
 
   .solution-gif, .solution-gif-1{
     margin-top:30px;
