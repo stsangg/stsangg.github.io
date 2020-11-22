@@ -125,6 +125,13 @@ width:75%;
     width:100%;
   }
 
+.brainstorm{
+  justify-content:center;
+}
+
+.approach{
+  margin: 0px 10px;
+}
 
 
 @media (max-width:640px){
