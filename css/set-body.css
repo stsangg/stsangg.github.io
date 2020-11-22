@@ -159,7 +159,7 @@ border: 0.5px solid #c3c3c3;
 
 /*body sections*/
 .section{
-  max-width: 100%;
+  max-width: 55%;
 margin-left: 269px;
 }
 
@@ -257,6 +257,26 @@ width:100%;
   cursor: pointer;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE CODE CSS- MEDIA QUERIES STARTING*/
+
+
 
 @media only screen and (max-width: 875px){
   .nav-global{
