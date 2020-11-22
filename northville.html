@@ -16,7 +16,7 @@
 
 <body>
 	<!--header start-->
-<div class='logo-head' style='display:flex;'>
+<!-- <div class='logo-head' style='display:flex;'>
   <div class='logo'> <a href='index.html'></a>
   </div>
 <nav class="global-nav">
@@ -26,7 +26,17 @@
     <li class='contact'><a href="mailto:scytsang42@gmail.com"> Contact </a></li>
     <hr class='nav-global' />
   </ul>
-    </nav> </div>
+    </nav> </div> -->
+
+    <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Work</a>
+  <a href="about-me.html">About</a>
+  <a href="#">Contact</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 <div class='page-wrapper'>
   <div style='margin-bottom:100px'><img class='hero img-fluid' style='margin-bottom:0px' src='images/northville/device-hero.png' alt='hero image'>
@@ -467,5 +477,16 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
     modal.style.display = "none";
 }
+
+/* NAVIGATION- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
   </script>
 </html>

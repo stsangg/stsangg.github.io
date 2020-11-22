@@ -12,20 +12,30 @@
 <body>
 
   <!--<div style="clear:both;"> </div>-->
-   <div class='logo-head'>
+
+   <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Work</a>
+  <a href="about-me.html">About</a>
+  <a href="#">Contact</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <!--  <div class='logo-head'>
   <div class='logo'> 
   </div>
 
 <nav class="global-nav">
   <ul>
     <li class='work'><a href="../index.html"> Work </a></li>
-    <!-- <li class='play'><a> Play </a></li>
-    <li class='writings'><a href="https://medium.com/@scytsang42" target='_blank'> Writings </a></li> -->
+    <li class='play'><a> Play </a></li>
+    <li class='writings'><a href="https://medium.com/@scytsang42" target='_blank'> Writings </a></li>
     <li class='about'><a href="aboutme.html"> About </a></li>
     <li class='contact'><a href="mailto:scytsang42@gmail.com"> Contact </a></li>
     <hr class='nav-global' />
   </ul>
-    </nav> </div>
+    </nav> </div> -->
 
 <div class='intro'>
 <h1>Welcome! I'm Steph.</h1>
@@ -132,5 +142,16 @@ function skill3() {
     z.style.display = "none";
   }
 }
+
+/* NAVIGATION- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>
