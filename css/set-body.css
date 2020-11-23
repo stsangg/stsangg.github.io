@@ -390,6 +390,19 @@ border: 0.5px solid #c3c3c3;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:640px){
 
 .hero{
@@ -422,6 +435,10 @@ margin: 0 auto;
     margin:10px auto;
     display:block;
   }
+
+.section{
+  margin-top:20px;
+}
 
   figcaption{
     max-width: 75%;
