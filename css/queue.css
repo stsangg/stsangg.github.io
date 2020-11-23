@@ -255,3 +255,8 @@ margin-right:10px;
   min-width:100%;
   display:block;
 }
+.text-box{
+  display-none;
+  width:0%;
+}
+}
