@@ -60,6 +60,9 @@ padding-bottom: 20px;
   display:none;
 }
 
+.mob-text{
+  display:none;
+}
 .research-tasks{
   margin-top: 30px;
 }
