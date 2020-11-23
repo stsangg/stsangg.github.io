@@ -39,10 +39,8 @@
   background:#275B81;
   color: black;
 }
-/*
-#CTA a{
-  color:white;
-}*/
+
+
 #competitors{
   width:50%;
  margin:20px auto;
@@ -125,7 +123,7 @@ margin-bottom:80px;
 .lofi-1, .lofi-2, .lofi-3{
   display:flex;
   justify-content:space-between;
-  width:902px;
+  width:960px;
   padding: 30px;
   box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 
@@ -241,9 +239,19 @@ margin-right:10px;
 .mySlides {
   display: none;
 }
+}
 
-/*media queries*/
-@media (max-width: 768px){
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY - MOBILE VIEW*/
+/*@media (max-width: 768px){
  .parallax{
   margin-bottom:50px;
   min-height: auto;
@@ -526,4 +534,4 @@ margin: 0 auto;
 .branding{
   margin:30px -30px;
 }
-}
+}*/
