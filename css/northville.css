@@ -56,6 +56,10 @@ padding-bottom: 20px;
   justify-content: space-between;
 }
 
+.mob-textbox{
+  display:none;
+}
+
 .research-tasks{
   margin-top: 30px;
 }
@@ -180,4 +184,34 @@ footer{
 margin-left:269px;
   display: none;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SMALLER THAN 640 PX - MOBILE SCREENS*/
+@media (max-width:640px){
+  .approach{
+    display:none;
+  }
+
+
+.text-box{
+  display:none;
+}
+
+.mob-textbox{
+  display:block;
+  width:100%;
+}
+
 }
