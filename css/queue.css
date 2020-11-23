@@ -251,12 +251,15 @@ margin-right:10px;
 
 /*MEDIA QUERY - MOBILE VIEW*/
 @media only screen and (max-width:640px){
-.text-mobile{
+.mob-textbox{
   min-width:100%;
   display:block;
 }
+
 .text-box{
   display-none;
   width:0%;
 }
+
+
 }
