@@ -207,11 +207,12 @@ margin-left:269px;
 
 .text-box{
   display:none;
+  width:0%;
 }
 
 .mob-textbox{
   display:block;
-  width:100%;
+  min-width:100%;
 }
 
 }
