@@ -255,6 +255,9 @@ margin-right:10px;
   min-width:100%;
 }
 
+.overview-design h5{
+  max-width:100%;
+}
 .mob-textbox{
   min-width:100%;
   display:block;
