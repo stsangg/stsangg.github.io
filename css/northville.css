@@ -155,6 +155,7 @@ display:block;
 .usability{
   margin:50px auto 50px 269px;
   display:block;
+max-width: 55%;
 }
 
 .gif{
@@ -172,9 +173,6 @@ display:block;
   border-color:#C4C4C4;
 }
 
-.final{
-  margin-left:269px;
-}
 
 footer{
   text-align:center;
