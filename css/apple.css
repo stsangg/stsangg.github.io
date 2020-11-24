@@ -49,6 +49,12 @@
   height: 500px;
 }
 
+.quotes{
+  display:block;
+  margin-left:269px;
+  width:100%;
+}
+
 .columns{
   display: flex;
   justify-content: space-between;
