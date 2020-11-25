@@ -140,8 +140,8 @@ margin-right:10px;
 }
 
 .columns{
-  display: flex;
-  justify-content: space-between;
+  max-width:80%;
+  margin-left:269px;
 }
 
 .column-left{
