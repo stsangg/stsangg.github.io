@@ -240,7 +240,14 @@ margin-right:10px;
     margin:0 30px;
   }
 
+.task-flow-a{
+  max-width:50%;
+  margin-bottom:50px;
+}
 
+.lofi-2{
+  display:none;
+}
 
 
 

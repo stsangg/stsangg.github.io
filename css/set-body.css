@@ -394,9 +394,9 @@ ol, li, dd, dt{
     font-size: 12px;
     font-family:'Lato', sans-serif;
   }
-  
+
 .divider{
-margin: 10px auto;
+margin: 50px auto;
 width: 70%;
 height: 1px;
 border: 0.5px solid #c3c3c3;
