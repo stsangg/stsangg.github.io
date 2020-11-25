@@ -87,7 +87,7 @@ box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104,
 }
 
 .task-flow{
-  width:902px;
+  width:100%;
   display: block;
   margin:0 auto;
 }
@@ -95,7 +95,7 @@ box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104,
 .task-flow-a{
   margin-left:100px;
   margin-bottom:80px;
-  width:60%;
+  width:40%;
 }
 
 .features{
