@@ -252,5 +252,10 @@ margin-right:10px;
   width:0%;
 }
 
+.feature img{
+  max-width:50%;
+  margin:0 auto;
+}
+
 
 }
