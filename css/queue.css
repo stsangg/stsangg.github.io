@@ -232,6 +232,44 @@ margin-right:10px;
 
 
 
+
+
+/*TABLET*/
+@media (min-width: 641px) and (max-width: 1007px){
+  .columns{
+    margin:30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*MEDIA QUERY - MOBILE VIEW*/
 @media only screen and (max-width:640px){
 .parallax{
@@ -254,6 +292,10 @@ margin-right:10px;
 .feature img{
   max-width:50%;
   margin:0 auto;
+}
+
+.columns{
+  margin:30px;
 }
 
 
