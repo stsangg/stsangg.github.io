@@ -237,7 +237,7 @@ margin-right:10px;
 /*TABLET*/
 @media (min-width: 641px) and (max-width: 1007px){
   .columns{
-    margin:30px;
+    margin:0 30px;
   }
 
 
