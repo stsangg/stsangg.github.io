@@ -144,14 +144,6 @@ margin-right:10px;
   margin-left:269px;
 }
 
-.column-left{
-  margin-right:75px;
-}
-
-.column-right{
-  min-width:350px;
-}
-
 .iterations{
   display:block;
   margin: 50px auto 0px auto;
