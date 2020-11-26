@@ -248,6 +248,28 @@ margin-right:10px;
 .lofi-2{
   display:none;
 }
+
+.midfi{
+  margin-bottom:50px;
+}
+
+.text-box{
+  margin-bottom:50px;
+}
+
+.usability-2{
+  margin:30px 50px;
+}
+
+.moodboard figure{
+  max-width:80%;
+  margin:30px 50px;
+}
+
+.branding{
+  max-width:95%;
+  margin-left:30px;
+}
 }
 
 
@@ -292,7 +314,7 @@ margin-right:10px;
 }
 
 .text-box{
-  display-none;
+  display:none;
   width:0%;
 }
 
