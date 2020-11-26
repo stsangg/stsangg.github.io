@@ -47,6 +47,10 @@
  display:none;
 }
 
+.competitor-logo{
+  max-width:60%;
+}
+
 .text-box{
 width:100%;
   display: block;
@@ -164,12 +168,12 @@ margin-right:10px;
 
 .usability-1{
   max-width:60%;
-  margin-bottom:50px;
+margin:50px 269px 80px 269px;
 }
 
 .usability-2{
   max-width:80%;
-  margin-bottom:50px;
+  margin:50px 269px;
 }
 
 .prototype{
