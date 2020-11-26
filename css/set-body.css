@@ -448,10 +448,6 @@ border: 0.5px solid #c3c3c3;
   margin-bottom:30px;
 }
 
-.overview-columns{
-  margin-top:;
-}
-
 .overview-columns div{
 margin-top:20px;
 }
@@ -460,7 +456,7 @@ margin-top:20px;
   }
 
 .boxed{
-  margin:18px;
+  margin:0px;
 }
 
 .approach{

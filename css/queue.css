@@ -365,7 +365,7 @@ margin-right:10px;
   display:none;
 }
 
-.columns{
+.columns, .boxed{
   margin:0px;
 }
 
