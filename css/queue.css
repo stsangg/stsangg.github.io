@@ -159,11 +159,15 @@ margin-right:10px;
 .branding{
   max-width:100%;
   display:block;
-  margin-left:184px;
   margin-bottom:50px;
 }
 
-.usability-1, .usability-2{
+.usability-1{
+  max-width:60%;
+  margin-bottom:50px;
+}
+
+.usability-2{
   max-width:80%;
   margin-bottom:50px;
 }
