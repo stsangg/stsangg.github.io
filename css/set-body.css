@@ -289,9 +289,10 @@ width:100%;
 }
 
 @media (min-width: 641px) and (max-width: 1007px){
-  .page-wrapper{
+  .overview-columns{
     margin:30px;
   }
+  
 
 .approach-1{
   margin: 0px 10px;}
@@ -421,6 +422,7 @@ border: 0.5px solid #c3c3c3;
     font-family: 'Lato', sans-serif;
     display: block;
     margin: 30px auto 30px auto;
+    border-radius:30px;
 }
 
 }
