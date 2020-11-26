@@ -4,6 +4,17 @@
   margin: auto;
 }
 
+.pictures{
+  justify-content: center;
+  margin:30px;
+}
+
+.headshot{
+max-width:25%;
+height:20%;
+margin:50px;
+}
+
 .page-wrapper{
   min-height: 100%;
   margin-left:50px;
@@ -105,11 +116,36 @@ margin:10px auto;
 }
 }
 
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 875px){
   .nav-global{
   display: none;
 }
 }
+
+@media (min-width: 641px) and (max-width: 1007px){
+body{
+  overflow-x:hidden;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
