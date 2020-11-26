@@ -228,6 +228,10 @@ width:75%;
   min-width:100%;
 }
 
+.quotes{
+  display:none;
+}
+
   .lofi{
     max-width:100%;
   }
