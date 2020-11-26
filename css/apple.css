@@ -177,6 +177,21 @@ width:75%;
 .brainstorm{
   justify-content:center;
 }
+
+.feature{
+  margin-top:10px;
+}
+.feature img{
+  margin:0 auto;
+}
+
+.lofi{
+  margin:10px 0px;
+}
+
+.midfi img{
+  margin-bottom:50px;
+}
 }
 
 
