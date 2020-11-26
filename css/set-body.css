@@ -459,8 +459,12 @@ margin-top:20px;
     max-width:70%;
   }
 
-.boxed{
+.columns{
   margin:0px;
+}
+
+.boxed{
+margin:0px auto 30px 15px;
 }
 
 .section{
@@ -487,7 +491,6 @@ margin: 0 auto;
 
 
   figcaption{
-    max-width: 75%;
     margin: 0 auto;
     font-size: 12px;
     font-family:'Lato', sans-serif;
