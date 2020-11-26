@@ -512,7 +512,7 @@ margin: 0 auto;
 
 
   figcaption{
-    margin: 0 auto;
+    margin: 0px 10px;
     font-size: 12px;
     font-family:'Lato', sans-serif;
   }

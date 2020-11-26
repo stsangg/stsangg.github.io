@@ -238,6 +238,11 @@ width:75%;
   width:0%;
 }
 
+.feature img{
+  max-width:50%;
+  margin:0 auto;
+}
+
   .lofi{
     max-width:100%;
   }
