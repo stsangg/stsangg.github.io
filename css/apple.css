@@ -243,10 +243,9 @@ width:75%;
   margin:0 auto;
 }
 
-  .lofi{
-    max-width:100%;
-  }
-
+.midfi{
+margin-bottom: 20px;
+}
 
   .gif{
 width:50%;
