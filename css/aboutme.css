@@ -82,28 +82,11 @@ margin: auto 100px 60px 145px;
   margin-top:75px;
   height:500px;
 }
-/*
-.contact-me{
-  text-align: center;
-  maxidth: 75%;
-  margin: 80px auto 0px auto;
-}*/
 
-/*.contact-cta{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 80px;
+.section{
+  max-width: 55%;
+margin-left: 269px;
 }
-
-.contact-cta span{
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-  padding: 10px;
-text-align: center;
-  margin: 0 auto;
-  font-family: 'Montserrat', sans-serif
-}*/
 
 footer{
   text-align:center;
@@ -124,6 +107,13 @@ margin:10px auto;
 }
 }
 
+
+
+
+
+
+
+/*mobile*/
 @media only screen and (max-width:640px){
 #myBtn {
   display: none;
