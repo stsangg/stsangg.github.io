@@ -120,14 +120,10 @@ figcaption{
 width:100%;
 }
 
-/*.midfi{
-display: block;
-margin:20px auto 100px auto;
-width:60%;
-}*/
 
 .midfi img{
   height:100%;
+  margin-bottom:50px;
 }
 
 .image{
