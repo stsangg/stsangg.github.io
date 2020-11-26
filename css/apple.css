@@ -228,7 +228,7 @@ width:75%;
   min-width:100%;
 }
 
-.quotes{
+.quotes, .research-d, .image{
   display:none;
   width:0%;
 }
@@ -250,4 +250,5 @@ margin-bottom: 20px;
   .gif{
 width:50%;
   }
+
 }
