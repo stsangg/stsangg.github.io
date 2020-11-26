@@ -122,12 +122,16 @@ margin:10px auto;
 .headshot-mob{
   display:block;
   width:50%;
-  margin:0 auto;
+  margin:20px auto;
   border-radius:130px;
 }
 
 .headshot{
   display:none;
+}
+
+.intro h4{
+  text-align:center;
 }
 
 #myBtn {
