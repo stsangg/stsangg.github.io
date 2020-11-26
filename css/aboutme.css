@@ -121,8 +121,9 @@ margin:10px auto;
 @media only screen and (max-width:640px){
 .headshot-mob{
   display:block;
-  max-width:50%;
+  width:50%;
   margin:0 auto;
+  border-radius:130px;
 }
 
 .headshot{
