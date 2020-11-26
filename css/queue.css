@@ -257,12 +257,15 @@ margin-right:10px;
   margin-bottom:50px;
 }
 
+.affinity{
+  margin-bottom:30px;
+}
 .usability-1{
   max-width:85%;
 }
 
 .usability-1, .usability-2{
-  margin:30px 50px;
+  margin:0px 50px 30px 50px;
 }
 
 .moodboard img{
