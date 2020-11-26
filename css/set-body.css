@@ -487,7 +487,8 @@ margin-top:20px;
 }
 
 .boxed{
-margin:0px auto 30px 15px;
+background-color:#FAFAFA;
+margin:0px auto 30px auto;
 }
 
 .section{
