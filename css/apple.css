@@ -210,9 +210,10 @@ width:75%;
 
 /*SMALLER THAN 640 PX - MOBILE SCREENS*/
 @media (max-width:640px){
-  .approach-header h6{
-    margin-left: auto;
+  .approach-h{
+margin-top:30px;
   }
+  
 
   .solution-gif, .solution-gif-1{
     margin:30px 0px;
