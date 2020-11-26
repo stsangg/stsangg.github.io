@@ -236,6 +236,10 @@ margin-right:10px;
 
 /*TABLET*/
 @media (min-width: 641px) and (max-width: 1007px){
+
+  body{
+    overflow-x:hidden;
+  }
   .columns{
     margin: 0 30px 30px 30px;
   }
