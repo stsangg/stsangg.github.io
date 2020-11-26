@@ -123,3 +123,98 @@ margin:10px auto;
   display: none;
 }
 }
+
+@media only screen and (max-width:640px){
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #c3c3c3;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100px;
+  width:50px;
+  height:50px;
+}
+
+#myBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+/*text styles*/
+
+p, ul{
+  font-family: 'Lato', sans-serif;
+  line-height: 180%;
+  font-size: 16px;
+  max-width: 100%;
+  margin-top:20px;
+  margin: 0 auto;
+  color:#535353;
+}
+
+h4{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  max-width: 850px;
+  display: block;
+  margin-bottom: 0px;
+  margin-block-end: 0em;
+}
+
+h5{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color:#000000;
+  margin-bottom: 10px;
+  margin-top:0px;
+}
+
+h6{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight:700;
+  color:#000000;
+  margin-bottom: 5px;
+  margin-top:0px;
+
+}
+
+
+ol, li, dd, dt{
+  font-family: 'Lato', sans-serif;
+  line-height: 200%;
+  font-size: 16px;
+  color:#535353;
+}
+
+/* basic CTA*/
+
+.CTA{
+  display: flex;
+  justify-content: center;
+}
+
+.CTA a{
+  text-decoration: none;
+    border-style: solid;
+    border-color: #275B81;
+    border-width: 2px;
+    background: white;
+    border-width: 2px;
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    margin: 30px auto 30px auto;
+    border-radius:30px;
+}
+}
