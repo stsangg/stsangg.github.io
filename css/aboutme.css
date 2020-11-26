@@ -119,6 +119,11 @@ margin:10px auto;
 
 /*mobile*/
 @media only screen and (max-width:640px){
+
+html, body{
+  overflow-x:hidden;
+}
+
 .headshot-mob{
   display:block;
   width:50%;
