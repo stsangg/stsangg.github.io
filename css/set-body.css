@@ -463,7 +463,7 @@ border: 0.5px solid #c3c3c3;
 
 /*MOBILE*/
 @media only screen and (max-width:640px){
-.body{
+html, body{
   overflow-x:hidden;
 }
 .hero{
