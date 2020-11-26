@@ -85,7 +85,7 @@ ol, li, dd, dt{
 }
 
 .divider{
-margin: 50px auto;
+margin: 10px auto;
 width: 70%;
 height: 0px;
 border: 0.5px solid #c3c3c3;
@@ -541,7 +541,7 @@ ol, li, dd, dt{
 }
 
 .divider{
-margin: 10px auto;
+margin: 30px auto;
 width: 70%;
 height: 1px;
 border: 0.5px solid #c3c3c3;
