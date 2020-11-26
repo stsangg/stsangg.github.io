@@ -353,5 +353,16 @@ margin-right:10px;
   margin:0 auto;
 }
 
+.competitor-logo{
+  display:none;
+}
+
+.task-flow-a{
+  margin-bottom:30px;
+}
+
+.lofi-2{
+  display:none;
+}
 
 }
