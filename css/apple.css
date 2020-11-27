@@ -260,6 +260,12 @@ height:100%;
 
 .midfi img{
   height:100%;
+  margin-bottom:50px;
+}
+
+.midfi-1 img:nth-child(1){
+  width:50%;
+  margin-left:10px;
 }
 
   .gif{
