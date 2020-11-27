@@ -27,7 +27,8 @@ h3{
 }
 
 h1{
-  font-family:'Playfair Display', sans-serif;
+  font-family:'Lato', sans-serif;
+  font-weight:600px;
   font-size: 36px;
 }
 
@@ -42,75 +43,7 @@ p{
   text-align:center;
 width:100%;
 }
-/*::-webkit-scrollbar {
-	width:0px;
-	height:8px;
 
-}
-
-::-webkit-scrollbar-thumb {
-  background: black;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: black/*#4DD6C9*//*; 
-}*/
-
-/*.column{
-  display:flex;
-  justify-content: space-between;
-/*  overflow-x:scroll;*/
-  /*margin:23px 100px;
-}*/
-
-/*.column-piece{
-  min-width:33%;
-}
-/**/
-/*.column-piece img{
-  width:100%;
-}*/
-
-/*.animation{
-margin-left: 85px;
-font-family: Lato, sans-serif;
-font-size: 16px;
-margin-top: 0px;
-}*/
-
-/*.highlight{
-  background: #81D8D0;
-}*/
-/*
-span:before{
-  content:'why';
-  animation: animate infinite 8s;
-}
-
-@keyframes animate{
-  0%{
-    content:'';
-  }
-  20%{
-    content:'product';
-  }
-  40%{
-    content:'idea';
-  }
-
-  60%{
-    content:'design';
-  }
-
-  80%{
-    content:'user';
-  }
-
-  100%{
-    content:'goal';
-  }
-}
-*/
 .parallax{
   background-image: url("../images/homepage/parallax.svg");
   background-attachment: fixed;
