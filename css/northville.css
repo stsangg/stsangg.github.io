@@ -120,7 +120,7 @@ display:block;
 
 .affinitymap{
   display:block;
-  width: 950px;
+ width:100%;
   margin: 50px auto 80px auto;
   padding:30px;
 
