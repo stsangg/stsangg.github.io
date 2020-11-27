@@ -6,7 +6,6 @@
 
 .pictures{
   justify-content: center;
-  margin:30px;
 }
 
 .headshot{
@@ -89,13 +88,13 @@ ol, ul{
   display: flex;
 }
 
-.timeline{
+/*.timeline{
 margin: auto 100px 60px 145px;
-}
+}*/
 
 .headshot{
   margin-top:75px;
-  height:500px;
+ /* height:500px;*/
 }
 
 .section{
