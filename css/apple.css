@@ -216,7 +216,7 @@ width:75%;
 /*SMALLER THAN 640 PX - MOBILE SCREENS*/
 @media (max-width:640px){
   .approach-h{
-margin-top:30px;
+margin:30px 18px;
   }
   
 
