@@ -18,6 +18,7 @@ overflow-x: hidden;
     background: white;
     margin-right: 30px;
     margin-left: 30px;
+    margin:0 auto;
 }
 
 #button-skill:active{
@@ -160,6 +161,7 @@ figure{
   .logo{
     margin-left: auto;
   }
+
 
   .intro{
    margin:0 auto;
