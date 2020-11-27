@@ -52,8 +52,11 @@ padding-bottom: 20px;
 }
 
 .columns{
-  display: flex;
-  justify-content: space-between;
+ margin-left:269px;
+}
+
+.columns-left{
+  margin-right:30px;
 }
 
 .mob-textbox{
