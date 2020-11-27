@@ -7,6 +7,7 @@ overflow-x: hidden;
  #skill1, #skill2, #skill3{
     max-width:60%;
     margin:10px auto;
+    display:block;
   }
 
 #button-skill{
@@ -17,6 +18,10 @@ overflow-x: hidden;
     background: white;
     margin-right: 30px;
     margin-left: 30px;
+}
+
+#button-skill:active{
+  background:#c3c3c3;
 }
 
 h3{
