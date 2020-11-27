@@ -262,4 +262,8 @@ margin-left:269px;
   color: white;
 }
 
+#primary-research, #secondary-research{
+  display: none;
+}
+
 }
