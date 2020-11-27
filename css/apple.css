@@ -33,7 +33,10 @@
   max-width:55%;
   margin:60px auto;
   margin-bottom:100px;
+}
 
+.mob-quotes{
+  display:none;
 }
 
 .solution-gif div{
