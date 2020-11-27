@@ -223,9 +223,17 @@ margin-left:269px;
 
 .boxed-nrc{
   background-color:#010068;
-  margin:0px auto;
+
+  padding:10px;
 }
 
+.boxed-nrc p{
+  color:white;
+}
+
+.boxed-nrc li{
+  color:white;
+}
 
 .text-box{
   display:none;
