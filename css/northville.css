@@ -214,6 +214,41 @@ margin-left:269px;
 
 
 
+@media (min-width: 641px) and (max-width: 1007px){
+.CTA a{
+  text-decoration: none;
+    border-style: solid;
+    border-color: #010068;
+    border-width: 2px;
+    background: white;
+    border-width: 2px;
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    margin: 30px auto 30px auto;
+    border-radius:30px;
+}
+
+ .columns{
+    margin: 0 30px 30px 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*SMALLER THAN 640 PX - MOBILE SCREENS*/
 @media (max-width:640px){

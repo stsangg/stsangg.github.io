@@ -294,7 +294,7 @@ width:100%;
 }
 
 @media (min-width: 641px) and (max-width: 1007px){
-body{
+html, body{
   overflow-x:hidden;
 }
   .overview-columns{
