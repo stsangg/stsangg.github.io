@@ -16,7 +16,7 @@ overflow-x: hidden;
     padding: 5px 30px;
     border-radius: 5px;
     background: white;
-  margin:20px;-
+  margin:20px;
   
 }
 
@@ -183,6 +183,7 @@ figure{
     padding:10px 30px;
     display:block;
     margin:20px auto;
+    margin:100%;
   }
 
   figure{
