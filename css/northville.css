@@ -233,6 +233,38 @@ margin-left:269px;
  .columns{
     margin: 0 30px 30px 30px;
   }
+
+.research{
+  margin:20px auto;
+}
+
+.boxed-nrc{
+  background-color:#010068;
+
+  padding:10px;
+}
+
+.boxed-nrc p{
+  color:white;
+}
+
+.boxed-nrc li{
+  color:white;
+}
+
+.empathymap, .affinitymap{
+  margin-bototm:30px;
+}
+
+.competitors{
+  margin-bottom:20px;
+}
+
+.midfi{
+  height:100%;
+  margin-bottom:30px;
+}
+
 }
 
 
