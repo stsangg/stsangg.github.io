@@ -113,6 +113,11 @@ display:block;
   display:block;
 }
 
+.midfi img{
+  height:100%;
+  margin-bottom:50px;
+}
+
 .affinitymap{
   display:block;
   width: 950px;
