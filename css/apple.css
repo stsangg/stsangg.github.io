@@ -186,7 +186,7 @@ width:75%;
     margin:50px auto;
   }
   
-  .mob-textbox{
+  .mob-textbox, .mob-quotes{
   display:none;
 }
 
