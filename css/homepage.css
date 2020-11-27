@@ -147,6 +147,15 @@ figure{
 }
 }
 
+
+
+
+
+
+
+
+
+
 @media (max-width:480px){
   .logo{
     margin-left: auto;
@@ -158,11 +167,9 @@ figure{
   }
 
   #button-skill{
-    margin-left:0px;
-    margin-right:0px;
     padding:10px 30px;
     display:block;
-    margin-top:20px;
+    margin:20px auto;
   }
 
   figure{
