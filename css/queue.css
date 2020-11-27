@@ -247,6 +247,21 @@ margin:50px 269px 80px 269px;
 /*TABLET*/
 @media (min-width: 641px) and (max-width: 1007px){
 
+.CTA a{
+  text-decoration: none;
+    border-style: solid;
+    border-color: #275B81;
+    border-width: 2px;
+    background: white;
+    border-width: 2px;
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    margin: 30px auto 30px auto;
+    border-radius:30px;
+}
+
   body{
     overflow-x:hidden;
   }
@@ -337,6 +352,21 @@ margin:50px 269px 80px 269px;
 
 /*MEDIA QUERY - MOBILE VIEW*/
 @media only screen and (max-width:640px){
+.CTA a{
+  text-decoration: none;
+    border-style: solid;
+    border-color: #275B81;
+    border-width: 2px;
+    background: white;
+    border-width: 2px;
+    padding: 15px 30px 15px 30px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    margin: 30px auto 30px auto;
+    border-radius:30px;
+}
+
 .parallax{
   min-width:100%;
 }

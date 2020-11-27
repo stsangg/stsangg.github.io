@@ -431,21 +431,6 @@ border: 0.5px solid #c3c3c3;
   justify-content: center;
 }
 
-.CTA a{
-  text-decoration: none;
-    border-style: solid;
-    border-color: #275B81;
-    border-width: 2px;
-    background: white;
-    border-width: 2px;
-    padding: 15px 30px 15px 30px;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    display: block;
-    margin: 30px auto 30px auto;
-    border-radius:30px;
-}
-
 .next{
   text-align:center;
   margin-bottom:30px;
@@ -611,21 +596,6 @@ border: 0.5px solid #c3c3c3;
 .CTA{
   display: flex;
   justify-content: center;
-}
-
-.CTA a{
-  text-decoration: none;
-    border-style: solid;
-    border-color: #275B81;
-    border-width: 2px;
-    background: white;
-    border-width: 2px;
-    padding: 15px 30px 15px 30px;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    display: block;
-    margin: 30px auto 30px auto;
-    border-radius:30px;
 }
 
 .next{
