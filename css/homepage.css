@@ -59,7 +59,7 @@ text-align:center;
   width: 100%;
   z-index: -1;
   opacity: 75%;
-  height:200px;
+  height:355px;
 }
 
 .parallax-1{
@@ -71,7 +71,7 @@ text-align:center;
   width: 100%;
   z-index: -1;
   opacity: 75%;
-  height:200px;
+  height:355px;
 }
 .parallax-2{
   background-image: url("../parallax-2.png");
@@ -82,7 +82,7 @@ text-align:center;
   width: 100%;
   z-index: -1;
   opacity: 75%;
-  height:200px;
+  height:355px;
 }
 
 .parallax-3{
@@ -94,7 +94,7 @@ text-align:center;
   width: 100%;
   z-index: -1;
   opacity: 75%;
-  height:200px;
+  height:355 px;
 }
 
 figure {
