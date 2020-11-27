@@ -421,7 +421,14 @@ ol, li, dd, dt{
 margin: 50px auto;
 width: 70%;
 height: 1px;
-border: 0.5px solid #c3c3c3;
+border: 1px solid #c3c3c3;
+}
+
+.divider2{
+  margin:30px auto;
+  width:70%;
+  height:1px;
+  border:1px solid #c3c3c3;
 }
 
 /* basic CTA*/
