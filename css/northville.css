@@ -190,6 +190,12 @@ footer{
   padding:10px;
 }
 
+.final{
+  max-width:40%;
+  margin:50px auto;
+  text-align:center;
+}
+
 /*javascript code*/
 #primary-research, #secondary-research{
  width: 55%;
