@@ -5,7 +5,8 @@
 }
 
 .pictures{
-  justify-content: center;
+  margin:0 auto;
+  max-width:1140px;
 }
 
 .headshot{
@@ -82,10 +83,6 @@ ol, ul{
   font-size: 16px;
   margin-left: 110px;
   margin-bottom: 60px;
-}
-
-.pictures{
-  display: flex;
 }
 
 /*.timeline{
