@@ -70,7 +70,7 @@ text-align:center;
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:355px;
+  height:400px;
 }
 .parallax-2{
   background-image: url("../parallax-2.png");
@@ -80,7 +80,7 @@ text-align:center;
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:355px;
+  height:400px;
 }
 
 .parallax-3{
@@ -91,7 +91,7 @@ text-align:center;
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:355px;
+  height:400px;
 }
 
 figure {
