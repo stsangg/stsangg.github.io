@@ -257,6 +257,9 @@ margin:30px 18px;
     margin:30px 0px;
   }
 
+.gif{
+  max-width:50%;
+}
 .text-box{
   display:none;
   width:0%;
