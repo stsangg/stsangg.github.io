@@ -15,6 +15,12 @@ padding-bottom: 20px;
   background-color:#FAFAFA;
 }
 
+.gif{
+  display:block;
+  margin:50px auto;
+  width:70%;
+}
+
 #CTA{
   border-style: solid;
   border-color: #FACA78;
@@ -241,6 +247,11 @@ margin-left:269px;
     margin: 0 30px 30px 30px;
   }
 
+.gif{
+  display:block;
+  margin:50px auto;
+}
+
 .research{
   margin:20px auto;
 }
@@ -306,6 +317,12 @@ margin-left:269px;
   .approach{
     display:none;
   }
+
+.gif{
+  display:block;
+  margin:50px auto;
+  width:50%;
+}
 
 .boxed-nrc{
   background-color:#010068;
