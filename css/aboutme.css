@@ -4,13 +4,13 @@
   margin: auto;
 }
 
-.pictures{
-  margin:0 auto;
- display:block;
+.section{
+  margin-top:50px;
 }
 
 .pictures img{
-  display:100%;
+  margin:20px auto;
+ display:block;
 }
 
 .headshot{
