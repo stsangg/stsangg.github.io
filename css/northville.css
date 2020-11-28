@@ -15,10 +15,10 @@ padding-bottom: 20px;
   background-color:#FAFAFA;
 }
 
-.gif{
+.gif-solution{
   display:block;
-  margin:50px auto;
-  width:70%;
+  margin:-28px auto;
+  width:50%;
 }
 
 #CTA{
@@ -176,13 +176,13 @@ display:block;
 max-width: 55%;
 }
 
-.gif{
+/*.gif{
   position: absolute;
   top:10548px;
   left:940px;
   width:261px;
   padding-left:20px;
-}
+}*/
 
 .gif img{
   width:265px;
@@ -247,9 +247,10 @@ margin-left:269px;
     margin: 0 30px 30px 30px;
   }
 
-.gif{
+.gif-solution{
   display:block;
-  margin:50px auto;
+  margin:0px auto;
+  width:50%;
 }
 
 .research{
@@ -318,9 +319,9 @@ margin-left:269px;
     display:none;
   }
 
-.gif{
+.gif-solution{
   display:block;
-  margin:50px auto;
+  margin:0px auto;
   width:50%;
 }
 
