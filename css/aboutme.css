@@ -6,7 +6,11 @@
 
 .pictures{
   margin:0 auto;
-  max-width:1140px;
+ display:block;
+}
+
+.pictures img{
+  display:100%;
 }
 
 .headshot{
