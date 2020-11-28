@@ -173,7 +173,7 @@ a{
 
 /*media queries*/
 @media (max-width: 768px){
-  .parallax, .parallax-1, .paralax-2, .parallax-3{
+  .parallax, .parallax-1, .parallax-2, .parallax-3{
   display:none;
 }
 
@@ -212,7 +212,7 @@ figure{
     margin-left: auto;
   }
 
-.parallax, .parallax-1, .paralax-2, .parallax-3{
+.parallax, .parallax-1, .parallax-2, .parallax-3{
   display:none;
 }
 
