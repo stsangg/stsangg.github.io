@@ -164,8 +164,20 @@ a{
   font-family: 'Lato', sans-serif;
 }
 
+
+
+
+
+
+
+
 /*media queries*/
 @media (max-width: 768px){
+  .parallax, .parallax-1, .paralax-2, .parallax-3{
+  display:none;
+}
+
+
   .intro{
     max-width:80%;
   }
@@ -178,6 +190,13 @@ figure{
   min-width:80%;
 }
 }
+
+
+
+
+
+
+
 
 
 
