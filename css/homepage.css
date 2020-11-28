@@ -193,6 +193,9 @@ figure{
     margin-left: auto;
   }
 
+.parallax, .parallax-1, .paralax-2, .parallax-3{
+  display:none;
+}
 
   .intro{
    margin:0 auto;
@@ -216,15 +219,3 @@ figure{
     min-width:80%;
   }
 
-  .parallax{
-     background-image: url("../images/homepage/parallax.svg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  z-index: -1;
-  opacity: 75%;
-  height:100px;
-}
-}
