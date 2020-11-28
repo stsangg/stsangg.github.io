@@ -61,17 +61,8 @@
 }
 
 .columns{
-  display: flex;
-  justify-content: space-between;
-}
-
-.column-left{
-  min-width: 550px;
-  margin-right:75px;
-}
-
-.column-right{
-  min-width:350px;
+  max-width:80%;
+  margin-left:269px;
 }
 
 .mob-textbox{
