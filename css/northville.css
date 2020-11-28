@@ -266,7 +266,7 @@ margin-left:269px;
   margin-bottom:20px;
 }
 
-.midfi{
+.midfi img{
   height:100%;
   margin-bottom:30px;
 }
@@ -319,6 +319,11 @@ margin-left:269px;
 
 .boxed-nrc li{
   color:white;
+}
+
+.midfi img{
+  height:100%;
+  margin-bottom:30px;
 }
 
 .text-box{
