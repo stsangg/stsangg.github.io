@@ -184,6 +184,33 @@ margin:50px 269px 80px 269px;
 }
 
 
+.solution-gif-1{
+  flex-direction: row-reverse;
+}
+
+.solution-gif, .solution-gif-1{
+  display:flex;
+  max-width:55%;
+  margin:60px auto;
+  margin-bottom:100px;
+}
+
+
+
+.solution-gif div{
+  width:50%;
+}
+
+.solution-gif-1 div{
+  width: 50%;
+}
+
+
+.gif{
+  height: 500px;
+}
+
+
 
 /*MODAL STUFF*/
 /* The Modal (background) */
@@ -273,6 +300,19 @@ margin:50px 269px 80px 269px;
   max-width:50%;
   margin-bottom:50px;
 }
+
+ .soution-gif-1{
+    flex-direction:row-reverse;
+  }
+
+  .solution-gif, .solution-gif-1{
+    justify-content: center;
+    margin:50px auto;
+  }
+
+.gif{
+    width:80%;
+  }
 
 .lofi-2{
   display:none;
@@ -418,5 +458,9 @@ margin:30px 0px;
   text-align:center;
   margin-bottom:30px;
 }
+
+.solution-gif, .solution-gif-1{
+    margin:30px 0px;
+  }
 
 }
