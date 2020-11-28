@@ -5,9 +5,10 @@ overflow-x: hidden;
 }
 
  #skill1, #skill2, #skill3{
-    max-width:60%;
+    max-width:50%;
     margin:10px auto;
     display:none;
+    text-align:left;
   }
 
 #button-skill{
@@ -204,7 +205,13 @@ figure{
     margin:20px auto;
     margin:100%;
   }
-
+#skill1, #skill2, #skill3{
+    max-width:50%;
+    margin:10px auto;
+    display:none;
+    text-align:left;
+  }
+  
   figure{
     margin:80px auto;
     min-width:80%;
