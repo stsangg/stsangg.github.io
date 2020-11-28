@@ -91,7 +91,7 @@ figcaption{
   margin-bottom:10px;
   font-family: 'Lato', sans-serif;
   font-size: 12px;
-  margin-left:250px;
+  /*margin-left:250px;*/
 }
 
 .cardSort-details{
@@ -247,8 +247,7 @@ margin-left:269px;
 
 .boxed-nrc{
   background-color:#010068;
-
-  padding:10px;
+  padding:15px;
 }
 
 .boxed-nrc p{
