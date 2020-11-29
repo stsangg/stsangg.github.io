@@ -309,8 +309,7 @@ html, body{
   }
   
 .approach-h h6{
-  margin-left:45px;
-  margin-bottom:10px;
+  margin-left:45px !important;
 }
 
 .approach-1{
@@ -491,7 +490,8 @@ html, body{
 margin-top:20px;
 }
     .approach-1 div{
-    max-width:70%;
+    max-width:60%;
+    margin:20px;
   }
 
 .columns{
