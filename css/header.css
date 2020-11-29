@@ -40,26 +40,25 @@ a:active{
   display: none;
 }
 
-
-.logo{
-  background-image: url('../images/homepage/logo-2.svg');
-  margin-left: 90px;
-  background-repeat: no-repeat;
-  background-size: contain;
+.sticky {
+  position: fixed;
+  top: 0;
   width: 100%;
 }
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.logo{
+   background-image: url("../images/homepage/parallax.svg");
+   margin-left:90px;
+}
+
 
 .logo-head{
   display: flex;
   min-height:140px;
-}
-
-.logo{
-  background-image: url('../images/homepage/logo-2.svg');
-  margin-left: 90px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
 }
 
 

@@ -4,21 +4,6 @@ body, html{
 overflow-x: hidden;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
-.logo{
-   background-image: url("../images/homepage/parallax.svg");
-   float: left;
-}
-
 
  #skill1, #skill2, #skill3{
     max-width:50%;
