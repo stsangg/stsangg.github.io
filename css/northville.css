@@ -344,7 +344,7 @@ margin-left:269px;
   margin-bottom:30px;
 }
 
-.text-box{
+.text-box, .copywriting{
   display:none;
   width:0%;
 }
@@ -354,6 +354,7 @@ margin-left:269px;
 width:90%;
   margin:30px 15px;
 }
+
 
 .CTA a{
   text-decoration: none;
