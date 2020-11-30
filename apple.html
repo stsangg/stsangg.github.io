@@ -65,6 +65,13 @@
   <div id="caption"></div>
 </div>
 
+<!-- loader -->
+<div class='loader-wrapper'>
+	<span class='loader'><span class='loader-inner'></span></span>
+</div>
+
+
+
 <div class='overview-columns row'>
 	<div class='col-md-7'>
 	<h6>Background</h6>
@@ -598,6 +605,11 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+// loader
+$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
 </script>
 
 </body>
