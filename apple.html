@@ -17,8 +17,6 @@
   <!--fonts-->
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 
-<!-- jquery -->
-  <script src="jquery-2.1.4.js"></script>
 </head>
 
 <body>
@@ -52,11 +50,6 @@
   </ul>
     </nav> </div> -->
 
- <div><img class='hero img-fluid' src="images/apple/apple-hero.svg" alt="feature addition">
-  </div>
-<div class='page-wrapper'>
-
-
 <!-- back to top stuff -->
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
@@ -68,10 +61,12 @@
 </div>
 
 <!-- loader -->
-<div class='loader-wrapper'>
-	<span class='loader'><span class='loader-inner'></span></span>
-</div>
+<div id='loading'></div>
 
+<div class='page'>
+<div><img class='hero img-fluid' src="images/apple/apple-hero.svg" alt="feature addition">
+  </div>
+<div class='page-wrapper'>
 
 
 <div class='overview-columns row'>
@@ -547,6 +542,8 @@ pre-scheduled events.</li>
 <a href='https://www.linkedin.com/in/scytsang/' target='_blank'>LinkedIn</a>
 </footer>
 
+</div>
+</body>
 <script>
 
 //BACK TO TOP STUFF--
@@ -609,8 +606,24 @@ function myFunction() {
 }
 
 // loader
-$(window).on("load",function(){
-     $(".loader-wrapper").fadeOut("slow");
+function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 1000);
+
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+}
+
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
+}
+
+onReady(function () {
+    show('page', true);
+    show('loading', false);
 });
 </script>
 
