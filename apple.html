@@ -17,6 +17,10 @@
   <!--fonts-->
 <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 
+<!-- approach sticky nav -->
+ <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -141,7 +145,27 @@
 
 	<hr class='divider' id='research'/>
 
-<div class='row approach'>
+<nav id="approach_top" class="approach navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+  <div class='row approach'>
+ <div class='col-md-3'>
+	<a href=#research>
+	<img src='images/apple/nav-sticky1.svg' alt='Research'></a></div>
+	<div class='col-md-3'>
+	<a href=#design>
+		<img src='images/apple/nav-sticky2.svg' alt='Design'></a></div>
+		<div class='col-md-3'>
+	<a href=#usability>
+		<img src='images/apple/nav-sticky3.svg' alt='Usability'></a></div>
+		<div class='col-md-3'>
+	<a href=#finals>
+		<img src='images/apple/nav-sticky4.svg' alt='Finals'></a></div>
+</div>
+
+</div> <!-- container.// -->
+</nav>
+
+<!-- <div class='row approach'>
 <div class='col-md-3'>
 	<a href=#research>
 	<img src='images/apple/nav-1-color.svg' alt='Research'></a></div>
@@ -154,7 +178,7 @@
 		<div class='col-md-3'>
 	<a href=#finals>
 		<img src='images/apple/nav-4-color.svg' alt='Finals' id='hover'></a></div>
-</div>
+</div> -->
 
 </div>
 
@@ -624,6 +648,22 @@ onReady(function () {
     show('page', true);
     show('loading', false);
 });
+
+// approach sticky navigation
+///////////////// fixed menu on scroll for desktop
+if ($(window).width() > 992) {
+  $(window).scroll(function(){  
+     if ($(this).scrollTop() > 40) {
+        $('#approach_top').addClass("fixed-top");
+        // add padding top to show content behind navbar
+        $('body').css('padding-top', $('.approach').outerHeight() + 'px');
+      }else{
+        $('#approach_top').removeClass("fixed-top");
+         // remove padding top from body
+        $('body').css('padding-top', '0');
+      }   
+  });
+} // end if
 </script>
 
 </body>
