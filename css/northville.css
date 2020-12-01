@@ -15,6 +15,10 @@ padding-bottom: 20px;
   background-color:#FAFAFA;
 }
 
+.cc-box{
+  margin:30px 0px;
+}
+
 .gif-solution{
   display:block;
   margin:-28px auto;
@@ -116,7 +120,7 @@ display:block;
 }
 
 .lofi-frames{
-  width: 1044px;
+  width: 100%;
   margin: 0 auto;
   display:block;
 }
