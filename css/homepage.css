@@ -53,6 +53,11 @@ p{
   font-size: 18px;
 }
 
+#down{
+  color:#53535;
+  font-size:16px;
+}
+
 .intro{
 width:50%;
 margin:0px auto;
