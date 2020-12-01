@@ -5,7 +5,7 @@ overflow-x: hidden;
 }
 
 
- #skill1, #skill2, #skill3{
+ /*#skill1, #skill2, #skill3{
     max-width:50%;
     margin:10px auto;
     display:none;
@@ -25,7 +25,7 @@ overflow-x: hidden;
 #button-skill:active{
   background:#c3c3c3;
 }
-
+*/
 h3{
   color: grey;
   position: block;
@@ -47,9 +47,8 @@ p{
 }
 
 .intro{
-width:60%;
+width:50%;
 margin:20px auto;
-text-align:center;
 }
 
 .parallax{
