@@ -37,13 +37,13 @@ h1{
   font-family:'Lato', sans-serif;
   font-weight:600px;
   font-size: 20px;
-  line-height:0px;
+  line-height:100%;
 }
 
 h2{
   font-family:'Playfair Display', serif;
   font-size:36px;
-  line-height:0px;
+  line-height:100%;
 }
 
 p{
