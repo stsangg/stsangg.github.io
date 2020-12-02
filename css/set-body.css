@@ -196,6 +196,11 @@ margin:50px auto;
 margin: 80px 269px;
 }
 
+.mini-section{
+  max-width:55%;
+  margin:30px auto;
+}
+
 /*imported images grey background*/
 .text-box{
 width:100%;
