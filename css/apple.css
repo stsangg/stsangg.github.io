@@ -60,6 +60,12 @@
   width:100%;
 }
 
+.quotes img{
+  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+  border-style:solid;
+  border-color:#DFDFDF;
+}
+
 .columns{
   max-width:80%;
   margin-left:269px;
