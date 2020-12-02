@@ -193,7 +193,7 @@ margin:50px auto;
 /*body sections*/
 .section{
   max-width: 55%;
-margin-left: 269px;
+margin: 80px 269px;
 }
 
 /*imported images grey background*/
@@ -208,7 +208,6 @@ width:100%;
   background-color:#FAFAFA;
   padding-top: 10px;
   padding-bottom:10px;
-  margin:50px auto;
 }
 
 /*up-next links*/
@@ -296,7 +295,11 @@ width:100%;
 }
 
 .space{
-  margin-bottom:30px;
+  margin-bottom:40px;
+}
+
+.divider2{
+  margin:20px 0px;
 }
 }
 
