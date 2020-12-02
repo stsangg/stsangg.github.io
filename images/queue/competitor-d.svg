@@ -1,8 +1,7 @@
 <svg width="800" height="114" viewBox="0 0 800 114" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="800" height="113.742" fill="#FAFAFA"/>
 <rect width="150" height="113.742" fill="url(#pattern0)"/>
 <rect x="230" y="28.73" width="250" height="56.2818" fill="url(#pattern1)"/>
-<rect x="560" y="15.8708" width="240" height="82" fill="url(#pattern2)"/>
+<rect x="560" y="15.8711" width="240" height="82" fill="url(#pattern2)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(0 -0.209607) scale(0.00331126 0.00436681)"/>
