@@ -157,21 +157,18 @@ border: 0.5px solid #c3c3c3;
 }
 
 /*approach navigation*/
-.approach, .approach-1{
-  max-width:80%;
-margin:50px auto;
-}
 
 .approach img{
   max-width: 245px;
 }
 
 .approach-1 img{
-  max-width: 245px;
+  max-width: 230px;
 }
 
-.approach-h h6{
-  margin-left:269px;
+.approach-h{
+width:55%;
+margin:30px auto;
 }
 
 #hover{
