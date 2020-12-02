@@ -116,33 +116,33 @@ margin-bottom:80px;
   height:100%;
 }
 
-.lofi-1, .lofi-2, .lofi-3{
+.lofi-1, .lofi-2,{
   display:flex;
   justify-content:space-between;
-  width:960px;
+  width:100%;
   padding: 30px;
-  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+/*  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);*/
 
 }
 
 .lofi-1 img{
-min-width:294px;
+min-width:25%
 height:183px;
 margin-right:10px;
 }
 
 .lofi-2 img{
-  width:223px;
+  width:25%
   height:183px;
   margin-right: 10px;
 }
-
+/*
 .lofi-3 img{
   width:294px;
   height:183px;
   margin-right:10px;
 }
-
+*/
 .columns{
   max-width:80%;
   margin-left:269px;
