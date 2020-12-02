@@ -151,6 +151,10 @@ div.sticky {
 .iteration-section{
   margin:20px 0px;
 }
+
+.iteration{
+  max-width:70%;
+}
 }
 
 
