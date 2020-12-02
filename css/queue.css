@@ -119,30 +119,20 @@ margin-bottom:80px;
 .lofi-1, .lofi-2,{
   display:flex;
   justify-content:space-between;
-  width:100%;
-  padding: 30px;
+  width:90%;
+  margin:0px auto;
 /*  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);*/
 
 }
 
 .lofi-1 img{
-min-width:25%
-height:183px;
-margin-right:10px;
+min-width:33%;
 }
 
 .lofi-2 img{
-  width:25%
-  height:183px;
-  margin-right: 10px;
+min-width:33%;
 }
-/*
-.lofi-3 img{
-  width:294px;
-  height:183px;
-  margin-right:10px;
-}
-*/
+
 .columns{
   max-width:80%;
   margin-left:269px;
