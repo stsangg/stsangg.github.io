@@ -97,12 +97,11 @@ figcaption{
 }
 
 .feature{
-  width:100%;
-  margin: 0 auto;
+  width:80%;
 }
 
 .feature img{
-  margin:30px;
+  margin:30px 60px 30px 0px;
 }
 
 .lofi{
