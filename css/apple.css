@@ -102,11 +102,10 @@ figcaption{
 }
 
 .feature img{
-padding:30px;
+padding:50px;
 }
 
 .lofi{
-  margin-top: 30px;
   width:100%;
 }
 
@@ -114,6 +113,7 @@ padding:30px;
   display:block;
   margin:0px;
 width:100%;
+box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 
