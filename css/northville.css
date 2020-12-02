@@ -125,10 +125,14 @@ figcaption{
   margin:80px auto;
 }
 
-.midfi img{
+.midfi{
+  margin:30px auto;
+}
+
+/*.midfi img{
   height:100%;
   margin-bottom:50px;
-}
+}*/
 
 .affinitymap{
   display:block;
