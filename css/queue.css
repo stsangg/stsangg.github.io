@@ -91,7 +91,10 @@ box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104,
 
 .task-flow{
   box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+  margin:30px auto;
+  padding:20px;
 }
+
 .task-flow-img{
   width:100%;
   display: block;

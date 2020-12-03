@@ -160,14 +160,6 @@ margin-bottom:15px;
    box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
 }
 
-.stat{
-  margin: 30px 0px;
-}
-
-/*.homepage-comparison{
-  width: 100%;
-  margin-bottom: 20px;
-}*/
 
 .task3-annotated{
   display:flex;
@@ -212,7 +204,7 @@ footer{
 
 .final{
   width:40%;
-  margin:50px auto;
+  margin:0px auto;
   text-align:center;
 }
 
