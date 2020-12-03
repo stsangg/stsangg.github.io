@@ -256,7 +256,7 @@ a{
 }
 
 .parallax{
-  background-image: url("../images/homepage/background-parallax.png");
+  background-image: url("../images/homepage/background-white.png");
 /*  background-attachment: fixed;*/
   background-position: center;
   background-repeat: no-repeat;
