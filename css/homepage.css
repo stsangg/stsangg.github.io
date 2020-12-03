@@ -177,12 +177,11 @@ margin: 0px auto;
 font-family: 'Lato', sans-serif;
  z-index: 1;
 box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-  border-radius: 5px;
+  border-radius: 12px;
   position: relative;
   z-index: 1;
   background: inherit;
   overflow: hidden;
-  padding:20px;
 }
 
 figure:before {
@@ -231,10 +230,14 @@ figure a{
   font-family:'Playfair Display', serif !important;
   font-size:20px !important;
     line-height: 150%;
+padding-top:10px;
+padding-left:15px;
 }
+
 #fig-1{
   font-size: 18px;
     line-height: 150%;
+padding:5px 15px;
 
 }
 
@@ -242,6 +245,7 @@ figure a{
   font-size: 16px;
   color: grey;
     line-height: 150%;
+padding:5px 15px;
 }
 
 figcaption:hover{
