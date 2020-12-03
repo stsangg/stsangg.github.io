@@ -235,17 +235,17 @@ padding-left:15px;
 }
 
 #fig-1{
-  font-size: 18px;
+  font-size: 16px;
     line-height: 120%;
 padding:5px 15px;
 
 }
 
 #tags{
-  font-size: 16px;
+  font-size: 15px;
   color: grey;
     line-height: 100%;
-padding:5px 15px;
+padding:5px 15px 15px 15px;
 }
 
 figcaption:hover{
