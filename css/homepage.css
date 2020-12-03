@@ -250,10 +250,20 @@ a{
 
 /*media queries*/
 @media (max-width: 768px){
-  .parallax, .parallax-1, .parallax-2, .parallax-3{
+
+.parallax-1, .parallax-2, .parallax-3{
   display:none;
 }
 
+.parallax{
+  background-image: url("../images/homepage/background-parallax.png");
+/*  background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  z-index: -1;
+  height:100%;
+}
 
   .intro{
     max-width:80%;
