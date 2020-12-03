@@ -105,7 +105,7 @@ box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:400px;
+  height:100%;
 }
 .parallax-2{
   background-image: url("../parallax-2.png");
@@ -115,7 +115,7 @@ box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:400px;
+  height:100%;
 }
 
 .parallax-3{
@@ -126,7 +126,7 @@ box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:400px;
+  height:100%;
 }
 
 figure {
