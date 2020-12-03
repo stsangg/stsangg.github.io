@@ -336,6 +336,9 @@ figure{
 
 
 @media (max-width:480px){
+html, body{
+  overflow-x: hidden;
+}
   .logo{
     margin-left: auto;
   }
@@ -383,35 +386,38 @@ figure{
 }
 
 .parallax-1{
-  background-image: url("../parallax-1.png");
+ /* background-image: url("../parallax-1.png");*/
  /* background-attachment: fixed;*/
-  background-position: center;
+ /* background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:100%;
+  height:100%;*/
+  display:block;
 }
 .parallax-2{
-  background-image: url("../parallax-2.png");
+  /*background-image: url("../parallax-2.png");*/
 /*  background-attachment: fixed;*/
-  background-position: center;
+ /* background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:100%;
+  height:100%;*/
+  display:block;
 }
 
 .parallax-3{
-  background-image: url("../parallax-3.png");
+  /*background-image: url("../parallax-3.png");*/
 /*  background-attachment: fixed;
-*/  background-position: center;
+*/  /*background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:100%;
+  height:100%;*/
+  display:block;
 }
 
 #title{
