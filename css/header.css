@@ -1,7 +1,7 @@
 a:link{ 
-color: black;}
+color: white;}
 a:visited{
-  color:black;
+  color:white;
 }
 a:active{
   color: grey;}
@@ -25,7 +25,7 @@ a:active{
   float: right;
   flex-direction: row-reverse;
   display: inline-block;
-  color: #535353;
+  color: #B2B2B2;
   text-align: center;
   padding: 20px;
   text-decoration: none;
@@ -42,7 +42,7 @@ a:active{
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  color: #000;
+  color: #fff;
   font-weight:bold;
 }
 
