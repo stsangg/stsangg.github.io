@@ -158,13 +158,13 @@ width:33%;
 }
 
 .usability-1{
-  max-width:60%;
-margin:50px 269px 80px 269px;
+  max-width:55%;
+margin:50px auto;
 }
 
 .usability-2{
-  max-width:80%;
-  margin:50px 0px;
+  max-width:55%;
+  margin:50px auto;
 }
 
 .prototype{
