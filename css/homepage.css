@@ -18,9 +18,14 @@ overflow-x: hidden;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   display: block;
-  margin:30px auto;
+  margin:20px auto;
 /*  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);*/
   border-radius:30px;
+}
+
+#CTA:hover{
+  background-color:black;
+  color:white;
 }
 
 
