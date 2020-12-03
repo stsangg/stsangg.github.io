@@ -71,7 +71,7 @@ margin: 50px auto;
 .brainstorm img{
   max-width: 100%;
 margin-right:5px;
-
+box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 
@@ -91,16 +91,17 @@ margin-right:5px;
 }
 
 .task-flow{
+  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+}
+.task-flow-img{
   width:100%;
   display: block;
   margin:0 auto;
-
 }
 
 .task-flow-a{
   margin-left:100px;
   width:40%;
-  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 .features{
