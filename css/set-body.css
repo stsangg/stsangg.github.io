@@ -179,6 +179,11 @@ margin:30px auto;
 }
 
 /*body sections*/
+.hero-section{
+  max-width:55%;
+  margin:0px auto 50px auto;
+}
+
 .section{
   max-width: 55%;
 margin: 80px auto;
