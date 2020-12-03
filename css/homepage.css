@@ -230,16 +230,18 @@ figure a{
 #title{
   font-family:'Playfair Display', serif !important;
   font-size:20px !important;
+    line-height: 150%;
 }
 #fig-1{
   font-size: 18px;
+    line-height: 150%;
 
 }
 
 #tags{
   font-size: 16px;
   color: grey;
-
+    line-height: 150%;
 }
 
 figcaption:hover{
