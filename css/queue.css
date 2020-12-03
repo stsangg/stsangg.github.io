@@ -149,9 +149,15 @@ width:33%;
 }
 
 .moodboard{
-  margin-bottom:50px;
-  margin-left:269px;
+max-width:70%;
+margin:0 auto;
 }
+
+.moodboard img{
+box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+padding:20px;
+}
+
 .moodboard figcaption{
   font-family: 'Lato', sans-serif;
 }
@@ -167,8 +173,8 @@ margin:50px 0px;
 }
 
 .usability-2{
-  max-width: 70%;
-  margin:60px 0px;
+  max-width: 83%;
+  margin:50px 0px;
 }
 .prototype{
   margin: 30px auto;
