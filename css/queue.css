@@ -71,7 +71,7 @@ margin: 50px auto;
 .brainstorm img{
   max-width: 100%;
 margin-right:5px;
-box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+
 }
 
 
@@ -94,11 +94,13 @@ box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104,
   width:100%;
   display: block;
   margin:0 auto;
+
 }
 
 .task-flow-a{
   margin-left:100px;
   width:40%;
+  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 .features{
@@ -115,11 +117,15 @@ margin-bottom:80px;
   height:100%;
 }
 
+.lofi-container{
+  margin-bottom:30px;
+}
+
 .lofi-1, .lofi-2{
   display:flex;
   justify-content:space-between;
   width:90%;
-  margin:0px auto;
+  margin:30px auto;
 /*  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);*/
 
 }
