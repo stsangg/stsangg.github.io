@@ -343,11 +343,33 @@ figure{
   .intro{
    margin:0 auto;
     width:90%;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 12px;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    padding:20px;
+    text-align:center;
+    color:white;
   }
+
+  .intro:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(10px);
+  margin: -20px;
+}
 
 figure{
     margin:80px auto;
-    min-width:80%;
+    min-width:100%;
   }
 
   .parallax{
@@ -391,6 +413,31 @@ figure{
   z-index: -1;
   height:100%;
 }
+
+#title{
+  font-family:'Playfair Display', serif !important;
+  font-size:18px !important;
+    line-height: 150%;
+padding-top:10px;
+padding-left:15px;
+color:#fff;
+}
+
+#fig-1{
+  font-size: 14px;
+    line-height: 120%;
+padding:5px 15px;
+color:#fff;
+}
+
+#tags{
+  font-size: 14px;
+  color: grey;
+    line-height: 100%;
+padding:5px 15px 15px 15px;
+color:#EEEEEE;
+}
+
 
 
 }
