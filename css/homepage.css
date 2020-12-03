@@ -264,15 +264,43 @@ a{
 /*media queries*/
 @media (max-width: 768px){
 
-.parallax-1, .parallax-2, .parallax-3{
-  display:none;
-}
-
 .parallax{
   background-image: url("../images/homepage/background-white.png");
 /*  background-attachment: fixed;*/
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
+  z-index: -1;
+  height:100%;
+}
+
+.parallax-1{
+  background-image: url("../parallax-1.png");
+ /* background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  z-index: -1;
+  height:100%;
+}
+.parallax-2{
+  background-image: url("../parallax-2.png");
+/*  background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  z-index: -1;
+  height:100%;
+}
+
+.parallax-3{
+  background-image: url("../parallax-3.png");
+/*  background-attachment: fixed;
+*/  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 100%;
   z-index: -1;
   height:100%;
@@ -312,28 +340,12 @@ figure{
     margin-left: auto;
   }
 
-.parallax, .parallax-1, .parallax-2, .parallax-3{
-  display:none;
-}
-
   .intro{
    margin:0 auto;
     width:90%;
   }
 
-  #button-skill{
-    padding:10px 30px;
-    display:block;
-    margin:20px auto;
-  }
-#skill1, #skill2, #skill3{
-    max-width:50%;
-    margin:10px auto;
-    display:none;
-    text-align:left;
-  }
-
-  figure{
+figure{
     margin:80px auto;
     min-width:80%;
   }
@@ -350,7 +362,7 @@ figure{
 
 .parallax-1{
   background-image: url("../parallax-1.png");
-  background-attachment: fixed;
+ /* background-attachment: fixed;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -360,7 +372,7 @@ figure{
 }
 .parallax-2{
   background-image: url("../parallax-2.png");
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -371,8 +383,8 @@ figure{
 
 .parallax-3{
   background-image: url("../parallax-3.png");
-  background-attachment: fixed;
-  background-position: center;
+/*  background-attachment: fixed;
+*/  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
@@ -380,15 +392,6 @@ figure{
   height:100%;
 }
 
-.parallax-end{
-  background-image: url("../images/homepage/background-parallax.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  z-index: -1;
-  height:200px;
-}
 
 }
 
