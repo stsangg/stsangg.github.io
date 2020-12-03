@@ -160,24 +160,6 @@ function myFunction() {
   }
 }
 
-// FIXED NAVIGATION BAR AT THE TOP
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var topNav = document.getElementById("myTopnav");
-
-// Get the offset position of the navbar
-var sticky = topNav.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    topNav.classList.add("sticky")
-  } else {
-    topNav.classList.remove("sticky");
-  }
-}
 
 // loader
 function onReady(callback) {
