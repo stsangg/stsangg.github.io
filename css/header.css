@@ -9,6 +9,7 @@ a:active{
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
+  background-color:black;
   /*box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
   border-radius: 5px;
   position: relative;
