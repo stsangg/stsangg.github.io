@@ -86,7 +86,7 @@ display:block;
 
 .intro{
 width:35%;
-margin:0px auto;
+margin:-100px auto;
 position:relative;
 top:200px;
 box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
