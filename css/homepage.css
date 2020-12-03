@@ -233,12 +233,15 @@ figure a{
 }
 #fig-1{
   font-size: 15px;
+  line-height:225%;
 }
 
 #tags{
   font-size: 14px;
   color: grey;
+  line-height:225%;
 }
+
 figcaption:hover{
   font-weight: semi-bold;
 }
