@@ -86,8 +86,12 @@ box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
   margin: -20px;
 }
 
+.column-piece{
+  padding:50px;
+}
+
 .parallax{
-  background-image: url("../images/homepage/parallax.svg");
+  background-image: url("../images/homepage/background-parallax.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
