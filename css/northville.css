@@ -90,12 +90,9 @@ padding-bottom: 20px;
   box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
-/*.empathymap img{
-  display: block;
-  margin: 50px auto 80px auto;
-  max-width:950px;
-box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
-}*/
+.stat{
+  margin:10px auto;
+}
 
 figcaption{
   margin-bottom:10px;
