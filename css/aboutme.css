@@ -12,6 +12,7 @@
 .page-wrapper{
   min-height: 100%;
   margin-left:50px;
+  margin-bottom:50px;
 }
 
 .headshot-mob{
@@ -84,7 +85,7 @@ ol, ul{
 
 .section-1{
 padding-left:45px !important;
-margin:50px auto 20px auto;
+margin:50px auto 30px auto;
 }
 
 .section{
