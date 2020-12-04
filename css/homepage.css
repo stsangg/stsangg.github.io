@@ -114,6 +114,7 @@ margin:100px auto;
 
 
 .parallax-1{
+  background-image: url("../parallax-1.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,17 +122,17 @@ margin:100px auto;
   width: 100%;
   z-index: -1;
   height:100%;
-  background: rgb(255,196,81);
-background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 100%);
+/*  background: rgb(255,196,81);
+background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 100%);*/
 }
 
-.parallax-1 p{
+/*.parallax-1 p{
 font-family:'Playfair Display', serif;
 font-size:200px;
 position:relative;
 left:100px;
 }
-
+*/
 
 .parallax-2{
   background-image: url("../parallax-2.png");
