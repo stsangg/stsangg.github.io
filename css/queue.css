@@ -421,11 +421,7 @@ margin:50px 0px;
   display:block;
 }
 
-.approach-h{
-  margin:15px;
-}
-
-.text-box, .other-desktop{
+.text-box{
   display:none;
   width:0%;
 }
