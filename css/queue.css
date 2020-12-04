@@ -435,8 +435,8 @@ margin:50px 0px;
   display:none;
 }
 
-.task-flow-a{
-  margin-bottom:30px;
+.deliverable{
+  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 .lofi:nth-child(2){
