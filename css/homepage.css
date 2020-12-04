@@ -376,6 +376,11 @@ figure{
     min-width:100%;
   }
 
+.column-piece{
+  margin:20px;
+  padding:0px;
+}
+
   .parallax{
   background-image: url("../images/homepage/background-black.png");
  /* background-attachment: fixed;*/
@@ -388,17 +393,19 @@ figure{
 
 .parallax-1{
   background-image: none;
+  height:40%;
  /* background-attachment: fixed;*/
- /* background-position: center;
+/*  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
   z-index: -1;
-  height:100%;*/
-  display:block;
+  height:100%;
+  display:block;*/
 }
 .parallax-2{
-  /*background-image: url("../parallax-2.png");*/
+  background-image: none;
+  height:40%;
 /*  background-attachment: fixed;*/
  /* background-position: center;
   background-repeat: no-repeat;
@@ -406,11 +413,12 @@ figure{
   width: 100%;
   z-index: -1;
   height:100%;*/
-  display:block;
+/*  display:block;*/
 }
 
 .parallax-3{
-  /*background-image: url("../parallax-3.png");*/
+  background-image: none;
+  height:40%;
 /*  background-attachment: fixed;
 */  /*background-position: center;
   background-repeat: no-repeat;
