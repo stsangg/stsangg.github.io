@@ -187,7 +187,7 @@ figure:before {
    border-radius:8px;
    box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
 }
-.column-piece:hover{
+figure:hover{
   animation-name: hover;
   animation-duration: 500ms;
   animation-fill-mode: forwards;  
