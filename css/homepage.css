@@ -72,14 +72,14 @@ color:white;
 .intro{
 width:28%;
 margin:100px auto;
-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+/*box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
   border-radius: 12px;
   z-index: 1;
   background: inherit;
   overflow: hidden;
-  padding:20px;
+  padding:20px;*/
   text-align:center;
-  color:white;
+/*  background-color:#000;*/
 }
 
 .intro:before {
@@ -101,7 +101,7 @@ box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
 }
 
 .parallax{
-  background-image: url("../images/homepage/background-black.png");
+  background-image: url("../images/homepage/backkground-blackyblack.png");
   background-attachment: fixed;
   width: 100%;
   z-index: -1;
