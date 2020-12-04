@@ -455,9 +455,8 @@ margin:50px 0px;
   display:none;
 }
 
-.midfi{
-  height:100%;
-  margin-bottom:50px;
+.midfi-row{
+  margin-bottom:30px;
 }
 
 .midfi-container{
