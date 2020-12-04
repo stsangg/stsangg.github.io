@@ -381,7 +381,7 @@ figure{
   padding:0px;
 }
 
-  .parallax{
+.parallax{
   background-image: url("../images/homepage/background-black.png");
  /* background-attachment: fixed;*/
   background-position: center;
@@ -393,7 +393,7 @@ figure{
 
 .parallax-1{
   background-image: none;
-  height:40%;
+  height:60%;
  /* background-attachment: fixed;*/
 /*  background-position: center;
   background-repeat: no-repeat;
@@ -405,7 +405,7 @@ figure{
 }
 .parallax-2{
   background-image: none;
-  height:40%;
+  height:60%;
 /*  background-attachment: fixed;*/
  /* background-position: center;
   background-repeat: no-repeat;
@@ -418,7 +418,7 @@ figure{
 
 .parallax-3{
   background-image: none;
-  height:40%;
+  height:60%;
 /*  background-attachment: fixed;
 */  /*background-position: center;
   background-repeat: no-repeat;
