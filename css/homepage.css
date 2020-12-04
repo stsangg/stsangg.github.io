@@ -111,7 +111,7 @@ margin:100px auto;
 }
 
 .parallax{
-  background-image: url("../images/homepage/backkground-blackyblack.png");
+  background-image: url("../images/homepage/background-black.png");
   background-attachment: fixed;
   width: 100%;
   z-index: -1;
