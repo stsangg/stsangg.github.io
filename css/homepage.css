@@ -100,13 +100,14 @@ box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
   padding:50px;
 }
 
-.parallax{
-  background-image: url("../images/homepage/background-black.png");
+.p-img{
+/*  background-image: url("../images/homepage/background-black.png");*/
   background-attachment: fixed;
   width: 100%;
   z-index: -1;
   height:100%;
 }
+
 
 .parallax-1{
   background-image: url("../parallax-1.png");
