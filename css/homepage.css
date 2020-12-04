@@ -412,14 +412,15 @@ figure{
   background-image: url("../images/homepage/background-black.png");
  /* background-attachment: fixed;*/
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  background-size:cover;
   width: 100%;
   z-index: -1;
   height:100%;
 }
 
 .parallax-1{
-  background-image: none;
+   background-image: none;
   height:60%;
  /* background-attachment: fixed;*/
 /*  background-position: center;
