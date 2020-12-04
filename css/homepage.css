@@ -387,7 +387,7 @@ figure{
 }
 
 .parallax-1{
- /* background-image: url("../parallax-1.png");*/
+  background-image: none;
  /* background-attachment: fixed;*/
  /* background-position: center;
   background-repeat: no-repeat;
