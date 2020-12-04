@@ -345,15 +345,19 @@ margin-left:269px;
   color:white;
 }
 
+.stat{
+  padding:30px;
+}
+
+
 .midfi{
   margin-top:30px;
 }
 
-.midfi img{
-  height:100%;
-  margin-bottom:30px;
+.midfi > .row{
+  width:55%;
+  display:flex !important;
 }
-
 .text-box, .copywriting{
   display:none;
   width:0%;
