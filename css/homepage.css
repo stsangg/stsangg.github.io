@@ -420,7 +420,7 @@ figure{
 }
 
 .parallax-1{
-   background-image: url("../parallax-1.png");
+   background-image: url("../images/homepage/background-black.png");
   height:60%;
  /* background-attachment: fixed;*/
 /*  background-position: center;
@@ -432,7 +432,7 @@ figure{
   display:block;*/
 }
 .parallax-2{
-  background-image: url("../parallax-1.png");
+  background-image: url("../images/homepage/background-black.png");
   height:60%;
 /*  background-attachment: fixed;*/
  /* background-position: center;
@@ -445,7 +445,7 @@ figure{
 }
 
 .parallax-3{
-  background-image: url("../parallax-1.png");
+  background-image:url("../images/homepage/background-black.png");
   height:60%;
 /*  background-attachment: fixed;
 */  /*background-position: center;
