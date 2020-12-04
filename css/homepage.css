@@ -8,6 +8,10 @@ overflow-x: hidden;
   align-items: center;
 }
 
+.CTA a{
+  color:white;
+}
+
 #CTA{
   border-style: solid;
   border-color: #000;
