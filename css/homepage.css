@@ -12,8 +12,8 @@ overflow-x: hidden;
   border-style: solid;
   border-color: #000;
   border-width: 2px;
-  background: white;
-  border-width: 2px;
+  background: #000;
+  border-width: 1px;
   padding: 10px 25px;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
@@ -27,6 +27,8 @@ overflow-x: hidden;
   background-color:black;
   color:white;
 }
+
+
 
 h3{
   color: grey;
@@ -112,7 +114,6 @@ margin:100px auto;
 
 
 .parallax-1{
-  background-image: url("../parallax-1.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -120,7 +121,18 @@ margin:100px auto;
   width: 100%;
   z-index: -1;
   height:100%;
+  background: rgb(255,196,81);
+background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 100%);
 }
+
+.parallax-1 p{
+font-family:'Playfair Display', serif;
+font-size:200px;
+position:relative;
+left:100px;
+}
+
+
 .parallax-2{
   background-image: url("../parallax-2.png");
   background-attachment: fixed;
