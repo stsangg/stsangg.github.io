@@ -83,8 +83,7 @@ ol, ul{
 }
 
 .section-1{
-width:60%;
-padding-left:45px;
+padding-left:45px !important;
 margin:50px auto 20px auto;
 }
 
