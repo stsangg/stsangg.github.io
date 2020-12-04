@@ -111,8 +111,9 @@ margin:100px auto;
 }
 
 .parallax{
-  background-image: url("../images/homepage/background-black.png");
+  background-image: url("../images/homepage/backkground-blackyblack.png");
   background-attachment: fixed;
+  background-position:center;
   width: 100%;
   z-index: -1;
   height:100%;
@@ -123,8 +124,8 @@ margin:100px auto;
   background-image: url("../parallax-1.png");
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+/*  background-repeat: no-repeat;
+  background-size: contain;*/
   width: 100%;
   z-index: -1;
   height:100%;
@@ -144,8 +145,8 @@ left:100px;
   background-image: url("../parallax-2.png");
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+ /* background-repeat: no-repeat;
+  background-size: contain;*/
   width: 100%;
   z-index: -1;
   height:100%;
@@ -155,8 +156,8 @@ left:100px;
   background-image: url("../parallax-3.png");
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+ /* background-repeat: no-repeat;
+  background-size: contain;*/
   width: 100%;
   z-index: -1;
   height:100%;
