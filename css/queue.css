@@ -443,7 +443,7 @@ margin:50px 0px;
   display:none;
 }
 
-.lofi:nth-child(3){
+.lofi:nth-child(1){
   display:none;
 }
 
@@ -453,6 +453,10 @@ margin:50px 0px;
 
 .midfi-row{
   margin-bottom:30px;
+}
+
+.midfi{
+  height:100%;
 }
 
 .midfi-container{
