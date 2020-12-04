@@ -127,7 +127,7 @@ margin:100px auto;
 
 
 .parallax-1{
-  background-image: url("../parallax-1.png");
+  background-image: url("../parallax-1.png"), url("../images/homepage/backkground-blackyblack.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@ left:100px;
 */
 
 .parallax-2{
-  background-image: url("../parallax-2.png");
+  background-image: url("../parallax-2.png"), url("../images/homepage/backkground-blackyblack.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,7 +159,7 @@ left:100px;
 }
 
 .parallax-3{
-  background-image: url("../parallax-3.png");
+  background-image: url("../parallax-3.png"), url("../images/homepage/backkground-blackyblack.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
