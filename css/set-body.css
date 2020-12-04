@@ -533,10 +533,11 @@ html, body{
 .overview-columns div{
 margin-top:20px;
 }
-    .approach-1 div{
-    max-width:60%;
-    margin:20px;
-  }
+
+.approach-1 div{
+max-width:60%;
+margin:10px;
+}
 
 .columns{
   margin:0px;
