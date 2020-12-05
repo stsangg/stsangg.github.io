@@ -503,12 +503,16 @@ color:#000;
 
 #down{
   color:#fff;
-  font-size:16px;
-font-family:'Lato', sans-serif;
 margin:50px auto;
 display:block;
 text-align: center;
 color:white;
+position:relative;
+top:120px;
+}
+
+#down p{
+  font-size:14px !important;
 }
 
 
