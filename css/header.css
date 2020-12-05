@@ -56,8 +56,9 @@ a:active{
 
 
 .logo{
-   background-image: url("../images/homepage/parallax.svg");
+   background-image: url("../images/logo.svg");
    margin-left:90px;
+   height:100%;
 }
 
 
