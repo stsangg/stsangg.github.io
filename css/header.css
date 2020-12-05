@@ -50,6 +50,7 @@ a:active{
 
 
 .logo{
+  background-image:url('../name.svg');
    width:100%;
    background-repeat:no-repeat;
    position:relative;
