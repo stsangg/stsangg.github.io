@@ -180,7 +180,7 @@ left:100px;
 
 figure {
  display: block;
-margin: 100px auto;
+margin: 100px auto !important;
  max-width: 40%;
 font-family: 'Lato', sans-serif;
  z-index: 1;
