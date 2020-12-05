@@ -128,5 +128,9 @@ footer a{
   color:white !important; 
   font-size:18px;
 }
+
+.logo{
+  display:none;
+}
 }
 
