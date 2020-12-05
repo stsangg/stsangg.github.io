@@ -243,9 +243,9 @@ ol, li, dd, dt{
 .CTA a{
   text-decoration: none;
     border-style: solid;
-    border-color: #275B81;
+    border-color: #fff;
     border-width: 2px;
-    background: white;
+    background: #EBF3B5;
     border-width: 2px;
     padding: 15px 30px 15px 30px;
     font-size: 16px;
@@ -253,6 +253,20 @@ ol, li, dd, dt{
     display: block;
     margin: 30px auto 30px auto;
     border-radius:30px;
+}
+
+#CTA:hover{
+  background:black;
+  color:#EBF3B5;
+}
+
+.CTA a:hover{
+  color:#EBF3B5;
+}
+
+#CTA:active{
+  background:black;
+  color:#EBF3B5;
 }
 
   #myBtn {
