@@ -26,7 +26,7 @@ a:active{
   float: right;
   flex-direction: row-reverse;
   display: inline-block;
-  color: #B2B2B2;
+  color: #747474;
   text-align: center;
   padding: 20px;
   text-decoration: none;
@@ -36,8 +36,8 @@ a:active{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #000;
+  color: #fff;
   text-decoration:underline;
 }
 
