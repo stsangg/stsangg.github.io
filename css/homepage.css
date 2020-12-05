@@ -49,9 +49,9 @@ h1{
 }
 
 .intro p{
-  font-size:20px;
-  width:40%;
-  margin:30px auto;
+  font-size:25px;
+  width:80%;
+  margin:50px auto;
 }
 /*
 h2{
@@ -85,9 +85,9 @@ top:70px;
 
 .intro{
 width:50%;
-margin:0px auto;
+margin:55px auto;
   text-align:center;
-  padding:150px;
+  padding:20px;
 }
 
 .intro:before {
