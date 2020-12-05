@@ -15,6 +15,10 @@ font-family: 'Lato', sans-serif;
   color:#535353;
 }
 
+.section p{
+	margin:0px;
+}
+
 
 /*body sections*/
 .intro{
@@ -23,7 +27,8 @@ font-family: 'Lato', sans-serif;
 }
 
 .section{
-	text-align:center;
+	display:flex;
+	justify-content: center;
 }
 
 .divider{
@@ -37,7 +42,13 @@ border: 1px solid #c3c3c3;
 /*button style*/
 button{
 	padding:8px 16px;
-
+	background-color: #EBF3B5;
+	border-style:solid;
+	border-color:#000;
+	border-width:1px;
+	margin:20px auto;
+	display:block;
+	border-radius:30px;
 }
 
 footer{
