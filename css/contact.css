@@ -19,11 +19,17 @@ font-family: 'Lato', sans-serif;
 	margin:0px;
 }
 
+#or{
+	font-family:'Playfair Display', serif;
+	font-size:14px;
+	margin:50px auto;
+}
+
 
 /*body sections*/
 .intro{
 	text-align:center;
-	margin:80px auto;
+	margin:0px auto;
 }
 
 .section{
