@@ -417,6 +417,7 @@ figure{
 .parallax-1{
 background: rgb(255,196,81);
 background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 100%);
+background-image: url("../parallax-1.png"), url("../images/homepage/backkground-blackyblack.png");
 padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
