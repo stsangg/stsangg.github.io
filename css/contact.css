@@ -37,5 +37,10 @@ border: 1px solid #c3c3c3;
 /*button style*/
 button{
 	padding:8px 16px;
-	
+
+}
+
+footer{
+	position:absolute !important;
+	width:100% !important;
 }
