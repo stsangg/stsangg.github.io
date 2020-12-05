@@ -367,14 +367,8 @@ html, body{
   }
 
   .intro{
-   margin:0 auto;
-    width:90%;
-  /*  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-    border-radius: 12px;
-    z-index: 1;
-    background: inherit;
-    overflow: hidden;
-    padding:20px;*/
+   margin:85px auto;
+    width:100%;
     text-align:center;
   }
 
@@ -392,8 +386,14 @@ html, body{
   margin: -20px;
 }
 
+.intro p{
+  font-size:18px;
+  width:100%;
+  margin:0px auto;
+}
+
 figure{
-    margin:80px auto;
+    margin:40px auto;
     min-width:100%;
   }
 
