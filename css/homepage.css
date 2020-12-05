@@ -291,52 +291,44 @@ a{
 
 /*media queries*/
 @media (max-width: 768px){
-
 .parallax{
-  background-image: url("../images/homepage/background-black.png");
-/*  background-attachment: fixed;*/
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  z-index: -1;
-  height:100%;
+  background-attachment: scroll;
+  padding-bottom:100px;
 }
 
 .parallax-1{
-  background-image: url("../parallax-1.png");
- /* background-attachment: fixed;*/
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  z-index: -1;
-  height:100%;
+background: rgb(255,196,81);
+background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 100%);
+background-image: url("../parallax-1.png"), url("../images/homepage/backkground-blackyblack.png");
+padding:50px 0px;
+background-position:left;
+background-attachment: scroll;
+
 }
 .parallax-2{
-  background-image: url("../parallax-2.png");
-/*  background-attachment: fixed;*/
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  z-index: -1;
-  height:100%;
+background: rgb(255,163,54);
+background: linear-gradient(180deg, rgba(255,163,54,1) 0%, rgba(255,255,255,1) 100%);
+background-image: url("../parallax-2.png"), url("../images/homepage/backkground-blackyblack.png");
+padding:50px 0px;
+background-position:left;
+background-attachment: scroll;
+
 }
 
 .parallax-3{
-  background-image: url("../parallax-3.png");
-/*  background-attachment: fixed;
-*/  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  z-index: -1;
-  height:100%;
+background: rgb(47,112,160);
+background: linear-gradient(180deg, rgba(47,112,160,1) 0%, rgba(255,255,255,1) 100%);
+background-image: url("../parallax-3.png"), url("../images/homepage/backkground-blackyblack.png");
+padding:50px 0px;
+background-position:left;
+background-attachment: scroll;
 }
 
-  .intro{
-    max-width:80%;
-  }
+.intro{
+width:100%;
+padding:0px;
+margin:150px auto;
+}
 
 .column-piece{
   margin-top:50px;
