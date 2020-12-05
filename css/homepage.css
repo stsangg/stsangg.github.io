@@ -2,6 +2,11 @@ body, html{
   margin: auto;
 overflow-x: hidden;
 }
+
+.logo{
+  background-image:none !important;
+}
+
 .CTA{
   display: flex;
   align-items: center;
