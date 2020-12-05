@@ -361,7 +361,6 @@ figure{
 @media (max-width:480px){
 html, body{
   overflow-x: hidden;
-  overflow-y:hidden;
 }
   .logo{
     margin-left: auto;
