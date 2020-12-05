@@ -434,8 +434,9 @@ padding-top:50px;
   display:block;*/
 }
 .parallax-2{
-background: rgb(255,163,54);
-background: linear-gradient(180deg, rgba(255,163,54,1) 0%, rgba(255,255,255,1) 100%);
+/*background: rgb(255,163,54);
+background: linear-gradient(180deg, rgba(255,163,54,1) 0%, rgba(255,255,255,1) 100%);*/
+background-image:url("../parallax-2.png"), url("../images/homepage/backkground-blackyblack.png");
 height:60%;
 padding-top:50px;
 /*  background-attachment: fixed;*/
@@ -460,6 +461,10 @@ padding-top:50px;
   width: 100%;
   z-index: -1;
   height:100%;*/
+}
+
+figcaption{
+  margin:3px auto;
 }
 
 #title{
