@@ -22,15 +22,16 @@
 .CTA{
   display: flex;
   align-items: center;
+  margin-top:30px;
 }
 
 #CTA{
   border-style: solid;
   border-color: black;
   border-width: 2px;
-  background: white;
-  border-width: 2px;
-  padding: 15px 30px 15px 30px;
+  background: #EBF3B5;
+  border-width: 1px;
+  padding: 15px 30px;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   display: block;
@@ -41,12 +42,12 @@
 
 #CTA:hover{
   background:black;
-  color:white;
+  color:##EBF3B5;
 }
 
 #CTA:active{
   background:black;
-  color: white;
+  color:#EBF3B5;
 }
 
 p{
@@ -91,7 +92,7 @@ margin:80px auto 40px auto;
 
 .section{
 width:60%;
-margin:20px auto 50px auto;
+margin:0px auto 40px auto;
 }
 
 footer{
