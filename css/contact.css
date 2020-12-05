@@ -51,6 +51,15 @@ button{
 	border-radius:30px !important;
 }
 
+button:hover{
+	background-color:#000;
+	color:#EBF3B5;
+}
+
+button > a:hover{
+  color:#EBF3B5;
+}
+
 footer{
 	position:absolute !important;
 	width:100% !important;
