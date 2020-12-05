@@ -10,14 +10,8 @@ a:active{
 .topnav {
   overflow: hidden;
   background-color:black;
-  /*box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-  border-radius: 5px;
-  position: relative;
-  z-index: 1;
-  background: inherit;
-  overflow: hidden;
-  padding:20px;
-  color:white;*/
+ padding:5px;
+ display:flex;
 }
 
 
@@ -58,7 +52,12 @@ a:active{
 .logo{
    background-image: url("../images/logo.svg");
    margin-left:90px;
-   height:100%;
+   width:100%;
+   background-repeat:no-repeat;
+   position:relative;
+   top:10px;
+   left:30px;
+   padding:30px;
 }
 
 
