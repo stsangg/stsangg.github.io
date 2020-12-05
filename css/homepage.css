@@ -48,9 +48,10 @@ h1{
 }
 
 .intro p{
-  font-size:25px;
+  font-size:24px;
   width:80%;
   margin:50px auto;
+  text-transform:uppercase;
 }
 /*
 h2{
@@ -389,6 +390,7 @@ html, body{
   font-size:18px;
   width:100%;
   margin:0px auto;
+text-transform:uppercase;
 }
 
 figure{

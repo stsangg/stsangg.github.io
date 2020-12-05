@@ -32,6 +32,7 @@ a:active{
   text-decoration: none;
   font-size: 17px;
   font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
 }
 
 /* Change the color of links on hover */
@@ -45,6 +46,7 @@ a:active{
 .topnav a.active {
   color: #fff;
   font-weight:bold;
+  text-transform:uppercase;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
