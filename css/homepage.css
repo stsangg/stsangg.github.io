@@ -402,6 +402,10 @@ figure{
   padding:0px;
 }
 
+.name{
+  width:100%;
+}
+
 .parallax{
   background-image: url("../images/homepage/background-black.png");
  /* background-attachment: fixed;*/
