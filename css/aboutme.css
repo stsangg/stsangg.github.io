@@ -42,7 +42,11 @@
 
 #CTA:hover{
   background:black;
-  color:##EBF3B5;
+  color:#EBF3B5;
+}
+
+.CTA a:hover{
+  color:#EBF3B5;
 }
 
 #CTA:active{
