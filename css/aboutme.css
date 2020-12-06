@@ -243,7 +243,7 @@ ol, li, dd, dt{
 .CTA a{
   text-decoration: none;
     border-style: solid;
-    border-color: #fff;
+    border-color: #000;
     border-width: 2px;
     background: #EBF3B5;
     border-width: 2px;
@@ -255,13 +255,14 @@ ol, li, dd, dt{
     border-radius:30px;
 }
 
-#CTA:hover{
+/*#CTA:hover{
   background:black;
   color:#EBF3B5;
-}
+}*/
 
 .CTA a:hover{
   color:#EBF3B5;
+  background-color:#000;
 }
 
 #CTA:active{
