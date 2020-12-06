@@ -207,7 +207,7 @@ margin:50px auto;
 .quotes{
   margin:30px auto;
   width:85%;
-  
+  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
   .soution-gif-1{
@@ -224,7 +224,7 @@ margin:50px auto;
 }
 
   .gif{
-    width:80%;
+    width:50%;
   }
 
 .brainstorm{
@@ -240,6 +240,10 @@ margin:50px auto;
 
 .lofi{
   margin:10px 0px;
+}
+
+.lofi img{
+    box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 .midfi img{
