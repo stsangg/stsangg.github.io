@@ -204,6 +204,12 @@ margin:50px auto;
     border-radius:30px;
 }
 
+.quotes{
+  margin:30px auto;
+  width:85%;
+  
+}
+
   .soution-gif-1{
     flex-direction:row-reverse;
   }

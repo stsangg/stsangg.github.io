@@ -385,10 +385,10 @@ html, body{
   margin:30px auto;
 }
 
-/*.section{
-
+.section{
+margin:50px auto;
 }
-*/
+
 
   #myBtn {
   display: none;
