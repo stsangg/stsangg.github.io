@@ -339,18 +339,12 @@ margin-left:269px;
   color:white;
 }
 
-.stat{
-  padding:30px;
-}
-
-
-.midfi{
+.midfi, .iteration{
   margin-top:30px;
 }
 
-.midfi > .row{
-  width:55%;
-  display:flex !important;
+.iteration img{
+
 }
 .text-box, .copywriting{
   display:none;
