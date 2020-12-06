@@ -357,11 +357,12 @@ html, body{
 }
 
 .approach-1{
-  margin: 0px 10px;}
+  margin: 0px 10px;
+}
 
 .approach-1 img{ 
-  width:50%;
-    margin:30px auto;
+  width:100%;
+    margin:25px auto;
 }
 
 .approach{
@@ -499,6 +500,11 @@ border: 1px solid #c3c3c3;
 .next{
   text-align:center;
   margin-bottom:30px;
+}
+
+.final{
+  text-align: center;
+  width:50%;
 }
 
 }

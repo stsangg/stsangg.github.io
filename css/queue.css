@@ -301,6 +301,9 @@ margin:50px 0px;
     margin: 0 30px 30px 30px;
   }
 
+.hero-section{
+	margin:50px auto 30px auto;
+}
 .task-flow-a{
   max-width:50%;
 }
@@ -318,9 +321,13 @@ margin:50px 0px;
     width:80%;
   }
 
+.stat{
+	margin:30px auto;
+}
 .lofi-2{
   display:none;
 }
+
 
 .midfi{
   margin-bottom:50px;
