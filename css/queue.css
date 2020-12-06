@@ -324,10 +324,22 @@ margin:50px 0px;
 .stat{
 	margin:30px auto;
 }
+
+.lofi:nth-child(2){
+  display:none;
+}
+
+.lofi:nth-child(1){
+  display:none;
+}
+
 .lofi-2{
   display:none;
 }
 
+.brainstorm img{
+  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
+}
 
 .midfi{
   margin-bottom:50px;
@@ -346,7 +358,7 @@ margin:50px 0px;
 }
 
 .usability-1, .usability-2{
-  margin:0px 50px 30px 50px;
+  margin:30px 50px 0px 50px;
 }
 
 .moodboard img{
@@ -365,7 +377,7 @@ margin:50px 0px;
 }
 
 .feature img{
-  margin:0 auto;
+  margin:15px auto;
 }
 
 .next{
