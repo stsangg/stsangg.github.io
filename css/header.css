@@ -48,6 +48,12 @@ a:active{
   display: none;
 }
 
+/*styling the anchor logo*/
+#logo{
+  display:block;
+  float:left;
+  width:25%;
+}
 
 .logo{
   background-image:url('../images/logo.svg');
