@@ -55,6 +55,10 @@ a:active{
   width:25%;
 }
 
+.logo a:hover{
+  background-color:transparent;
+}
+
 .logo{
   background-image:url('../images/logo.svg');
    width:100%;
