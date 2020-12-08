@@ -70,6 +70,6 @@ button > a:hover{
 }
 
 footer{
-	position:absolute !important;
 	width:100% !important;
+	top:100px;
 }
