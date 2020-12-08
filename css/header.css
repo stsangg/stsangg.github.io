@@ -49,7 +49,7 @@ a:active{
 }
 
 /*styling the anchor logo*/
-#logo{
+.logo a{
   display:block;
   float:left;
   width:25%;
