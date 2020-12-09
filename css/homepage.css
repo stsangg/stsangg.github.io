@@ -50,13 +50,14 @@ h1{
   font-size:30px
   line-height:100%;
   color:white;
+text-transform:uppercase;
 }
 
 .intro p{
   font-size:20px;
   width:60%;
   margin:50px auto;
-  text-transform:uppercase;
+  text-transform:lowercase;
   letter-spacing:0.03em;
   line-height:190%;
 }
