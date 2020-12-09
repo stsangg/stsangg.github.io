@@ -188,7 +188,7 @@ box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
   z-index: 1;
   background: inherit;
   overflow: hidden;
-  transition:width 1s;
+    transition:width 1s;
   transition-timing-function: ease-in-out;
 }
 
@@ -206,13 +206,12 @@ figure:before {
   margin: -20px;
 }
 
-figure:hover{
-  animation-name: hover;
+figure:hover > .project{
+/*  animation-name: hover;
   animation-duration: 500ms;
   animation-fill-mode: forwards;  
-    position: relative;
-  width:45%;
-  
+    position: relative;*/
+    width:105%;
 }
 
 .project{
@@ -222,6 +221,12 @@ figure:hover{
   z-index: 1;
    border-radius:8px;
    box-shadow: 3px 3px 14px rgba(0,0,0,0.3);
+  transition:width 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.project:hover{
+  width:105%;
 }
 
 figcaption{
