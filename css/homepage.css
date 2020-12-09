@@ -129,7 +129,7 @@ margin:0px auto;
 
 
 .parallax-1{
-  background-image: url("../parallax-1.png")/*, url("../images/homepage/backkground-blackyblack.png")*/;
+  background-image: url("../images/homepage/parallax-1-no.png")/*, url("../images/homepage/backkground-blackyblack.png")*/;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
