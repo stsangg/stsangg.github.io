@@ -9,7 +9,7 @@ a:active{
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden;
-  background-color:black;
+  background-color:#161820;
  padding:5px;
  display:flex;
 }
@@ -31,7 +31,7 @@ a:active{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #000;
+  background-color:#161820;
   color: #fff;
   text-decoration:underline;
 }
