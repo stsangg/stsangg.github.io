@@ -134,6 +134,10 @@ margin-bottom:80px;
   height:100%;
 }
 
+.midfi-container{
+  margin:20px auto;
+}
+
 .lofi-container{
   margin-bottom:30px;
 }
