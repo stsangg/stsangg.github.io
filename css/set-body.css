@@ -60,7 +60,7 @@ overflow-x: hidden;
 /*text styles*/
 
 p, ul{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 180%;
   font-size: 18px;
   max-width: 100%;
@@ -80,7 +80,7 @@ h4{
 }
 
 h5{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Abril Fatface', serif;
   font-size: 32px;
   color:#000000;
   margin-bottom: 20px;
