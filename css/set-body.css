@@ -60,7 +60,7 @@ overflow-x: hidden;
 /*text styles*/
 
 p, ul{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 180%;
   font-size: 18px;
   max-width: 100%;
@@ -70,7 +70,7 @@ p, ul{
 }
 
 h4{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #000000;
   max-width: 850px;
@@ -97,7 +97,7 @@ h6{
 }
 
 ol, li, dd, dt{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 200%;
   font-size: 18px;
   color:#535353;
@@ -412,7 +412,7 @@ margin:50px auto;
 /*text styles*/
 
 p, ul{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 180%;
   font-size: 16px;
   max-width: 100%;
@@ -422,7 +422,7 @@ p, ul{
 }
 
 h4{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #000000;
   max-width: 850px;
