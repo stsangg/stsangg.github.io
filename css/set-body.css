@@ -70,7 +70,7 @@ p, ul{
 }
 
 h4{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   color: #000000;
   max-width: 850px;
@@ -80,7 +80,7 @@ h4{
 }
 
 h5{
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 32px;
   color:#000000;
   margin-bottom: 20px;
@@ -88,7 +88,7 @@ h5{
 }
 
 h6{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 22px;
   font-weight:700;
   color:#000000;
@@ -97,7 +97,7 @@ h6{
 }
 
 ol, li, dd, dt{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 200%;
   font-size: 18px;
   color:#535353;
