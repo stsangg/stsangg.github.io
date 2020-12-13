@@ -574,7 +574,7 @@ padding-bottom:1px;
 }
 
 .hero-section{
-  margin-top:20px;
+  margin:20px auto;
 }
 
 .hero-section h5{
@@ -584,6 +584,7 @@ padding-bottom:1px;
 .hero-section h6{
   font-size:16px;
     font-weight:400;
+    margin-bottom:20px;
 }
 
 .hero-section p{
