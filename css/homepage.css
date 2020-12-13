@@ -397,7 +397,7 @@ text-transform:lowercase;
 }
 
 figure{
-    margin:40px auto;
+    margin:40px auto !important;
     min-width:100%;
   }
 
@@ -453,15 +453,14 @@ figcaption{
   font-family:'Playfair Display', serif !important;
   font-size:18px !important;
     line-height: 150%;
-padding-top:10px;
-padding-left:15px;
+padding:10px 15px 5px 15px;
 color:#fff;
 }
 
 #fig-1{
   font-size: 14px;
     line-height: 120%;
-padding:5px 15px;
+padding:5px 15px 20px 15px;
 color:#fff;
 }
 
