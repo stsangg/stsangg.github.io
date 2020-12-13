@@ -315,7 +315,8 @@ width:100%;
 }
 
 .divider2{
-  margin:20px 0px;
+  margin:20px auto;
+  width:55%;
 }
 
 .final{
