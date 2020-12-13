@@ -87,7 +87,8 @@
 }
 
 .stat{
-  margin:30px auto;
+  margin:25px 0px;
+  width:80%;
 }
 
 figcaption{
@@ -153,6 +154,10 @@ margin-bottom:15px;
   width: 100%;
   margin-bottom: 30px;
    box-shadow: 2px 3px 8px rgba(0,0,0,0.3);
+}
+
+.midfi-gif{
+  width:50% !important;
 }
 
 
