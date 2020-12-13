@@ -477,7 +477,7 @@ ol, li, dd, dt{
   color:#535353;
 }
 
-  figcaption{
+figcaption{
     max-width: 75%;
     margin: 0 auto;
     font-size: 12px;

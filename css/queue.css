@@ -57,11 +57,24 @@ width:100%;
 }
 
 .deliverable{
+  margin-bottom:50px;
+}
+
+.deliverable img{
   display:block;
   max-width:100%;
-margin:30px auto;
+margin:10px auto 0px auto;
 box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
+
+.deliverable figcaption{
+max-width: 75%;
+margin:10px;
+font-size: 12px;
+font-family:'Open Sans', sans-serif;
+}
+
+
 
 
 .brainstorm figure{
