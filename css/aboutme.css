@@ -56,7 +56,7 @@
 }
 
 p{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 32px;
   font-size: 16px;
   max-width: 700px;
@@ -64,7 +64,7 @@ p{
 }
 
 li{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   margin: 0px auto 5px auto;
 }
@@ -78,7 +78,7 @@ font-family: 'Playfair Display', sans-serif;
 }
 
 ol, ul{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 35px;
   font-size: 16px;
   margin-left: 110px;
@@ -189,7 +189,7 @@ html, body{
 /*text styles*/
 
 p, ul{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 180%;
   font-size: 16px;
   max-width: 100%;
@@ -217,7 +217,7 @@ h5{
 }
 
 h6{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight:700;
   color:#000000;
@@ -228,7 +228,7 @@ h6{
 
 
 ol, li, dd, dt{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 200%;
   font-size: 16px;
   color:#535353;
