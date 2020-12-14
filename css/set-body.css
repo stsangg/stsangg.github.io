@@ -199,6 +199,9 @@ margin:30px auto;
 }
 .hero-section p{
   font-family:'Open Sans', sans-serif;
+  font-size:14px;
+  text-transform: uppercase;
+  margin-top:18px;
 }
 
 
