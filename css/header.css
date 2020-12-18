@@ -98,6 +98,14 @@ footer p{
   margin:10px 0px;
 }
 
+left p{
+  margin:15px 0px;
+}
+
+right p{
+  margin:5px 0px;
+}
+
 footer a{ 
   text-decoration: none;
   color:white !important;
