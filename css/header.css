@@ -112,8 +112,9 @@ text-align: left;
 font-size:22px;
 }
 
-footer container-md{
-
+.footer-h1{
+margin:0px;
+margin-bottom:15px;
 }
 
 
