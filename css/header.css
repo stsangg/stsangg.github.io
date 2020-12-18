@@ -86,7 +86,7 @@ footer{
 }
 
 .footer{
-  margin:50px 100px;
+  margin:50px 100px !important;
 }
 
 footer p{
