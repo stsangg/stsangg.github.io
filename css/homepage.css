@@ -117,6 +117,10 @@ margin:0px auto;
   padding:50px;
 }
 
+.column-piece a{
+	text-decoration: none !important;
+}
+
 .parallax{
 /*  background-image: url("../images/homepage/backkground-blackyblack.png");*/
   background-attachment: fixed;
