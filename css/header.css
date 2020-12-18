@@ -86,15 +86,16 @@ footer{
 }
 
 footer p{
-  font-size:14px;
   color: white;
-  margin-top:0px;
 }
 
 footer a{ 
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
   color:white !important; 
+}
+
+footer h5{
+color:#fff;
 }
 
 
