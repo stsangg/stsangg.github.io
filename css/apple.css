@@ -24,6 +24,15 @@
   color: black;
 }
 
+#CTA a{
+  font-weight: 600;
+}
+
+#CTA a:hover{
+  color:#fff;
+}
+
+
 .mob-quotes{
   display:none;
 }
