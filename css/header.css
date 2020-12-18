@@ -95,7 +95,7 @@ footer p{
   font-family:'Open Sans', sans-serif;
   width:85%;
   font-size:16px;
-  margin-bottom:5px;
+  margin:10px 0px;
 }
 
 footer a{ 
@@ -109,7 +109,7 @@ footer h5{
 color:#fff;
 font-family:'Playfair Display', serif;
 text-align: left;
-font-size:18px;
+font-size:22px;
 }
 
 footer container-md{
