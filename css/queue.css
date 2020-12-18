@@ -39,6 +39,10 @@
   color: black;
 }
 
+#CTA:hover{
+  color:#fff;
+}
+
 
 #competitors{
   width:50%;
