@@ -105,6 +105,10 @@ footer p{
   margin:5px 0px;
 }
 
+.right{
+  padding-left:130px;
+}
+
 footer a{ 
   text-decoration: none;
   color:white !important;

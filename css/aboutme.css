@@ -27,10 +27,8 @@
 
 #CTA{
   border-style: solid;
-  border-color: black;
-  border-width: 2px;
   background:#fff;
-  border-width: 1px;
+  border-width: 2px;
   border-color:#000;
   padding: 15px 30px;
   font-size: 16px;
@@ -46,6 +44,9 @@
   background:black;
 }
 
+#CTA a{
+  font-weight: 600;
+}
 #CTA a:hover{
   color:#EBF3B5
 }
