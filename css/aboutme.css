@@ -29,8 +29,9 @@
   border-style: solid;
   border-color: black;
   border-width: 2px;
-  background: #EBF3B5;
+  background:#fff;
   border-width: 1px;
+  border-color:#EBF3B5;
   padding: 15px 30px;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
@@ -43,11 +44,10 @@
 
 #CTA:hover{
   background:black;
-  color:#EBF3B5;
 }
 
-.CTA a:hover{
-  color:#EBF3B5;
+#CTA a:hover{
+  color:#EBF3B5
 }
 
 #CTA:active{
