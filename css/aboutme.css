@@ -300,4 +300,7 @@ ol, li, dd, dt{
   color: white;
 }
 
+.col-md{
+  padding:0px;
+}
 }
