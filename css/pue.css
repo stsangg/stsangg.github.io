@@ -23,4 +23,10 @@
   color: grey;
 }
 
+.research-deliverable{
+	display:block;
+	width:70%;
+	margin:25px auto;
+}
+
 }
