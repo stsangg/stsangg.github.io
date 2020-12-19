@@ -164,7 +164,7 @@ html, body{
 
 .headshot-mob{
   display:block;
-  padding:15px;
+  padding:15px 0px !important;
 }
 
 .headshot{
