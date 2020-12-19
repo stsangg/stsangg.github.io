@@ -23,6 +23,12 @@
   color: grey;
 }
 
+figcaption{
+  margin-bottom:10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
 .research-deliverable{
 	display:block;
 	width:70%;
@@ -31,6 +37,12 @@
 
 b{
 	font-weight:600;
+}
+
+.twitter img{
+	display:block;
+	width:70%;
+	margin:0 auto;
 }
 
 }
