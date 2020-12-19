@@ -1,0 +1,26 @@
+@media (min-width: 1008px){
+
+#CTA{
+  border-style: solid;
+  border-color: #0F4FAD;
+  border-width: 2px;
+  background: white;
+  border-width: 2px;
+  padding: 15px 30px 15px 30px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  margin: 30px auto 80px auto;
+  border-radius:30px;
+}
+
+#CTA:hover{
+  background:#0F4FAD;
+}
+
+#CTA:active{
+  background:#0F4FAD;
+  color: grey;
+}
+
+}
