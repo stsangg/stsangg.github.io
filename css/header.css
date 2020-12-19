@@ -86,7 +86,7 @@ footer{
 }
 
 .footer{
-  margin:50px 186px !important;
+  margin:50px !important;
 }
 
 footer p{
@@ -107,6 +107,7 @@ footer p{
 
 .right{
   padding-left:40px;
+  margin-top:30px;
 }
 
 footer a{ 
