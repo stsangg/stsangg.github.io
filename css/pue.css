@@ -27,6 +27,7 @@ figcaption{
   margin-bottom:10px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  margin-left:15px;
 }
 
 .research-deliverable{
@@ -45,9 +46,12 @@ b{
 	margin:0 auto;
 }
 
+.campaign img:nth-child(1){
+	width:80%;
+}
+
 .campaign img{
 	display:block;
 	width:70%;
-	margin:0 auto;
 }
 }
