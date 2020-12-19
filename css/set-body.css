@@ -60,7 +60,7 @@ overflow-x: hidden;
 /*text styles*/
 
 p, ul{
-  font-family: 'Inter', 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 180%;
   font-size: 16px;
   max-width: 100%;
@@ -78,7 +78,7 @@ p, ul{
 }*/
 
 h4{
-  font-family: 'Inter', 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #000;
   max-width: 850px;
@@ -97,7 +97,7 @@ h5{
 }
 
 h6{
-  font-family: 'Inter', 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight:600;
   color:#535353;
@@ -106,7 +106,7 @@ h6{
 }
 
 ol, li, dd, dt{
-  font-family: 'Inter','Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 200%;
   font-size: 16px;
   color:#535353;
