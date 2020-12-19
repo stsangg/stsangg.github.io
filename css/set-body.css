@@ -60,13 +60,14 @@ overflow-x: hidden;
 /*text styles*/
 
 p, ul{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', 'Open Sans', sans-serif;
   line-height: 180%;
   font-size: 16px;
   max-width: 100%;
   margin-top:20px;
   margin: 0 auto;
   color:#535353;
+  font-weight:300;
 }
 
 /*h3{
@@ -77,14 +78,14 @@ p, ul{
 }*/
 
 h4{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', 'Open Sans', sans-serif;
   font-size: 16px;
   color: #000;
   max-width: 850px;
   display: block;
   margin-bottom: 5px;
   margin-block-end: 0em;
-  font-weight:600;
+  font-weight:500;
 }
 
 h5{
@@ -96,19 +97,20 @@ h5{
 }
 
 h6{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', 'Open Sans', sans-serif;
   font-size: 18px;
-  font-weight:700;
+  font-weight:600;
   color:#535353;
 /*  margin-bottom: 15px;*/
   margin-top:0px;
 }
 
 ol, li, dd, dt{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter','Open Sans', sans-serif;
   line-height: 200%;
   font-size: 16px;
   color:#535353;
+  font-weight:300;
 }
 
 .divider{
