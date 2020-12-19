@@ -86,7 +86,7 @@ footer{
 }
 
 .footer{
-  margin:50px 100px !important;
+  margin:50px 186px !important;
 }
 
 footer p{
@@ -106,7 +106,7 @@ footer p{
 }
 
 .right{
-  padding-left:130px;
+  padding-left:40px;
 }
 
 footer a{ 
@@ -175,14 +175,22 @@ footer a{
 
 
 @media (max-width:480px){
-footer{
+.footer{
   margin:35px 0px !important;
 }
 
 footer p{
-  width:90%;
+  width:100%;
 }
 .left{
   margin-bottom:20px;
+}
+
+.right{
+  padding:0px;
+}
+
+.right p{
+  margin:5px 0px 10px 0px;
 }
 }
