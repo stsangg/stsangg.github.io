@@ -55,3 +55,28 @@ b{
 	width:70%;
 }
 }
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY - MOBILE VIEW*/
+@media only screen and (max-width:640px){
+
+.twitter img{
+		display:block;
+		width:70%;
+	}
+
+.campaign{
+	width:50%;
+	margin:20px 0px;
+}
+
+.campaign img{
+	width:100%;
+}
