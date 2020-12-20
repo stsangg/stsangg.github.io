@@ -57,7 +57,7 @@ h1{
 .h2{
   font-family:'Open Sans', sans-serif;
   font-size:24px !important;
-  color:#fff;
+  color:#F1FF99;
   text-transform:uppercase;
   padding-top:5px;
   font-weight:700 !important;
@@ -65,7 +65,7 @@ h1{
 
 .h2::before{
   content:'UX/UI Designer';
-  animation: animate infinite 4s;
+  animation: animate infinite 5s;
 }
 
 @keyframes animate{
