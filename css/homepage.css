@@ -54,7 +54,7 @@ h1{
   font-weight:700 !important;
 }
 
-span{
+.h2{
   font-family:'Open Sans', sans-serif;
   font-size:24px !important;
   color:#fff;
@@ -63,20 +63,20 @@ span{
   font-weight:700 !important;
 }
 
-span::before{
+.h2::before{
   content:'UX/UI Designer';
-  animation: animate infinite 3s;
+  animation: animate infinite 4s;
 }
 
 @keyframes animate{
   0%{
     content:'UX/UI Designer';
   }
-    50%{
+  50%{
     content:'Novice coder';
   }
 
-  100%{
+  75%{
     content:'Coffee enthusiast';
   }
 }
