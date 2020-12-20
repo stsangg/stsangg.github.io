@@ -65,8 +65,8 @@ h2{
 
 .intro p{
   font-size:20px;
-  width:60%;
-  margin:15px auto;
+  width:42%;
+  margin:30px auto;
   font-weight:300;
 }
 /*
@@ -86,15 +86,17 @@ p{
 }
 
 #down{
-  color:#fff;
-  font-size:16px;
-font-family:'Open Sans', sans-serif;
-margin:50px auto;
+padding:50px;
 display:block;
 text-align: center;
-color:white;
 position: relative;
 top:70px;
+}
+
+#down p{
+  color:#F1FF99;
+  font-size:16px;
+font-family:'Open Sans', sans-serif;
 }
 
 
