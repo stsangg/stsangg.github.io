@@ -68,7 +68,7 @@ h1{
   animation: animate infinite 5s;
 }
 
-@keyframes animate{
+@-webkit-keyframes animate{
   0%{
     content:'UX/UI Designer';
   }
@@ -87,14 +87,7 @@ h1{
   margin:30px auto;
   font-weight:300;
 }
-/*
-h2{
-  font-family:'Playfair Display', serif;
-  font-size:28px;
-  line-height:100%;
-  color: white;
-}
-*/
+
 p{
   font-family:'Open Sans', sans-serif;
  color:white;
@@ -158,7 +151,6 @@ margin:0px auto;
   background-color:#161820;
 }
 
-
 .parallax-1{
   background-image: url("../images/homepage/parallax-1-no.png")/*, url("../images/homepage/backkground-blackyblack.png")*/;
   background-attachment: fixed;
@@ -169,17 +161,7 @@ margin:0px auto;
   z-index: -1;
   height:100%;
   background-color:#161820;
-/*  background: rgb(255,196,81);
-background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 100%);*/
 }
-
-/*.parallax-1 p{
-font-family:'Playfair Display', serif;
-font-size:200px;
-position:relative;
-left:100px;
-}
-*/
 
 .parallax-2{
   background-image: url("../images/homepage/parallax-2-no.png")/*, url("../images/homepage/backkground-blackyblack.png")*/;
