@@ -323,16 +323,38 @@ a{
 
 
 /*media queries*/
-@media (max-width: 768px){
+@media (max-width: 769px){
+
+.intro{
+  width:100%;
+  padding:0px;
+  margin:150px auto;
+}
+
+.intro p{
+  width:80%;
+}
+
+#down{
+  margin-top:100px;
+}
+
+.column-piece{
+}
+
+figure{
+  margin:20px auto;
+  min-width:80%;
+}
+
+/*background stuff*/
 .parallax{
   background-attachment: scroll;
   padding-bottom:100px;
 }
 
 .parallax-1{
-/*background: rgb(255,196,81);
-background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 100%);*/
-background-image: url("../parallax-1.png")/*, url("../images/homepage/backkground-blackyblack.png")*/;
+background-image: url("../parallax-1.png");
 padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
@@ -340,9 +362,7 @@ background-color:#161820;
 
 }
 .parallax-2{
-/*background: rgb(255,163,54);
-background: linear-gradient(180deg, rgba(255,163,54,1) 0%, rgba(255,255,255,1) 100%);*/
-background-image: url("../parallax-2.png")/*, url("../images/homepage/backkground-blackyblack.png")*/;
+background-image: url("../parallax-2.png");
 padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
@@ -350,28 +370,13 @@ background-color:#161820;
 }
 
 .parallax-3{
-/*background: rgb(47,112,160);
-background: linear-gradient(180deg, rgba(47,112,160,1) 0%, rgba(255,255,255,1) 100%);*/
-background-image: url("../parallax-3.png")/*, url("../images/homepage/backkground-blackyblack.png")*/;
+background-image: url("../parallax-3.png");
 padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
 background-color:#161820;
 }
 
-.intro{
-width:100%;
-padding:0px;
-margin:150px auto;
-}
-
-.column-piece{
-  margin-top:50px;
-}
-figure{
-  margin:100px auto;
-  min-width:80%;
-}
 }
 
 
