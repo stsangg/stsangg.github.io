@@ -66,20 +66,17 @@ h1{
 .h2::before{
   content:'UX/UI Designer';
   animation: animate infinite 5s;
-  -webkit-animation: animate infinite 5s;
+  -webkit-animation-name: animate;
+  -webkit-animation-duration:5s;
+  -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes animate{
-  0%{
-    content:'UX/UI Designer';
-  }
-  50%{
-    content:'Novice coder';
-  }
+  0%{content:'UX/UI Designer';}
 
-  75%{
-    content:'Coffee enthusiast';
-  }
+  50%{content:'Novice coder';}
+  
+  75%{content:'Coffee enthusiast';}
 }
 
 .intro p{
