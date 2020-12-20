@@ -66,6 +66,7 @@ h1{
 .h2::before{
   content:'UX/UI Designer';
   animation: animate infinite 5s;
+  -webkit-animation: animate infinite 5s;
 }
 
 @-webkit-keyframes animate{
