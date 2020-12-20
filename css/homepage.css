@@ -117,8 +117,6 @@ top:70px;
 font-family:'Open Sans', sans-serif;
 }
 
-
-
 .intro{
 width:50%;
 margin:0px auto;
@@ -269,12 +267,13 @@ figure a{
 }
 
 #title{
-  font-family:'Playfair Display', serif !important;
-  font-size:20px !important;
-    line-height: 150%;
+font-family:'Playfair Display', serif !important;
+font-size:20px !important;
+line-height: 150%;
 padding-top:10px;
 padding-left:15px;
 color:#fff;
+font-weight:600;
 }
 
 #fig-1{
