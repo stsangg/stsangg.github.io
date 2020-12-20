@@ -411,8 +411,12 @@ html, body{
   }
 
 h1{
-  font-size:25px;
-  margin:20px auto;
+  font-size:65px !important;
+  margin-bottom:25px !important;
+}
+
+.h2{
+
 }
 .intro p{
   font-size:20px;
