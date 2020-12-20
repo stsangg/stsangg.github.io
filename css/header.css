@@ -33,7 +33,7 @@ a:active{
 .topnav a:hover {
   background-color:#161820;
   color: #fff;
-  text-decoration:underline;
+  text-decoration:none;
 }
 
 /* Add an active class to highlight the current page */
