@@ -40,15 +40,13 @@
   border-radius:30px;
 }
 
-#CTA:hover{
-  background:black;
-}
-
-#CTA a{
+.CTA a:hover{
+  color:#EBF3B5;
   font-weight: 600;
 }
-#CTA a:hover{
-  color:#EBF3B5
+
+#CTA:hover{
+  background:black;
 }
 
 #CTA:active{
