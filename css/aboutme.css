@@ -45,6 +45,10 @@
   font-weight: 600;
 }
 
+.CTA a{
+  color:#000;
+}
+
 #CTA:hover{
   background:black;
 }
