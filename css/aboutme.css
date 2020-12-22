@@ -40,7 +40,7 @@
   border-radius:30px;
 }
 
-.CTA a:hover{
+a:hover{
   color:#EBF3B5;
   font-weight: 600;
 }
