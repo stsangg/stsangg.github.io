@@ -44,6 +44,10 @@
   color: grey;
 }
 
+.CTA a{
+text-decoration:none;
+}
+
 .title{
   font-family:'Playfair Display', serif;
   font-size:30px;
