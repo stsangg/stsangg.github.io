@@ -41,8 +41,7 @@
 }
 
 a:hover{
-  color:#EBF3B5;
-  font-weight: 600;
+  color:#EBF3B5 !important;
 }
 
 .CTA a{
