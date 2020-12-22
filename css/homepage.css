@@ -109,6 +109,10 @@ scroll-behavior: smooth;
 font-family:'Open Sans', sans-serif;
 }
 
+#down a:hover{
+  text-decoration:none;
+}
+
 .intro{
 width:50%;
 margin:0px auto;
