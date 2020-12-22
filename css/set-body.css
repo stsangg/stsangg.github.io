@@ -124,7 +124,7 @@ border: 1px solid #c3c3c3;
 
 .CTA{
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 /*hero image header*/
