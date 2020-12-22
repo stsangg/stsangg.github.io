@@ -24,11 +24,11 @@
   color: black;
 }
 
-#CTA a{
+.CTA a{
   font-weight: 600;
 }
 
-#CTA a:hover{
+.CTA a:hover{
   color:#fff;
 }
 
