@@ -28,11 +28,12 @@
   margin:0 auto;
   box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
+
 figcaption{
   margin-bottom:10px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  margin-left:15px;
+  margin-left:35px;
 }
 
 .research-deliverable{
@@ -48,7 +49,8 @@ b{
 .twitter img{
 	display:block;
 	width:70%;
-	margin:0 auto;
+	margin:25px auto;
+  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 .campaign img:nth-child(1){
@@ -58,6 +60,8 @@ b{
 .campaign img{
 	display:block;
 	width:70%;
+  margin:25px auto;
+  box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 .wireframes img{
