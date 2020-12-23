@@ -20,7 +20,7 @@ overflow-x: hidden;
 #loading {
     display: block;
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     margin-left:-50%;
     z-index: 100;
