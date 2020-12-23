@@ -23,6 +23,10 @@
   color: grey;
 }
 
+.solution-gif{
+  display:block;
+  margin:0 auto;
+}
 figcaption{
   margin-bottom:10px;
   font-family: 'Open Sans', sans-serif;
