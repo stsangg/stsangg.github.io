@@ -195,11 +195,11 @@ html, body{
 }
 
 .description{
-  padding:0px;
+  padding:0px !important;
 }
 
 .description > p{
-  padding:0px;
+  padding:0px !important;
 }
 /*text styles*/
 
@@ -308,7 +308,5 @@ ol, li, dd, dt{
   color: white;
 }
 
-.col-md{
-  padding:0px;
 }
 }
