@@ -46,7 +46,8 @@ b{
 	font-weight:600;
 }
 
-.invision{
+.invision img{
+  height:100%;
   margin:30px auto;
 }
 .twitter img{
