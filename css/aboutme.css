@@ -193,6 +193,14 @@ html, body{
 .col-md{
   padding-right:0px;
 }
+
+.description{
+  padding:0px;
+}
+
+.description > p{
+  padding:0px;
+}
 /*text styles*/
 
 p, ul{
