@@ -64,6 +64,10 @@ b{
   padding:15px;
 }
 
+.invision img:nth-child(2){
+  padding:25px;
+}
+
 .twitter img{
 	display:block;
 	width:70%;
