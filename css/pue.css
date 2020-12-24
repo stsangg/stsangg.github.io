@@ -46,10 +46,15 @@ b{
 	font-weight:600;
 }
 
+.invision{
+  width:60%;
+}
+
 .invision img{
   height:100%;
   margin:30px auto;
 }
+
 .twitter img{
 	display:block;
 	width:70%;
