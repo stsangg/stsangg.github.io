@@ -46,6 +46,10 @@ b{
 	font-weight:600;
 }
 
+.bottom{
+  margin-bottom:30px;
+}
+
 .invision{
   margin:30px auto;
   width:62%;
