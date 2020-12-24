@@ -198,7 +198,7 @@ html, body{
   padding:0px !important;
 }
 
-.description > p{
+.description > .section{
   padding:0px !important;
 }
 /*text styles*/
