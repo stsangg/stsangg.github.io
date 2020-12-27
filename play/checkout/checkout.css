@@ -5,11 +5,25 @@
 	text-transform:none !important;
 }
 
-.ideation img{
-	height:100%;
+.section{
+	width:40% !important;
 }
 
-.final{
+.images{
+	width:60%;
+}
+
+.images img{
+	height:100%;
+	margin:15px;
+}
+
+.images img:nth-child(3){
+	display:block;
+	margin:0 auto;
+}
+
+.images{
 width:50%;
 display:block;
 margin:0 auto;
