@@ -5,6 +5,10 @@
 	text-transform:none !important;
 }
 
+.ideation img{
+	height:100%;
+}
+
 .final{
 width:50%;
 display:block;
