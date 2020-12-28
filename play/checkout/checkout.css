@@ -15,7 +15,6 @@
 
 .images img{
 	height:100%;
-	margin:15px;
 }
 
 .images img:nth-child(3){
@@ -27,4 +26,8 @@
 width:50%;
 display:block;
 margin:0 auto;
+}
+
+.final{
+	width:40%;
 }

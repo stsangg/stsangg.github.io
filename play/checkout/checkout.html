@@ -60,21 +60,19 @@
 
 <div class='hero-section container-md'>
   <h5>Ready to checkout?</h5>
-  <p>Rather than recreating the typical checkout page, I wanted to have a little more fun with the design. I started off with the basics of what was needed to make a successful checkout screen, and then later incorproated the branding.</p>
+  <h4>Challenge: design a checkout page</h4>
+  <p>Rather than recreating a typical checkout page, I wanted to have a little more fun with the design. I started off with the basics of what was needed to make a successful checkout screen, and then later incorporated the branding.</p>
 </div>
 
 <div class='section container-md'>
-  <h5>Thought Process</h5>
-  <br>
-  <br>
-  <p><b>When are people using checkout screens?</p></b>
- <p>To purchase an item. Checkout screens are an area for people to put in the following information:</p>
+  <p><b>When are people using checkout screens?</b></p>
+  <p>To purchase an item. Checkout screens are an area for people to put in the following information:</p>
  <ul>
   <li>payment</li>
   <li>billing</li>
   <li>shipping</li>
 </ul>
-
+<br>
 <p><b>What do people need to see?</b></p>
 <ul>
   <li>summary of the items they're buying</li>
@@ -83,19 +81,130 @@
 </ul>
 </div> <!-- close the div -->
 
-<div class='section container-md'>
+<div class='section container-md' style='margin-bottom:20px'>
   <h4>Ideating</h4>
   <p>I tinkered around with a few layouts before landing on the idea of an untraditional header placement. A sticky summary section on the right would've been great for users to see the items and cost breakdown as they enter their information.</p>
 </div>
   <div class='row images'>
-  <img class='col-md-8 img-fluid' src='checkout-1.jpeg'>
+  <img class='col-md-7 img-fluid' src='checkout-1.jpeg'>
   <img class='col-md-4 img-fluid' src='checkout-2.jpeg'>
-  <img class='col-md-6 img-fluid' src='checkout-3.jpeg'>
+  <img class='col-md-5 img-fluid' src='checkout-3.jpeg'>
 </div>
 
 <div class='section container-md'>
   <h4>Branding</h4>
   <p>At this point, I was envisioning a hypebeast-esque, cool company. I opted for a simple black and white color scheme and used a bright yellow as the highlighting color to draw attention. Pairing the vertical headers with a big bold font really emphasized the  ~cool and different~ factor that so many of these brands convey.</p>
 </div>
-  <img class='img-fluid images' src='day2.jpg'>
+
+<div class='row final'>
+  <img class='img-fluid col-md-6' src='final.gif'>
+  <img class='img-fluid col-md-6' src='day2.jpg'>
 </div>
+
+<footer>
+<div class='footer'>
+  <div class='container-md left'>
+    <h5>Why, I'd love to chat!</h5>
+    <p>Want to talk more about my design process, my previous projects, or how I navigate the design industry? The best chats are with my fellow creatives.</p>
+  </div> 
+  <div class='container-md right'>
+  <p class='footer-h1'><b>Different ways to get in touch:</b></p>
+  <p><a href="mailto:scytsang42@gmail.com">scytsang42@gmail.com</a></p>
+  <p><a href='Stephanie_Tsang_Resume.pdf' target='_blank'>Resume</a></p>
+  <p><a href='https://www.linkedin.com/in/scytsang/' target='_blank'>LinkedIn</a></p>
+  </div>
+  <p class='disclaimer container-md'>Coded with  ☕️  and  ❤️</p>
+</div> <!-- close the class footer --> 
+</footer> 
+
+</div>
+</div>
+<!-- loader -->
+<div id='loading'></div>
+</body>
+<script>
+
+//BACK TO TOP STUFF--
+
+  //Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+//MODAL STUFF
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+
+var showModal = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+for (var i = 0; i < img.length; i++) {
+    img[i].addEventListener('click', showModal);
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+// loader
+function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 1000);
+
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+}
+
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
+}
+
+onReady(function () {
+    show('page', true);
+    show('loading', false);
+});
+
+</script>
+
+</body>
+</html>
