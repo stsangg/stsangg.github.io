@@ -134,11 +134,6 @@ margin:20px auto;
 }
 
 .preview img{
-	opacity:0.4;
-}
-
-.preview img{
-
 	transition:1s;
 	transition-timing-function: ease-in-out;
 }
