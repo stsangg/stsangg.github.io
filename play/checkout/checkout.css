@@ -49,6 +49,31 @@ margin:20px auto;
 
 
 
+/*tablet*/
+@media (min-width: 641px) and (max-width: 1007px){
+.hero-section{
+	margin-top:50px;
+}
+
+	.final{
+		width:80%;
+		margin:20px auto 50px auto;
+	}
+
+	.final img:nth-child(2){
+		height:60%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*mobile*/
