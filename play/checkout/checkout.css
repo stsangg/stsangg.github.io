@@ -1,5 +1,8 @@
 @media (min-width: 1008px){
 
+.hero-section{
+	margin-top:80px;
+}
 .hero-section p{
 	font-size:16px !important;
 	text-transform:none !important;
@@ -7,6 +10,7 @@
 
 .hero-section, .section{
 	width:40% !important;
+	margin-bottom:20px;
 }
 
 .images{
@@ -19,7 +23,7 @@
 
 .images img:nth-child(3){
 	display:block;
-	margin:0 auto;
+	margin:0 auto 80px auto;
 }
 
 .images{
@@ -30,6 +34,7 @@ margin:0 auto;
 
 .final{
 	width:40%;
+	margin:0 auto;
 }
 
 .final img{
