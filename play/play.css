@@ -10,8 +10,7 @@ width:100%;
 }
 
 .preview{
-		margin:0px 20px;
-		background-color:#000;
+	margin:20px;
 	}
 
 .preview p{
@@ -24,7 +23,7 @@ width:100%;
 .preview img{
 	transition:1s;
 	transition-timing-function: ease-in-out;
-	padding:30px;
+	box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 }
 
 .preview img:hover{
