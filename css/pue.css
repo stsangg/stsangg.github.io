@@ -23,6 +23,10 @@
   color: grey;
 }
 
+.CTA a:hover{
+  color:#fff;
+}
+
 .solution-gif{
   display:block;
   margin:30px auto;
