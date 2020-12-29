@@ -116,21 +116,22 @@ border: 1px solid #c3c3c3;
 .gif{
 box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
 margin:20px auto;
+display:block;
 }
 
-.hero-section{
-	margin-top:80px;
-}
 
-.section{
-	margin:20px auto;
-}
+
 
 @media (min-width: 1008px){
 
 .hero-section{
   margin-top:80px;
 }
+
+.section{
+  margin:20px auto;
+}
+
 .hero-section p{
   font-size:16px !important;
   text-transform:none !important;
@@ -138,7 +139,6 @@ margin:20px auto;
 
 .hero-section, .section{
   width:40% !important;
-  margin-bottom:20px;
 }
 }
 
