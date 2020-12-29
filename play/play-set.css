@@ -139,6 +139,7 @@ margin:20px auto;
 }
 
 .preview img{
+	
 	transition:1s;
 	transition-timing-function: ease-in-out;
 }
