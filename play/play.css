@@ -1,5 +1,9 @@
 .phone{
-	width:12%;
+	width:30%;
 	height:100%;
 	margin-left:25px;
+}
+
+.desktop{
+width:100%;
 }
