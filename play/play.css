@@ -1,9 +1,45 @@
 .phone{
-	width:30%;
+	width:39%;
 	height:100%;
-	margin-left:25px;
+	display:block;
+	margin:0 auto;
 }
 
 .desktop{
 width:100%;
 }
+
+.preview{
+		margin:0px 20px;
+		background-color:#000;
+	}
+
+.preview p{
+	color:#fff;
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+
+.preview img{
+	transition:1s;
+	transition-timing-function: ease-in-out;
+	padding:30px;
+}
+
+.preview img:hover{
+transform:scale(1.05);
+}
+
+.work{
+	margin:20px auto 80px auto;
+}
+
+
+/*
+@media (min-width: 1008px){
+	.preview{
+		margin:0px 20px;
+		background-color:#000;
+	}
+}*/

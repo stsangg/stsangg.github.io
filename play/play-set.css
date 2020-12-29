@@ -126,22 +126,6 @@ margin:20px auto;
 	margin:20px auto;
 }
 
-.preview p{
-	color:#fff;
-	position:absolute;
-	top:50%;
-	left:50%;
-}
-
-.preview img{
-	transition:1s;
-	transition-timing-function: ease-in-out;
-}
-
-.preview img:hover{
-transform:scale(1.05);
-}
-
 
 
 
