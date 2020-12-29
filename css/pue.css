@@ -95,9 +95,15 @@ margin:10px auto 50px auto;
   margin:40px auto !important;
 }
 
-.usability p{
-  margin-top:10px;
+.usability{
+margin-bottom:15px;
 }
+
+.usability:nth-child(1){
+  margin-top:15px;
+}
+
+
 .usability-1 img{
 margin-top:30px;
 }
