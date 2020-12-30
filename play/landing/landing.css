@@ -1,11 +1,15 @@
 .gif{
-	width:50%;
+	width:30%;
 }
 
 .mockup{
+	width:30%;
+	margin:0 auto;
+}
+
+.mockup img{
 	box-shadow: -6px -6px 15px rgba(194, 192, 192, 0.1), 4px 4px 16px rgba(107, 104, 104, 0.1);
-	height:100%;
-	padding:0px;
+	display:block;
 }
 
 .designs{
