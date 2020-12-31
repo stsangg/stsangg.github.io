@@ -83,19 +83,26 @@ margin:20px auto;
 
 /*mobile*/
 @media only screen and (max-width:640px){
-.images img:nth-child(2,3){
-		width:80%
+
+.final img{
+	width:50%;
+	height:100%;
+	margin:30px auto;
+}
+
+.images img:nth-child(2){
+		width:80%;
 		margin:0 auto;
 	}
 
-.final img:nth-child(1){
-	width:60%;
-	margin:20px auto;
+.images img:nth-child(3){
+	width:70%;
+	margin:0 auto;
 }
 
-.final img:nth-child(2){
-width:70%;
-margin:0px auto auto 30px auto;
+.images img:nth-child(1){
+	width:80%;
+	margin:0px auto;
 }
 
 }
