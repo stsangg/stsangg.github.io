@@ -1,5 +1,5 @@
 .phone{
-	width:39%;
+	width:30%;
 	height:100%;
 	display:block;
 	margin:0 auto;
@@ -32,7 +32,8 @@ transform:scale(1.05);
 
 
 .play-section{
-	margin:60%;
+	width:60%;
+	margin:80px auto 50px auto;
 }
 
 .play{
@@ -48,3 +49,19 @@ transform:scale(1.05);
 		background-color:#000;
 	}
 }*/
+
+@media (max-width:640px){
+
+.images img{
+	width:80%;
+	height:100%;
+	margin:20px auto;
+}
+
+.final img{
+	width:50%;
+	height:100%;
+	margin:30px auto;
+}
+
+}
