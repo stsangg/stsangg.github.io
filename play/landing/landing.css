@@ -28,3 +28,26 @@
 	height:100%;
 	margin:30px auto;
 }
+
+
+
+
+
+
+
+/*mobile*/
+@media only screen and (max-width:640px){
+	.gif{
+		width:50%;
+	}
+
+	.mockup{
+		width:40%;
+	}
+
+	.designs img{
+		width:40%;
+		display:block;
+		margin:10px auto;
+	}
+}
