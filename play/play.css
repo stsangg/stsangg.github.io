@@ -30,8 +30,14 @@ width:100%;
 transform:scale(1.05);
 }
 
+
+.play-section{
+	margin:60%;
+}
+
 .play{
 	margin:20px auto 80px auto;
+	width:60%;
 }
 
 
