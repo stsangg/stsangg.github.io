@@ -439,33 +439,27 @@ figure{
 }
 
 .parallax-1{
-/*background: rgb(255,196,81);
-background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 100%);*/
-/*background-image: url("../parallax-1.png");
-*/padding:50px 0px;
+padding:10px;
 background-position:left;
 background-attachment: scroll;
 background-color:#1F1E1E;
+background-image:none;
 
 }
 .parallax-2{
-/*background: rgb(255,163,54);
-background: linear-gradient(180deg, rgba(255,163,54,1) 0%, rgba(255,255,255,1) 100%);*/
-/*background-image: url("../parallax-2.png"), url("../images/homepage/backkground-blackyblack.png";
-*/padding:50px 0px;
+padding:10px;
 background-position:left;
 background-attachment: scroll;
 background-color:#1F1E1E;
+background-image:none;
 }
 
 .parallax-3{
-/*background: rgb(47,112,160);
-background: linear-gradient(180deg, rgba(47,112,160,1) 0%, rgba(255,255,255,1) 100%);*/
-/*background-image: url("../parallax-3.png"), url("../images/homepage/backkground-blackyblack.png");
-*/padding:50px 0px;
+padding:10px;
 background-position:left;
 background-attachment: scroll;
 background-color:#1F1E1E;
+background-image:none;
 }
 
 figcaption{
