@@ -491,13 +491,13 @@ color:##BCBDC0;
 }
 
 #down{
-  color:#fff;
-margin:50px auto;
+color:#fff;
+margin:0px auto;
 display:block;
 text-align: center;
 color:white;
 position:relative;
-top:120px;
+padding:10px;
 }
 
 
