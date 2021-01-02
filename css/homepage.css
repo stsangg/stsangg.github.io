@@ -74,13 +74,13 @@ text-shadow: 0px 20px 28px #000000;
 @-webkit-keyframes animate{
   0%{content:'UX/UI Designer';}
 
-  20%{content:'Novice coder';}
+  20%{content:'Apprentice coder';}
   
   40%{content:'Coffee enthusiast';}
 
   60%{content:'Curious empathetic';}
 
-  80%{content:'Lifelong learner';}
+  80%{content:'Serial learner';}
 }
 
 .intro p{
