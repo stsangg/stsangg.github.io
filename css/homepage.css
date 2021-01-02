@@ -244,6 +244,7 @@ figcaption{
   font-family: 'Open Sans', sans-serif;
   font-size:20px;
   line-height: 150%;
+  font-weight:300 !important;
 
 }
 figure a{
