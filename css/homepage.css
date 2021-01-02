@@ -50,7 +50,7 @@ h1{
   font-size:80px !important;
   line-height:100%;
   color:#fff;
-text-shadow: 0px 15px 20px #000000;
+text-shadow: 0px 20px 20px #000000;
   font-weight:700 !important;
 }
 
@@ -195,7 +195,7 @@ margin: 100px auto !important;
  width: 40%;
 font-family: 'Open Sans', sans-serif;
  z-index: 1;
-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+box-shadow: 0px 20px 100px rgba(0,0,0,0.8);
   border-radius: 12px;
   position: relative;
   z-index: 1;
