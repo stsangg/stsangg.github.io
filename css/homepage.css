@@ -50,7 +50,7 @@ h1{
   font-size:80px !important;
   line-height:100%;
   color:#fff;
-text-shadow: 0px 20px 30px #000000;
+text-shadow: 0px 20px 28px #000000;
   font-weight:700 !important;
 }
 
@@ -338,27 +338,24 @@ figure{
 }
 
 .parallax-1{
-background-image: url("../parallax-1.png");
 padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
-background-color:#161820;
+background-color:#1F1E1E;
 
 }
 .parallax-2{
-background-image: url("../parallax-2.png");
 padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
-background-color:#161820;
+background-color:#1F1E1E;
 }
 
 .parallax-3{
-background-image: url("../parallax-3.png");
 padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
-background-color:#161820;
+background-color:#1F1E1E;
 }
 
 }
@@ -447,7 +444,7 @@ background: linear-gradient(180deg, rgba(255,196,81,1) 0%, rgba(255,255,255,1) 1
 */padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
-background-color:#1E212D;
+background-color:#1F1E1E;
 
 }
 .parallax-2{
@@ -457,7 +454,7 @@ background: linear-gradient(180deg, rgba(255,163,54,1) 0%, rgba(255,255,255,1) 1
 */padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
-background-color:#161820;
+background-color:#1F1E1E;
 }
 
 .parallax-3{
@@ -467,7 +464,7 @@ background: linear-gradient(180deg, rgba(47,112,160,1) 0%, rgba(255,255,255,1) 1
 */padding:50px 0px;
 background-position:left;
 background-attachment: scroll;
-background-color:#1E212D;
+background-color:#1F1E1E;
 }
 
 figcaption{
