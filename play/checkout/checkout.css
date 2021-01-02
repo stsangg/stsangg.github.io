@@ -90,6 +90,10 @@ margin:20px auto;
 	margin:10px auto 30px auto;
 }
 
+.images img{
+	height:100%;
+}
+
 .images img:nth-child(1){
 	width:80%;
 	margin:0px auto;
