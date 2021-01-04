@@ -29,14 +29,6 @@
   margin-top:30px;
 }
 
-#CTA:nth-child(1){
-  background:#000;
-}
-
-#CTA a:nth-child(1){
-  color:#EBF3B5;
-}
-
 #CTA{
   border-style: solid;
   background:#fff;
