@@ -38,7 +38,7 @@ a:active{
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  color: #fff;
+  color: #EBF3B5;
   font-weight:bold;
   text-transform:uppercase;
 }
