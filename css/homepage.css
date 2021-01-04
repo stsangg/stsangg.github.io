@@ -37,7 +37,6 @@ overflow-x: hidden;
 }
 
 
-
 h3{
   color: grey;
   position: block;
@@ -122,6 +121,7 @@ width:50%;
 margin:0px auto;
   text-align:center;
   padding:150px;
+  text-shadow: 0px 20px 28px #000000;
 }
 
 .intro:before {
@@ -318,6 +318,7 @@ a{
   width:100%;
   padding:0px;
   margin:150px auto;
+  text-shadow: 0px 20px 28px #000000;
 }
 
 .intro p{
@@ -395,6 +396,7 @@ html, body{
     text-align:center;
   padding-bottom:30px !important;
   padding:0px;
+  text-shadow: 0px 20px 28px #000000;
   }
 
   .name{
