@@ -23,18 +23,18 @@
   display:none;
 }
 
+#primary{
+  background:#000 !important;
+}
+
+#primary a{
+  color:#EBF3B5 !important;
+}
+
 .CTA{
   display: flex;
   align-items: center;
   margin-top:30px;
-}
-
-.primary{
-  background:#000 !important;
-}
-
-.primary a{
-  color:#EBF3B5 !important;
 }
 
 #CTA{
