@@ -85,11 +85,12 @@ text-shadow: 0px 20px 28px #000000;
 
 #tagline{
   text-align:left;
+  width:48%;
 }
 
 .intro p{
   font-size:20px;
-  width:52%;
+  width:48%;
   margin:30px auto;
   font-weight:300;
 }
