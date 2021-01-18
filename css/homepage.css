@@ -72,11 +72,13 @@ text-shadow: 0px 20px 28px #000000;
 }
 
 @-webkit-keyframes animate{
-  33%{content:'Coffee enthusiast';}
+  25%{content:'Self taught coder';}
 
-  66%{content:'Curious adventurer';}
+  50%{content:'Curious adventurer';}
 
-  99%{content:'Serial learner';}
+  75%{content:'Serial learner';}
+
+  100%{content:'Coffee enthusiast';}
 }
 
 #tagline{
@@ -86,7 +88,7 @@ text-shadow: 0px 20px 28px #000000;
 
 .intro p{
   font-size:20px;
-  width:48%;
+  width:53%;
   margin:30px auto;
   font-weight:300;
 }
