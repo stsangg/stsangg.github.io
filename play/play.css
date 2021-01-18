@@ -1,5 +1,10 @@
+.figcaption{
+	margin-top:10px;
+font-family:'Open Sans' !important;
+}
+
 .phone{
-	width:30%;
+	width:40%;
 	height:100%;
 	display:block;
 	margin:0 auto;
