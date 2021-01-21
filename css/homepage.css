@@ -394,6 +394,11 @@ html, body{
     margin-left: auto;
   }
 
+#tagline{
+  text-align:center;
+  width:84%;
+}
+
   .intro{
    margin:110px auto;
     width:100%;
