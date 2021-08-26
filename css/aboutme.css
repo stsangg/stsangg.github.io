@@ -70,7 +70,10 @@ a:hover{
 }
 
 p{
-  font-family: 'Open Sans', sans-serif;
+ /* font-family: 'Open Sans', sans-serif;*/
+ font-family: azo-sans-web,sans-serif;
+font-weight: 400;
+font-style: normal;
   line-height: 32px;
   font-size: 16px;
   max-width: 700px;
@@ -84,7 +87,10 @@ li{
 }
 
 h4{
-font-family: 'Playfair Display', sans-serif;
+/*font-family: 'Playfair Display', sans-serif;*/
+font-family: azo-sans-web,sans-serif;
+font-weight: 700;
+font-style: normal;
   font-size: 24px;
   color: black;
   max-width: 850px;
@@ -92,7 +98,10 @@ font-family: 'Playfair Display', sans-serif;
 }
 
 ol, ul{
-  font-family: 'Open Sans', sans-serif;
+ /* font-family: 'Open Sans', sans-serif;*/
+ font-family: azo-sans-web,sans-serif;
+font-weight: 400;
+font-style: normal;
   line-height: 35px;
   font-size: 16px;
   margin-left: 110px;
