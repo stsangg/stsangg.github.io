@@ -1,0 +1,56 @@
+/*new body text:*/
+h4{
+	font-family: azo-sans-web,sans-serif;
+	font-weight:400;
+	font-style: normal;
+	font-size:16px;
+}
+
+h5{
+font-family: bely-display,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h6{
+	font-family:azo-sans-web, sans-serif;
+	font-weight:700;
+	font-style: normal;
+	font-size: 16px;
+}
+
+p, li{
+color:#131111 !important;
+font-family: azo-sans-web,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+/*end of new body text*/
+
+.image-row{
+	margin:24px;
+}
+
+
+.gifs{
+	width:25%;
+	vertical-align:middle;
+}
+
+.photo{
+	width:90%;
+	display:flex;
+	justify-content:center;
+}
+
+.photo-md{
+	width:60%;
+}
+
+ul.list-no-bullets{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}

@@ -80,7 +80,7 @@ p, ul{
 h4{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #000;
+  color: #131111;
   max-width: 850px;
   display: block;
   margin-bottom: 5px;
@@ -91,7 +91,7 @@ h4{
 h5{
   font-family: 'Playfair Display', serif;
   font-size: 32px;
-  color:#000000;
+  color:#131111;
   margin-bottom: 20px;
   margin-top:0px;
 }
@@ -440,7 +440,7 @@ p, ul{
 h4{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #000000;
+  color: #131111;
   max-width: 850px;
   display: block;
   margin-bottom: 0px;
@@ -451,7 +451,7 @@ h4{
 h5{
   font-family: 'Playfair Display', serif;
   font-size: 20px;
-  color:#000000;
+  color:#131111;
   margin-bottom: 10px;
   margin-top:0px;
   line-height:120%;
@@ -471,7 +471,7 @@ h6{
  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight:700;
-  color:#000000;
+  color:#131111;
   margin-bottom: 5px;
   margin-top:0px; 
 }
@@ -659,7 +659,7 @@ p, ul{
 h4{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #000000;
+  color: #131111;
   max-width: 850px;
   display: block;
   margin-bottom: 0px;
@@ -670,7 +670,7 @@ h4{
 h5{
   font-family: 'Playfair Display', serif;
   font-size: 20px;
-  color:#000000;
+  color:#131111;
   margin-bottom: 10px;
   margin-top:0px;
   line-height:150%;
