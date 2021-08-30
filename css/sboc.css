@@ -35,8 +35,9 @@ font-style: normal;
 
 
 .gifs{
-	width:25%;
-	vertical-align:middle;
+	width:30%;
+	margin:0 auto;
+	padding:16px;
 }
 
 .photo{
