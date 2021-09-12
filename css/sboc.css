@@ -16,7 +16,7 @@ h6{
 	font-family:azo-sans-web, sans-serif;
 	font-weight:700;
 	font-style: normal;
-	font-size: 16px;
+	font-size: 19px;
 }
 
 p, li{
@@ -33,21 +33,29 @@ font-style: normal;
 	margin:24px;
 }
 
+.design-row{
+	margin:16px auto;
+}
+
 
 .gifs{
 	width:30%;
 	margin:0 auto;
 	padding:16px;
+	filter: drop-shadow(-6px -6px 15px rgba(194, 192, 192, 0.1)) drop-shadow(4px 4px 16px rgba(107, 104, 104, 0.1));
 }
 
 .photo{
 	width:90%;
 	display:flex;
 	justify-content:center;
+	filter: drop-shadow(-6px -6px 15px rgba(194, 192, 192, 0.1)) drop-shadow(4px 4px 16px rgba(107, 104, 104, 0.1));
+	margin: 8px 0px;
 }
 
 .photo-md{
 	width:60%;
+	margin: 0 auto;
 }
 
 ul.list-no-bullets{

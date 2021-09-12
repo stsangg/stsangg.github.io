@@ -67,23 +67,26 @@
 
 <div class='section container-md'>
   <h6>Background</h6>
-  <p>I was 8 when I participated in my first Spelling Bee of Canada, so it felt full-circle when I became a volunteer designer with them. Once we collected feedback after the launch of our MVP redesign, it was time to turn our design thinking caps to <b>elevating the experience and visuals of the navigation.</b></p>
+  <p>Designing a navigation is like designing a map. When done correctly, people rely on it to orient themselves on a new website and can eventually learn their way around. When done poorly, the navigation becomes less like a map and more like a maze.<br>Armed wth collected feedback from our community of parents (target users), <b>my goal was to improve the design and experience of our MVP website’s main navigation.</b></p>
 </div>
+
+<div class='CTA'><a href=#designs style='text-decoration: none'>
+  <span id='CTA'>View designs</span></a></div>
 
 <div class='section container-md'>
   <h6>Problem</h6>
-  <p>In a discovery interview with the client, I learned that our current navigation had the following problems:</p><br>
-  <p><b>No scalability potential</b></p>
-  <p>On the roadmap was the goal to expand the website’s pages and release more resources and features for the target audience of parents and competitors. We needed to consider how the new navigational items should be organized on the site’s information architecture.</p>
-  <img class='photo' src='images/sboc/problem-scalability.png' alt='Current navigation design'>
-  <br>
-    <p><b>Unintuitive information architecture</b></p>
-  <p>After the launch, parents indicated that they were having difficulty with a direct business goal: registration. They were used to the old website’s information architure where the text link, “registration” was located in the menu. They didn’t think the registration link would be in “Participate”. The current site had it 2-levels lower, with the link hidden on page. This resulted in a lot of support emails and parental frustration.</p>
+  <p>In a discovery interview with the client, I learned that our current navigation had 3 high-priority problems:</p><br>
+  <p><b>Frustrating information architecture</b></p>
+  <p>Parents reported experiencing difficulty with a direct business goal: competition registration. They were used to the old website design's information architecture, where the link to register was accessible from the menu. In the redesign, the link was a level-lower and located at the bottom of a page. This mismatch in thinking resulted in a lot of frustration and support emails.</p>
     <img class='photo' src='images/sboc/problem-ia.png' alt='Current information architecture'>
   <br>
   <p><b>Poor interaction design</b></p>
-  <p>Simply put, people expressed difficulty seeing what items were in an “active” state. The only indicator provided when a parent hovered over an item was the switching of the chevron icon. The red line at the bottom of the nav was hidden by the dropdown menu.</p>
-  <img class= 'photo' src='images/sboc/problem-id.gif' alt='Current interaction design'>
+  <p>Simply put, it was hard to see what items were in an active state. When a parent hovered over an item, the only indicator was the switching of the chevron icon. Though there was the dropdown, parents still found it hard to establish a relationship between that and the navigation item with such little affordance.</p>
+  <img class='photo' src='images/sboc/problem-id.gif' alt='Current interaction design'>
+   <br>
+  <p><b>Considering scalability</b></p>
+  <p>The goal was to eventually release more resources and features for parents and competitors, leading to more pages. This was the best time to consider how those features could be seamlessly integrated and organized in the site's information architecture.</p>
+  <img class='photo' src='images/sboc/problem-scalability.png' alt='Current navigation design'>
 </div>
 
 <div class='boxed'>
@@ -118,43 +121,54 @@
 <div class='section bottom container-md' id='research'>
   <h4>Secondary Research</h4>
   <h5>Understanding client expectations</h5>
-  <p>Working with the stakeholder, we discussed what she envisioned and had planned in the roadmap for www.spellingbeeofcanada.ca. Having an idea of how big we wanted the website to grow to helped me tailor my research towards more complex navigation designs, which eventually led to the discovery of mega menus.<b> According to the NNGroup, it showed multiple levels of the site’s information architecture in a single view and the user would be able to see and learn the categorical relationships, rather than exert mental effort to try to remember.</b></p>
+  <p>My first step was understanding what the client envisioned and had roadmapped for www.spellingbeeofcanada.ca. Having an idea of our scalability helped me tailor my research towards more complex navigation designs, which eventually led to the discovery of mega menus. Referencing research from the NNGroup, the mega menu showed multiple levels of a site’s information architecture in a single view. <br>I found that this would help the user by:</p>
+<ul>
+  <li>see and learn the categorical relationships</li>
+  <li>visualize instead of exerting mental effort to try to remember where each action is</li>
+</ul>
   <img class='photo-md' src='images/sboc/ideal-nav.png' alt='Current vs. ideal navigation state'>
-  <p>Through my research, I found that designing a stellar navigation takes more than just familiar design patterns and interactions. From a content perspective, it also helps to use information-carrying words. The goal was having our parents come to the website and have a general idea of what each word in the navigation means.</p>
-  <p><b>Information carrying-word:</b></p>
+  <p>There was also value in thoughtfully considering content. A common problem with navigations was the use of words that had little meaning to the user, thus leaving them lost and confused. To combat this, I opted to use more action-oriented terms so parents could arrive on the site and understand what actions they could take under each item. </p>
+<!--   <p><b>Information carrying-word:</b></p>
   <ol>
     <li>Use plain language</li>
     <li>Specific terminology</li>
-    <li>Front-load user- or action-oriented terms</li>
-  </ol>
+    <li>Front-load user or action-oriented terms</li>
+  </ol> -->
 </div> <!-- end of section -->
 
 <hr class='divider2'>
 
 <div class='section bottom container-md'>
   <h4>Card sorting activity</h4>
-  <h5>How do our users think?</h5>
-  <p>Because parents were confused with the current information architecture, I decided to run a card sorting activity. 
-<b>The goal was to discover how they would think about and group the items in the ideal navigation state.</b></p>
+  <h5>Diving into how the parents think</h5>
+  <p>Because parents were confused with the existing information architecture, I decided to run a card sorting activity. 
+<b>The goal was to discover how they think about and group the list of items in the ideal navigation.</b></p>
 <div class='row image-row'>
   <div>
     <p><b>Participants:</b> 9</p>
     <p><b>Duration:</b> 4 days</p>
   </div>
   <div>
-    <img class='photo' src='images/sboc/card-sorting.png' alt='Card sorting analysis'>
+  	<figure class='photo'>
+    <img src='images/sboc/card-sorting.png' alt='Card sorting analysis'>
+    <figcaption>Different colored rectangles represent different potential groupings</figcaption>
+</figure>
   </div>
 </div> <!-- close the row -->
-<p>Items that were grouped together a minimum of 55% of the time were interpreted to be categorized together in the navigation. Items that didn’t have any groupings of 55% of higher were grouped together with the next highest percentage. In the image above, the different colored rectangles represent different groupings.</p>
+<p>Analyzing the<a href='https://www.statistics.com/glossary/similarity-matrix/'> similarity matrix </a>, I estimated that items grouped together minimum of 55% of the time should be categorized together in the navigation. Items without groupings of 55% of higher were grouped together with the next highest percentage.</p><br>
 <div class='row'>
-  <ul class='col-md-3'>
+  <div class='col-md-3'>
+  <p>Blue (about):</p>
+  <ul>
     <li>Mission</li>
     <li>History</li>
     <li>Annual reports</li>
     <li>Team</li>
     <li>Chapters</li>
-  </ul>
-  <ul class='col-md-3'>
+  </ul></div>
+  <div class='col-md-3'>
+  <p>Yellow (events):</p>
+  <ul>
     <li>Spelling bee competitions</li>
     <li>Talent show</li>
     <li>VIP events</li>
@@ -163,61 +177,63 @@
     <li>Sponsor</li>
     <li>Volunteer</li>
   </ul>
-  <ul class='col-md-3'>
+</div>
+<div class='col-md-3'>
+	<p>Red (resources):</p>
+  <ul>
     <li>Resources</li>
     <li>Blog</li>
   </ul>
+</div> 
 </div> <!-- close the row -->
 </div> <!-- close the section -->
 
 <hr class='divider2'>
 
-<div class='section bottom container-md'>
+<div class='section bottom container-md' id='designs'>
   <h4>Responsive design</h4>
   <h5>Learning from our first launch</h5>
   <img src='images/sboc/design-annotated.png' alt='Annotated Design'>
-  <div class='row'>
+  <div class='row design-row'>
     <div class='col-md-1'>
     <img src='images/sboc/1.png'></div>
     <div class='col-md'>
     <p><b>More differentiation in the interaction</b></p>
-    <p>I added a blue line when the item was in an “active and hover” state. The blue, being used elsewhere on the site, provided enough contrast against the yellow background while still complementing the color. The dropdown was mvoed to appear below the line, a common design pattern found in my research. The same interaction was brough to the sub-navigation items where on hover, the blue line would appear and there was a thickness in font weight.</p></div>
+    <p>A blue line was used to show the different states of a navigation item. The blue was already in our color palette,  and provided enough contrast against the yellow background (added bonus that it also complementary to the yellow!). The dropdown was also moved to appear below the line, a common design pattern found in my research. The same interaction was applied to the sub-nav items where on hover, the blue line would appear and there was a thickness in font weight.</p></div>
   </div> <!-- close the row -->
-  <div class='row'>
+  <div class='row design-row'>
     <div class='col-md-1'><img src='images/sboc/2.png'></div>
     <div class='col-md'>
-      <p><b>3-column approach</b></p>
-      <p>A matter of priorities occurred here. I tried to have 2-columns in each dropdown for visual balance throughout the navigation, but given the purpose around “media”, it was better categorized under “About”. I made the decision to prioritize the information architecture.</p>
+      <p><b>Juggling UI and UX priorities</b></p>
+      <p>Visually, enforcing a maximum of 2-columns in each dropdown would've provided visual balance. However, the "media" category had a better association with "About", a category with 2-columns already. I made the decision to prioritize the information architecture and group "media" under the category it was better associated with.</p>
     </div>
   </div> <!-- close the row -->
-  <div class='row'>
+  <div class='row design-row'>
     <div class='col-md-1'><img src='images/sboc/3.png'></div>
     <div class='col-md'>
-      <p><b>Icon usage</b></p>
-      <p>Aside from the seriousness of the spelling bee competitions, we wanted the website to also appear friendly to anybody who landed on it. To break up the text and add a friendly element, I opted for icons that matched the category names.</p>
+      <p><b>Incorporating friendliness with icons</b></p>
+      <p>Although the spelling bee competitions have an air of professionalism, we wanted the website to also appear inviting and friendly to anybody who landed on it. To break up the text and add a friendly visual element, I added icons in the category heading.</p>
     </div>
   </div> <!-- close the row -->
-    <div class='row'>
+    <div class='row design-row'>
     <div class='col-md-1'><img src='images/sboc/4.png'></div>
     <div class='col-md'>
-      <p><b>Thoughtful content</b></p>
-      <p>I led with words that our target audience were either familiar with from other sites (e.g. about, contact) and words they would've heard frequently from interacting with the non-profit.</p>
+      <p><b>Thoughtful order</b></p>
+      <p>Thinking down to the order of the categories, I followed the order shown on other sites and started the navigation with "About" and ended with "Contact". This supported by my secondary research.</p>
     </div>
   </div> <!-- close the row -->
   <br>
   <h5>But wait, we can’t forget about responsiveness</h5>
-  <p>Rather than limiting my search to mega menus and responsive design, I went back a step to the original purpose of why we even started using the mega menu: we wanted to support more navigation items. I started researching how tablet and mobile designs were handling navigations with a lot of items. That's when I discovered the sequential menu.</p>
+  <p>Unfortunately, there wasn't a good way to bring responsiveness to the mega menu. To find a similar design that could work in tablet and mobile size, I went back to the original purpose of why I even started using the mega menu: to support more navigation items. I began researching how smaller screen designs handled this issue, and discovered the sequential menu.</p>
   <img class='gifs' src='images/sboc/mobile.gif' alt='Mobile navigation'>
-  <p>The design stayed consistent with the mega menu’s goal of establishing a clear visual hierarchy and relationship between the sub-items. The only con was the user would need to click through different navigation items to find something specific. </p>
+  <p> Similar to the mega menu, the <a href='https://www.nngroup.com/articles/mobile-subnavigation/'>sequential menu</a> only shows the subcategories of the last selected menu. Similar to the mega menu, it established a clear visual hierarchy and relationship between the sub-nav items. The only concern (which will be tested), was that parents would need to click multiple times through different levels to find a specific item. </p>
   </div> <!-- close the section -->
 
   <div class='section bottom container-md'>
     <h4>Final</h4>
     <h5>What’re the next steps?</h5>
     <p>The final designs:</p>
-    <p>The navigation is currently being developed by our team at SBOC. I plan to use Google Analytics to track with upcoming event sign-ups, bounce rates, and to see the route that people are usually taking when they’re exploring. 
-<br>
-In the near future, I’ll also be running an informal usability test </p>
+    <p>I'm excited because this design is currently being brought to life by our developer! After it's live, I plan to use our analytics and track upcoming event sign-ups and bounce rates. I'll be comparing it to our old data and hope to see some improvement! I'll also be running an ol' task-based user testing to directly interact with users and collect feedback. Stay tuned!</p>
 </div> <!-- close the section -->
 
 </div> <!-- close the box -->
