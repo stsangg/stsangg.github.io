@@ -1,4 +1,4 @@
-H1{
+.H1{
 	font-family: Bebas Neue;
 	font-style: normal;
 	font-weight: normal;
@@ -7,7 +7,7 @@ H1{
 	letter-spacing: 0.05em;
 }
 
-H3{
+.H3{
 	font-family: Work Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -17,7 +17,7 @@ H3{
 }
 
 
-P1, P2{
+.P1, .P2{
 	font-family:  Work Sans;
 	font-style:  normal;
 	font-weight: normal;
@@ -25,11 +25,11 @@ P1, P2{
 	line-height:  27px;
 }
 
-P2{
+P.2{
 	font-weight: semi-bold;
 }
 
-grid{
+.grid{
 	margin: 200px, 0;
 }
 
