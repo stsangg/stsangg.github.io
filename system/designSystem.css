@@ -1,0 +1,39 @@
+H1{
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 32px;
+	letter-spacing: 0.05em;
+}
+
+H3{
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+
+P1, P2{
+	font-family:  Work Sans;
+	font-style:  normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height:  27px;
+}
+
+P2{
+	font-weight: semi-bold;
+}
+
+grid{
+	margin: 200px, 0;
+}
+
+button{
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
