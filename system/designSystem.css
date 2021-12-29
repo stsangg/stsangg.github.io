@@ -79,4 +79,11 @@ button{
 	border: 1px solid #000000;
 	box-sizing: border-box;
 	width: 160px;
+	background-color: #fff;
+	font-family: #fff;
+}
+
+button:hover{
+	background-color: #164777;
+	color: #fff;
 }
