@@ -1,3 +1,15 @@
+.topnav{
+	background-color: #FDFDFD;
+	box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.08);
+	margin: 24px;
+}
+
+.topnav a{
+	font-family:  Work Sans;
+	color: #000;
+	padding: 0px 24px;
+}
+
 .H1{
 	font-family: Bebas Neue;
 	font-style: normal;
