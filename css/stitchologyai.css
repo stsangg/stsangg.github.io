@@ -1,3 +1,4 @@
+@media (min-width: 1008px){
 .hero{
 	background-color: #F5F5F5;
 	margin-bottom: 48px;
@@ -44,4 +45,3 @@ width: 100%;
 .section-mid-align img{
 	width: 55%;
 }
-

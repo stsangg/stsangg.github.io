@@ -118,3 +118,14 @@ button:hover{
 .divider{
 color: #F8F8F8;
 }
+
+
+/*mobile stylings*/
+@media (max-width:640px){
+
+.content{
+	width: 83%;
+	margin: auto;
+}	
+
+}
