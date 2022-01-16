@@ -56,6 +56,10 @@ overflow-x: hidden;
   100%{content:'Coffee enthusiast';}
 }
 
+.tagline-div{
+  margin: 32px auto 16px auto;
+}
+
 .intro p{
   font-family:  Work Sans;
   font-style:  normal;
@@ -109,20 +113,20 @@ p{
 
 
 
-#down{
-padding:50px;
-display:block;
+.down{
+/*padding:50px;*/
+/*display:block;*/
 text-align: center;
-position: relative;
-top:70px;
+/*position: relative;*/
+/*top:70px;*/
 scroll-behavior: smooth;
 }
 
-#down p{
-  color:#F1FF99;
+/*.down p{
+  color:#000;
   font-size:16px;
-font-family:'Open Sans', sans-serif;
-}
+  font-family:'Work Sans', sans-serif;
+}*/
 
 #down a:hover{
   text-decoration:none;
