@@ -36,6 +36,7 @@ width: 100%;
 	margin: 24px auto;
 }
 
-.section-mid-align img, button{
+.section-mid-align img{
 	width: 55%;
 }
+
