@@ -285,15 +285,6 @@ figure:hover ~ #hr-mirrors-name{
   width: 80%;
 }
 
-footer{
-  position:fixed;
-  bottom:0px;
-  right:40%;
-  text-align:center;
-  padding:10px;
-  font-size:14px;
-}
-
 a{
   text-decoration: none;
   font-family: 'Work Sans', sans-serif;
