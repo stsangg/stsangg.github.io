@@ -78,6 +78,7 @@
 	font-size: 13px;
 	line-height: 16px;
 	text-transform: uppercase;
+	margin-bottom: 4px;
 	}
 
 
@@ -87,7 +88,7 @@ button{
 	box-sizing: border-box;
 	width: 160px;
 	background-color: #fff;
-	font-family: Work Sans;
+	font-family: Work Sans !important;
 }
 
 button:hover{
