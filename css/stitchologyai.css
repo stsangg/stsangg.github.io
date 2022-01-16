@@ -30,12 +30,12 @@ width: 100%;
 	filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
 }
 
-.image-s{
+.section-mid-align{
 	display: flex;
 	justify-content: center;
 	margin: 24px auto;
 }
 
-.image-s img{
+.section-mid-align img, button{
 	width: 55%;
 }
