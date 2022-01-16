@@ -67,6 +67,10 @@
 	line-height:  27px;
 }
 
+/*.P1-bold{
+	font-weight: semi-bold;
+}*/
+
 .P3{
 	font-family: Work Sans;
 	font-style: normal;
@@ -76,9 +80,6 @@
 	text-transform: uppercase;
 	}
 
-.P-2{
-	font-weight: semi-bold;
-}
 
 /*button stylings*/
 button{
