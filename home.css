@@ -122,11 +122,12 @@ text-align: center;
 scroll-behavior: smooth;
 }
 
-/*.down p{
+.down p{
   color:#000;
-  font-size:16px;
+  font-size:14px;
   font-family:'Work Sans', sans-serif;
-}*/
+  margin-top: 54px;
+}
 
 #down a:hover{
   text-decoration:none;
