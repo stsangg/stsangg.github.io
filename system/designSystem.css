@@ -22,7 +22,7 @@
 }
 
 #right{
-	float: right;
+	display: flex;
 }
 
 .footer{
