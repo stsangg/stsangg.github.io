@@ -80,10 +80,7 @@
 	font-weight: semi-bold;
 }
 
-.grid{
-	margin: 200px, 0;
-}
-
+/*button stylings*/
 button{
 	border: 1px solid #000000;
 	box-sizing: border-box;
@@ -95,4 +92,19 @@ button{
 button:hover{
 	background-color: #164777;
 	color: #fff;
+}
+
+/*case study stylings*/
+.grid{
+	margin: 200px, 0;
+}
+
+.content{
+	width: 54%;
+	margin:  auto;
+}
+
+.divider{
+width: 54%;
+color: #F8F8F8;
 }
