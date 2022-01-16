@@ -1,0 +1,216 @@
+a:link{ 
+color: black;}
+a:visited{
+  color:black;
+}
+a:active{
+  color: grey;}
+
+#logo{
+  display:block;
+  width:250px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color:#1F1E1E;
+ padding:5px;
+ display:flex;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  flex-direction: row-reverse;
+  display: inline-block;
+  color: #747474;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:#1F1E1E;
+  color: #fff;
+  text-decoration:none;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  color: #EBF3B5;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/*styling the anchor logo*/
+.logo a{
+  display:block;
+  float:left;
+  width:25%;
+}
+
+.logo a:hover{
+  background-color:transparent;
+}
+
+.logo{
+  background-image:url('../images/logo.svg');
+   width:100%;
+   background-repeat:no-repeat;
+   position:relative;
+   top:20px;
+   left:30px;
+}
+
+.work, .play, .writings, .about, .contact{
+  list-style-type: none;
+margin: 10px;
+}
+
+
+footer{
+  position:relative;
+  bottom:0px;
+  text-align:center;
+  padding:10px;
+  font-size:14px;
+  right:0%;
+  background-color: #161515;
+  margin: 0 auto;
+}
+
+.footer{
+  margin:50px 50px 20px 50px !important;
+}
+
+footer p{
+  color: white;
+  text-align:left;
+  font-family:'Open Sans', sans-serif;
+  width:45%;
+  font-size:16px;
+  font-weight:300;
+}
+
+.left p{
+  margin:15px 0px;
+}
+
+.right p{
+  margin:5px 0px;
+}
+
+.right{
+  padding-left:40px;
+  margin-top:30px;
+}
+
+footer a{ 
+  color:#EBF3B5 !important;
+  text-align:left;
+  font-size:16px; 
+}
+
+footer h5{
+color:#fff;
+font-family:'Playfair Display', serif;
+text-align: left;
+font-size:22px;
+}
+
+.footer-h1{
+margin:0px;
+margin-bottom:15px;
+}
+
+.disclaimer{
+  margin-top:60px;
+}
+
+
+
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {display: block;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+footer p{
+  font-size:16px;
+  color: white;
+  margin-top:0px;
+}
+
+footer a{ 
+  font-family: 'Lato', sans-serif;
+  color:#EBF3B5 !important; 
+  font-size:16px;
+}
+/*
+.logo{
+  display:none;
+}*/
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px){
+.footer{
+  margin:35px 0px !important;
+}
+
+footer p{
+  width:100%;
+}
+
+.left{
+  margin-bottom:20px;
+}
+
+.right{
+  padding-left:15px;
+
+}
+
+.right p{
+  margin:5px 0px 10px 0px;
+}
+}
