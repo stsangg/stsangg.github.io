@@ -29,13 +29,12 @@
   margin:50px 50px 20px 50px !important;
 }
 
-footer p{
-  color: white;
+.footer p{
+  color: #fff;
   text-align:left;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Work Sans', sans-serif;
   width:45%;
   font-size:16px;
-  font-weight:300;
 }
 
 /*back to top button*/
