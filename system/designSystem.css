@@ -111,6 +111,10 @@ button:hover{
 	color: #fff;
 }
 
+.button{
+	text-decoration: none;
+}
+
 /*case study stylings*/
 .grid{
 	margin: 200px, 0;
