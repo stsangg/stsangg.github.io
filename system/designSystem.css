@@ -97,6 +97,7 @@ button{
 	width: 160px;
 	background-color: #fff;
 	font-family: Work Sans !important;
+	transition: all .3s linear;
 }
 
 button:hover{
