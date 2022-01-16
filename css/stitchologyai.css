@@ -25,3 +25,7 @@
 .section{
 	margin: 32px auto;
 }
+
+img.section{
+width: 100%;
+}
