@@ -32,6 +32,11 @@ overflow-x: hidden;
   font-weight: bold;
 }
 
+.tagline-div{
+  margin: 32px auto 16px auto;
+  width: 70%;
+}
+
 .tagline, .tagline-cycle{
   font-family:'Work Sans', sans-serif;
   color: #000;
@@ -54,11 +59,6 @@ overflow-x: hidden;
   75%{content:'Serial learner';}
 
   100%{content:'Coffee enthusiast';}
-}
-
-.tagline-div{
-  margin: 32px auto 16px auto;
-  width: 70%;
 }
 
 .intro p{
@@ -288,4 +288,21 @@ figure:hover ~ #hr-mirrors-name{
 a{
   text-decoration: none;
   font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/*------------- MOBILE --------------*/
+@media (max-width:640px){
+
+.tagline-div{
+  margin: 32px auto 16px auto;
+  width: 70%;
+}
+
+
+.topnav a:first-child{
+  line-height: 125%;
+  padding-left: 8px;
+}
 }
