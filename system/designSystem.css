@@ -44,6 +44,12 @@
 	display: flex;
 }
 
+.links a{
+	margin: 0 8px;
+	font-family:'Work Sans', sans-serif;
+  font-size:14px;
+}
+
 /*back to top button*/
 #myBtn {
   display: none;
