@@ -25,16 +25,23 @@
 	display: flex;
 }
 
-/*.footer{
-  margin:50px 50px 20px 50px !important;
-}*/
+.footer{
+	background-color: #FDFDFD;
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 24px;
+}
 
 .footer p{
-  color: #fff;
+  color: #000;
   text-align:left;
   font-family:'Work Sans', sans-serif;
-  width:45%;
-  font-size:16px;
+  font-size:14px;
+  margin: 0 auto;
+}
+
+.links{
+	display: flex;
 }
 
 /*back to top button*/
