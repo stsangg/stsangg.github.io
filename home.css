@@ -44,7 +44,7 @@ overflow-x: hidden;
 }
 
 .tagline-cycle::before{
-  content:'Self taught coder';
+  content:'junior coder';
   animation: animate infinite 5s;
   -webkit-animation-name: animate;
   -webkit-animation-duration:5s;
@@ -52,13 +52,13 @@ overflow-x: hidden;
 }
 
 @-webkit-keyframes animate{
-  25%{content:'Self taught coder';}
+  25%{content:'junior coder';}
 
-  50%{content:'Curious adventurer';}
+  50%{content:'curious person';}
 
-  75%{content:'Serial learner';}
+  75%{content:'serial learner';}
 
-  100%{content:'Coffee enthusiast';}
+  100%{content:'coffee lover';}
 }
 
 .intro p{
@@ -297,7 +297,7 @@ a{
 
 .tagline-div{
   margin: 32px auto 16px auto;
-  width: 70%;
+  width: 100%;
 }
 
 
