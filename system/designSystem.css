@@ -36,7 +36,7 @@
   color: #000;
   text-align:left;
   font-family:'Work Sans', sans-serif;
-  font-size:14px;
+  font-size:16px;
   margin: 0 auto;
 }
 
@@ -178,6 +178,27 @@ H1{
 	font-size: 40px;
 	margin-bottom: 0px;
 	line-height: normal;
+}
+
+.footer{
+	display: block;
+	padding: 8px 16pxpx;
+}
+
+.footer p{
+  color: #000;
+  text-align:left;
+  font-family:'Work Sans', sans-serif;
+  font-size:16px;
+  margin: 0 auto;
+}
+
+.links{
+	margin: 16px auto;
+}
+
+.links a{
+	margin: 4px auto;
 }
 
 }
