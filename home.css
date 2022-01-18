@@ -58,6 +58,7 @@ overflow-x: hidden;
 
 .tagline-div{
   margin: 32px auto 16px auto;
+  width: 70%;
 }
 
 .intro p{
@@ -68,7 +69,6 @@ overflow-x: hidden;
   line-height:  27px;
   color: #141516;
   margin: 8px auto;
-  width: 50%;
 
 }
 
