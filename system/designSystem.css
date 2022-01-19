@@ -201,4 +201,13 @@ H1{
 	margin: 4px auto;
 }
 
+.topnav a{
+	padding: 0px 16px;
+}
+
+.topnav > :first-child{
+  line-height: 125%;
+  padding-left: 8px;
+}
+
 }
