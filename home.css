@@ -44,7 +44,7 @@ overflow-x: hidden;
 }
 
 .tagline-cycle::before{
-  content:'junior coder';
+  content:'systems thinker';
   animation: animate infinite 5s;
   -webkit-animation-name: animate;
   -webkit-animation-duration:5s;
@@ -52,12 +52,10 @@ overflow-x: hidden;
 }
 
 @-webkit-keyframes animate{
-  25%{content:'junior coder';}
-
-  50%{content:'adventurer';}
-
-  75%{content:'curious learner';}
-
+  20%{content:'systems thinker';}
+  40%{content: 'junior coder';}
+  60%{content:'adventurer';}
+  80%{content: 'curious learner'}
   100%{content:'coffee lover';}
 }
 
