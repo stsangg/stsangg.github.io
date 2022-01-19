@@ -1,4 +1,3 @@
-@media (min-width: 1008px){
 .hero{
 	background-color: #F5F5F5;
 	margin-bottom: 48px;
@@ -53,4 +52,46 @@ width: 100%;
 
 .section-mid-align img{
 	width: 55%;
+}
+
+
+
+/*------------- MOBILE --------------*/
+@media (max-width:640px){
+img{
+	width: 100%;
+}
+
+.hero img{
+	margin-bottom: 16px;
+}
+
+.H1{
+font-size: 40px;
+line-height: normal;
+}
+
+.intro{
+	margin: 24px auto;
+}
+
+.section{
+	width: 91%;
+}
+
+.content{
+	width: 100%;
+}
+
+.section-bg-txt{
+	padding: 16px;
+}
+
+
+}
+
+
+
+
+
 }
