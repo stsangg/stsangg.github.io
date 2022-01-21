@@ -37,6 +37,10 @@ overflow-x: hidden;
   width: 70%;
 }
 
+.tagline-div :first-child{
+  margin-bottom: 0px;
+}
+
 .tagline, .tagline-cycle{
   font-family:'Work Sans', sans-serif;
   color: #000;
