@@ -53,6 +53,16 @@ width: 100%;
 	width: 55%;
 }
 
+.section-mid-align-multiple{
+	display: block;
+	margin: 24px auto;
+}
+
+.section-mid-align-multiple img{
+	width: 100%;
+	margin: 8px auto;
+	filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
+}
 
 
 /*------------- MOBILE --------------*/
