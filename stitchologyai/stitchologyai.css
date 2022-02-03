@@ -64,6 +64,15 @@ width: 100%;
 	filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
 }
 
+a{
+	color:#046165;
+}
+
+button:hover{
+	background-color: #046165;
+	color: #fff;
+}
+
 
 /*------------- MOBILE --------------*/
 @media (max-width:640px){
@@ -94,14 +103,4 @@ line-height: normal;
 
 .section-bg-txt{
 	padding: 16px;
-}
-
-
-a{
-	color:#046165;
-}
-
-button:hover{
-	background-color: #046165;
-	color: #fff;
 }
