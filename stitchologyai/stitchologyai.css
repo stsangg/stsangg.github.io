@@ -100,3 +100,8 @@ line-height: normal;
 a{
 	color:#046165;
 }
+
+button:hover{
+	background-color: #046165;
+	color: #fff;
+}
