@@ -163,6 +163,7 @@ button:hover{
 
 .divider{
 color: #F8F8F8;
+margin: 88px auto;
 }
 
 
@@ -210,12 +211,3 @@ H1{
   padding-left: 8px;
 }
 
-
-
-
-/*--------COMPONENTS---------*/
-.divider{
-	margin: 88px auto;
-}
-
-}
