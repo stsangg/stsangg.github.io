@@ -23,3 +23,16 @@
 	font-size: 18px;
 	line-height: 27px;
 }
+
+
+
+/*SECTION STYLES*/
+
+.section{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content{
+	padding-right: 64px;
+}
