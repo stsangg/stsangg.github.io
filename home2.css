@@ -1,0 +1,25 @@
+/*FONT STYLES*/
+
+.home-caption{
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+.home-header{
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+.home-description{
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+}
