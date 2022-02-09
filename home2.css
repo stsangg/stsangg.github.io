@@ -33,9 +33,10 @@
 	justify-content: space-between;
 }
 
-.content{
+.left-content{
 	padding-right: 64px;
 	width: 45%;
+	margin: auto;
 }
 
 .image{
