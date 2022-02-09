@@ -6,7 +6,7 @@
 	display: flex;
   justify-content: space-between;
 }
-.topnav a{
+.topnav, .footer a{
 	font-family:  Work Sans;
 	color: #000 !important;
 	padding: 0px 24px;
@@ -16,7 +16,7 @@
 	text-decoration: none !important;
 }
 
-.topnav a:hover {
+.topnav, .footer a:hover {
   background-color:#1F1E1E;
   color: #fff !important;
   text-decoration:none;
