@@ -35,5 +35,13 @@
 
 .content{
 	padding-right: 64px;
-	width: 36%;
+	width: 45%;
+}
+
+.image{
+	width: 50%;
+}
+
+.image img{
+	width: 100%;
 }
