@@ -6,7 +6,8 @@
 	display: flex;
   justify-content: space-between;
 }
-.topnav, .footer a{
+
+a.topnav, a.footer{
 	font-family:  Work Sans;
 	color: #000 !important;
 	padding: 0px 24px;
@@ -16,7 +17,11 @@
 	text-decoration: none !important;
 }
 
-.topnav, .footer a:hover {
+a.footer{
+	font-size: 13px;
+}
+
+a:hover.topnav, a:hover.footer{
   background-color:#1F1E1E;
   color: #fff !important;
   text-decoration:none;
