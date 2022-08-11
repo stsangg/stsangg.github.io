@@ -302,5 +302,16 @@ a{
   width: 100%;
 }
 
+.section{
+display: block;
+}
+
+.left-content{
+  margin: 24px;
+}
+
+.image{
+  width: 100%;
+}
 
 }
