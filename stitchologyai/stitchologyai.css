@@ -106,3 +106,7 @@ line-height: normal;
 .section-bg-txt{
 	padding: 16px;
 }
+
+.section-mid-ailgn img{
+	width: 100%;
+}
