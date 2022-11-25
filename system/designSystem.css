@@ -8,7 +8,7 @@
 }
 
 .topnav a, .footer a{
-	font-family:  Work Sans;
+	font-family:  Open Sans;
 	color: #1D1E22;
 	padding: 0px 24px;
 	text-transform:uppercase;
@@ -56,7 +56,7 @@ font-size: 24px;
 .footer p{
   color: #000;
   text-align:left;
-  font-family:'Work Sans', sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-size:16px;
   margin: 16px auto;
 }
@@ -67,7 +67,7 @@ font-size: 24px;
 
 .links a{
 	margin: 0 8px;
-	font-family:'Work Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
   font-size:16px;
 }
 
@@ -114,7 +114,7 @@ line-height: 32px;
 }
 
 .H3{
-	font-family: Work Sans;
+	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -124,7 +124,7 @@ line-height: 32px;
 
 
 .P1, .P2, li, .caption{
-	font-family:  Work Sans;
+	font-family:  Open Sans;
 	font-style:  normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -137,7 +137,7 @@ line-height: 32px;
 }*/
 
 .P3{
-	font-family: Work Sans;
+	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -161,7 +161,7 @@ button{
 	box-sizing: border-box;
 	width: 160px;
 	background-color: #fff;
-	font-family: Work Sans !important;
+	font-family: Open Sans !important;
 	transition: all .3s linear;
 }
 
@@ -212,7 +212,7 @@ H1{
 .footer p{
   color: #000;
   text-align:left;
-  font-family:'Work Sans', sans-serif;
+  font-family:'Open Sans', sans-serif;
   font-size:16px;
   margin: 0 auto;
 }
