@@ -116,7 +116,7 @@ line-height: 32px;
 	font-weight: normal;
 	font-size: 16px;
 	line-height:  27px;
-	color: #141516;
+	color: #1D1E22;
 }
 
 /*.P1-bold{
@@ -131,12 +131,14 @@ line-height: 32px;
 	line-height: 16px;
 	text-transform: uppercase;
 	margin-bottom: 4px;
+	color: #1D1E22;
 	}
 
 .caption{
 font-size: 13px;
 line-height: 18px;
 text-align: center;
+color: #1D1E22;
 }
 
 
