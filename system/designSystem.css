@@ -26,9 +26,8 @@
 }
 
 .footer-contact p{
-margin: 16px auto 0px auto;
+margin: 16px auto 0px auto; !important;
 }
-
 
 .topnav a:hover, .footer a:hover{
   background-color:#1F1E1E;
