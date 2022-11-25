@@ -1,3 +1,65 @@
+body, html{
+margin: auto;
+overflow-x: hidden;
+background-color: #F3F3F3;
+}
+
+
+/*HEADER SECTION */
+.intro{
+  text-align:center;
+  padding: 200px;
+}
+
+.intro h1{
+  font-family:'Bebas Neue', sans-serif;
+  font-size:100px !important;
+  color:#1D1E22;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+
+/*HEADER-DESCRIPTION*/
+
+.tagline-div{
+  margin: 32px auto 16px auto;
+  width: 100%;
+}
+.tagline-div :first-child{
+  margin-bottom: -20px;
+}
+.tagline, .tagline-cycle{
+  font-family:'Work Sans', sans-serif;
+  color: #1D1E22;
+  font-weight: 600;
+}
+.tagline-cycle::before{
+  content:'systems thinker';
+  animation: animate infinite 5s;
+  -webkit-animation-name: animate;
+  -webkit-animation-duration:5s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes animate{
+  20%{content:'systems thinker';}
+  40%{content: 'coffee lover';}
+  60%{content:'adventurer';}
+  80%{content: 'curious learner'}
+  100%{content:'amateur coder';}
+}
+.intro p{
+  font-family:  Work Sans;
+  font-style:  normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #1D1E22;
+  margin: 0 auto;
+
+}
+
+
+
 /*FONT STYLES*/
 
 .home-caption{
