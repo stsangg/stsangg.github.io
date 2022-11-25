@@ -28,7 +28,7 @@ background-color: #F3F3F3;
 }
 
 .tagline, .tagline-cycle{
-  font-family:'Work Sans', sans-serif;
+  font-family:'Open Sans', sans-serif;
   color: #1D1E22;
   font-weight: 600;
 }
@@ -47,7 +47,7 @@ background-color: #F3F3F3;
   100%{content:'amateur coder';}
 }
 .intro p{
-  font-family:  Work Sans;
+  font-family:  Open Sans;
   font-style:  normal;
   font-weight: normal;
   font-size: 18px;
@@ -62,7 +62,7 @@ background-color: #F3F3F3;
 /*FONT STYLES*/
 
 .home-caption{
-	font-family: Work Sans;
+	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
