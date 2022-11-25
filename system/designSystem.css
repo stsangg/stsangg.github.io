@@ -10,7 +10,6 @@
 .topnav a, .footer a{
 	font-family:  Open Sans;
 	color: #1D1E22;
-	padding: 0px 24px;
 	text-transform:uppercase;
 	font-size: 16px;
 	text-decoration: none !important;
@@ -18,10 +17,16 @@
 
 .topnav a{
 	float: right;
+	padding: 0px 24px;
 }
 
 .footer a{
 	font-size: 13px;
+	padding-right: 24px;
+}
+
+.footer-contact p{
+margin: 16px auto 0px auto;
 }
 
 
@@ -50,7 +55,7 @@
 
 #footer-header{
 font-family: 'Bebas Neue', sans-serif;
-font-size: 24px;
+font-size: 27px;
 }
 
 .footer p{
