@@ -24,7 +24,7 @@ background-color: #F3F3F3;
 
 .tagline-div{
   margin: 32px auto 16px auto;
-  width: 100%;
+  width: 52%;
 }
 .tagline-div :first-child{
   margin-bottom: -20px;
@@ -55,6 +55,7 @@ background-color: #F3F3F3;
   font-size: 18px;
   color: #1D1E22;
   margin: 0 auto;
+  text-align: left;
 
 }
 
