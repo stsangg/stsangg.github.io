@@ -26,9 +26,7 @@ background-color: #F3F3F3;
   margin: 32px auto 16px auto;
   width: 52%;
 }
-.tagline-div :first-child{
-  margin-bottom: -20px;
-}
+
 .tagline, .tagline-cycle{
   font-family:'Work Sans', sans-serif;
   color: #1D1E22;
