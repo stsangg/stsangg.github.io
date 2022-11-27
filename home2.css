@@ -88,8 +88,6 @@ background-color: #F3F3F3;
 
 
 
-
-
 /*SECTION STYLES*/
 
 .section{
@@ -109,4 +107,28 @@ background-color: #F3F3F3;
 
 .image img{
 	width: 100%;
+}
+
+
+/*------------- MOBILE --------------*/
+@media (max-width:640px){
+.tagline-div{
+  margin: 32px auto 16px auto;
+  width: 100%;
+}
+
+.section{
+display: block;
+margin-bottom: 64px;
+}
+
+.left-content{
+  margin: 24px;
+  width: 100%;
+}
+
+.image{
+  width: 100%;
+}
+
 }
