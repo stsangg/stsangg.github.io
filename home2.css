@@ -69,6 +69,7 @@ background-color: #F3F3F3;
 	font-size: 13px;
 	line-height: 16px;
 	text-transform: uppercase;
+	margin-bottom:0px;
 }
 
 .home-header{
@@ -76,14 +77,16 @@ background-color: #F3F3F3;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
+	margin-bottom: 24px;
 }
 
 .home-description{
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 27px;
+	margin-bottom: 32px;
 }
 
 
