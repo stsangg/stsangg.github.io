@@ -158,6 +158,7 @@ font-size: 13px;
 line-height: 18px;
 text-align: center;
 color: #1D1E22;
+margin-bottom:24px;
 }
 
 
@@ -192,7 +193,7 @@ button:hover{
 
 .divider{
 color: #F8F8F8;
-margin: 88px auto;
+margin: 40px auto;
 }
 
 

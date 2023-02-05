@@ -45,14 +45,11 @@ margin-bottom: 16px;
 }
 
 .section-mid-align{
-	/*display: flex;
-	justify-content: center;
-	margin: 24px auto;*/
-
 	display: flex;
 	justify-content: center;
 	padding: 24px;
 	background: #F8F8F8;
+	margin-bottom:4px;
 }
 
 .section-mid-align img{
