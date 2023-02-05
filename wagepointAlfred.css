@@ -37,6 +37,10 @@ width: 100%;
 margin-bottom: 16px;
 }
 
+.sectionMini{
+	margin:24px auto;
+}
+
 .gif{
 	width: 77% !important;
 	position: relative;
@@ -49,7 +53,7 @@ margin-bottom: 16px;
 	justify-content: center;
 	padding: 24px;
 	background: #F8F8F8;
-	margin-bottom:4px;
+	margin: 24px auto 4px auto;
 }
 
 .section-mid-align img{
