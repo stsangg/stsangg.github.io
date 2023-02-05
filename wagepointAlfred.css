@@ -45,13 +45,22 @@ margin-bottom: 16px;
 }
 
 .section-mid-align{
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	margin: 24px auto;
+	margin: 24px auto;*/
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 24px;
+	gap: 10px;
+	background: #F8F8F8;
+	width: 776px;
+	height: 375px;
 }
 
 .section-mid-align img{
-	width: 55%;
+	width: 85%;
 }
 
 .section-mid-align-multiple{
