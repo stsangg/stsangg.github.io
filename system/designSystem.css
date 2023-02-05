@@ -114,9 +114,7 @@ font-size: 27px;
 }
 
 .H2{
-font-size: 26px;
-letter-spacing: 0.05em;
-line-height: 32px;
+font-size: 36px;
 }
 
 .H3{
@@ -138,9 +136,9 @@ line-height: 32px;
 	color: #1D1E22;
 }
 
-/*.P1-bold{
-	font-weight: semi-bold;
-}*/
+.P1-bold{
+	margin-bottom:4px;
+}
 
 .P3{
 	font-family: Open Sans;
@@ -149,7 +147,7 @@ line-height: 32px;
 	font-size: 13px;
 	line-height: 16px;
 	text-transform: uppercase;
-	margin-bottom: 4px;
+	margin-bottom: 0px;
 	color: #1D1E22;
 	}
 
