@@ -127,7 +127,7 @@ font-size: 36px;
 }
 
 
-.P1, .P2, li, .caption{
+.P1, .P1-bold, .P2, li, .caption{
 	font-family:  Open Sans;
 	font-style:  normal;
 	font-weight: normal;
