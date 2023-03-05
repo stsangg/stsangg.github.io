@@ -29,7 +29,7 @@ background-color: #F3F3F3;
 }
 
 .tagline, .tagline-cycle{
-  font-family:'Open Sans', sans-serif;
+  font-family:'Source Sans Pro', sans-serif;
   color: #1D1E22;
   font-weight: 600;
 }
@@ -48,7 +48,7 @@ background-color: #F3F3F3;
   100%{content:'amateur coder';}
 }
 .intro p{
-  font-family:  Open Sans;
+  font-family:  Source Sans Pro;
   font-style:  normal;
   font-weight: normal;
   font-size: 18px;
@@ -63,7 +63,7 @@ background-color: #F3F3F3;
 /*FONT STYLES*/
 
 .home-caption{
-	font-family: Open Sans;
+	font-family: Source Sans Pro;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -81,7 +81,7 @@ background-color: #F3F3F3;
 }
 
 .home-description{
-	font-family: Open Sans;
+	font-family: Source Sans Pro;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -92,6 +92,8 @@ background-color: #F3F3F3;
 .button{
 	margin-top:32px;
 }
+
+.wage
 
 
 /*SECTION STYLES*/
