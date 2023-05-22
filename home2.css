@@ -9,6 +9,7 @@ background-color: #F3F3F3;
 .intro{
   text-align:center;
   padding: 200px;
+  height:100vh;
 }
 
 .intro h1{
