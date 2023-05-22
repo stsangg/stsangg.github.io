@@ -8,30 +8,31 @@ background-color: #F3F3F3;
 /*HEADER SECTION */
 .intro{
   text-align:center;
-  padding: 200px;
+  padding: 277px;
+  padding-left:160px;
   height:100vh;
 }
 
 .intro h1{
   font-family:'Bebas Neue', sans-serif;
-  font-size:100px !important;
+  font-size:80px !important;
   color:#1D1E22;
   font-weight: bold;
-  letter-spacing: 0.03em;
-  text-shadow: 0px 2px 6px rgba(121, 121, 121, 0.38);
+/*  letter-spacing: 0.03em;
+  text-shadow: 0px 2px 6px rgba(121, 121, 121, 0.38);*/
 }
 
 
 /*HEADER-DESCRIPTION*/
 
-.tagline-div{
+/*.tagline-div{
   margin: 32px auto 16px auto;
   width: 52%;
-}
+}*/
 
 .tagline, .tagline-cycle{
   font-family:'Source Sans Pro', sans-serif;
-  color: #1D1E22;
+  color: #343437;
   font-weight: 600;
 }
 .tagline-cycle::before{
@@ -42,18 +43,18 @@ background-color: #F3F3F3;
   -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes animate{
-  20%{content:'systems thinker';}
-  40%{content: 'coffee lover';}
-  60%{content:'adventurer';}
-  80%{content: 'curious learner'}
-  100%{content:'amateur coder';}
+  25%{content:'systems thinker';}
+  50%{content: 'coffee lover';}
+  75%{content:'travel junkie';}
+  100%{content: 'curious learner'}
 }
+
 .intro p{
   font-family:  Source Sans Pro;
   font-style:  normal;
   font-weight: normal;
-  font-size: 18px;
-  color: #1D1E22;
+  font-size: 24px;
+  color: #343437;
   margin: 0 auto;
   text-align: left;
 
