@@ -7,7 +7,7 @@
 }
 
 .topnav a, .footer a{
-	font-family:  Source Sans Pro;
+	font-family:  Inter;
 	color: #1D1E22;
 	text-transform:uppercase;
 	font-size: 15px;
@@ -61,7 +61,7 @@ font-size: 27px;
 .footer p{
   color: #000;
   text-align:left;
-  font-family:  Source Sans Pro, sans-serif;
+  font-family:  Inter, sans-serif;
   font-size:13px;
   margin: 16px auto 0px auto;
 }
@@ -72,7 +72,7 @@ font-size: 27px;
 
 .links a{
 	margin: 0 8px;
-	font-family:  Source Sans Pro, sans-serif;
+	font-family:  Inter, sans-serif;
   font-size:16px;
 }
 
@@ -117,7 +117,7 @@ font-size: 36px;
 }
 
 .H3{
-	font-family:  Source Sans Pro, sans-serif;
+	font-family:  Inter, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -128,7 +128,7 @@ font-size: 36px;
 
 .P1, .P1-bold,
  .P2, li, .caption{
-	font-family:  Source Sans Pro, sans-serif;
+	font-family:  Inter, sans-serif;
 	font-style:  normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -142,7 +142,7 @@ font-size: 36px;
 }
 
 .P3{
-	font-family:  Source Sans Pro, sans-serif;
+	font-family:  Inter, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -167,7 +167,7 @@ button{
 	box-sizing: border-box;
 	width: 160px;
 	background-color: #fff;
-	font-family:  Source Sans Pro !important;
+	font-family:  Inter !important;
 	transition: all .3s linear;
 }
 
@@ -218,7 +218,7 @@ H1{
 .footer p{
   color: #000;
   text-align:left;
-  font-family:  Source Sans Pro, sans-serif;
+  font-family:  Inter, sans-serif;
   font-size:16px;
   margin: 0 auto;
 }
