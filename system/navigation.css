@@ -8,10 +8,6 @@ a:visited{
 a:active{
   color: grey;}
 
-#logo{
-  display:block;
-  width:250px;
-}
 
 /* Add a black background color to the top navigation */
 .topnav {
