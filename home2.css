@@ -48,7 +48,7 @@ background-color: #F3F3F3;
   100%{content: 'curious learner'}
 }
 
-.intro p{
+.heroDescription p{
   font-family:  Work Sans;
   font-style:  normal;
   font-weight: normal;
@@ -57,7 +57,6 @@ background-color: #F3F3F3;
   margin: 0 auto;
   text-align: left;
   font-weight:400;
-
 }
 
 
