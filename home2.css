@@ -101,6 +101,7 @@ background-color: #F3F3F3;
 .section{
 	display: flex;
 	justify-content: space-between;
+  margin-bottom:40px;
 }
 
 .content{
@@ -120,6 +121,15 @@ background-color: #F3F3F3;
 #WP-Alfred{
   background-color: #1B1C20;
   color: #fff;
+}
+
+#WP-MM{
+  background-color:#F5F5F5;
+  color: #000;
+}
+
+#Stitchology{
+
 }
 
 
