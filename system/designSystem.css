@@ -46,7 +46,7 @@
   text-align:left;
   font-family:  Work Sans, sans-serif;
   font-size:13px;
-  margin: 16px auto 0px auto;
+  padding:0px 24px;
 }
 
 .footer a{
@@ -61,10 +61,6 @@ padding: 24px;
 
 .footer-contact{
 	margin-bottom:32px;
-}
-
-.footer-contact p{
-padding:0px 24px;
 }
 
 .footer-contact a{
