@@ -13,3 +13,8 @@
 .content{
 display: flex;
 }
+
+.aboutImage{
+	margin-left:2%;
+	width:50%;
+}
