@@ -66,30 +66,22 @@ background-color: #F3F3F3;
 
 .homeP3{
 	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 300;
-	font-size: 13px;
-	line-height: 16px;
-	text-transform: uppercase;
-	margin-bottom:4px;
+	font-size: 12px;
+	margin-bottom:8px;
 }
 
 .homeHeader{
-	font-family: Bebas Neue;
+	font-family: Work Sans;
 	font-style: normal;
-	font-weight: normal;
-	font-size: 40px;
-	margin-bottom: 0px;
-  line-height:45px;
+	font-weight: bold;
+  font-size:32px;
+	margin-bottom: 8px;
 }
 
 .homeDescription{
 	font-family: Work Sans;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 16px;
-	line-height: 27px;
-	padding-bottom:24px;
+	margin-bottom:32px;
 }
 
 .button{
@@ -102,6 +94,7 @@ background-color: #F3F3F3;
 
 .section{
   width:65%;
+  padding-bottom:32px;
   margin:0 auto 40px auto;
 }
 
