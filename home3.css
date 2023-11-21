@@ -1,0 +1,158 @@
+body, html{
+margin: auto;
+overflow-x: hidden;
+background-color: #F3F3F3;
+}
+
+
+/*HEADER SECTION */
+.heroIntro{
+  text-align:left;
+  padding: 277px;
+  padding-left:160px;
+  height:100vh;
+}
+
+.heroIntro h1{
+  font-family: Work Sans, sans-serif;
+  font-size:70px !important;
+  color:#222222;
+  font-weight: bold;
+  text-align:left;
+}
+
+
+/*HEADER-DESCRIPTION*/
+
+/*.tagline-div{
+  margin: 32px auto 16px auto;
+  width: 52%;
+}*/
+
+.tagline, .tagline-cycle{
+  font-family: Work Sans, sans-serif;
+  color: #393A40;
+  font-weight:semi-bold;
+}
+
+.tagline-cycle::before{
+  content:'systems thinker';
+  animation: animate infinite 5s;
+  -webkit-animation-name: animate;
+  -webkit-animation-duration:5s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes animate{
+  25%{content:'systems thinker';}
+  50%{content: 'coffee lover';}
+  75%{content:'travel junkie';}
+  100%{content: 'curious learner'}
+}
+
+.heroDescription p{
+  font-family:  Work Sans;
+  font-style:  normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #343437;
+  margin: 0 auto;
+  text-align: left;
+  font-weight:400;
+}
+
+
+
+/*FONT STYLES*/
+
+.homeP3{
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 16px;
+	text-transform: uppercase;
+	margin-bottom:4px;
+}
+
+.homeHeader{
+	font-family: Bebas Neue;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	margin-bottom: 0px;
+  line-height:45px;
+}
+
+.homeDescription{
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 27px;
+	padding-bottom:24px;
+}
+
+.button{
+	margin-top:32px;
+}
+
+
+
+/*SECTION STYLES*/
+
+.section{
+  width:65%;
+  margin:0 auto 40px auto;
+}
+
+.content{
+	margin: auto;
+  padding-left:5%;
+}
+
+.image{
+	width: 50%;
+}
+
+.image img{
+	width: 100%;
+}
+
+#WP-Alfred{
+  background-color: #1B1C20;
+  color: #fff;
+}
+
+#WP-MM{
+  background-color:#576F48;
+  color: #fff;
+}
+
+#Stitchology{
+  background-color:#F5F5F5;
+  color: #000;
+}
+
+
+/*------------- MOBILE --------------*/
+@media (max-width:640px){
+.tagline-div{
+  margin: 32px auto 16px auto;
+  width: 100%;
+}
+
+.section{
+display: block;
+margin-bottom: 64px;
+}
+
+.left-content{
+  margin: 24px;
+  width: 100%;
+}
+
+.image{
+  width: 100%;
+}
+
+}
