@@ -98,13 +98,9 @@ background-color: #F3F3F3;
   margin:0 auto 40px auto;
 }
 
-.content{
-	margin: auto;
+.contentHome{
+	margin-top:24px;
   padding-left:5%;
-}
-
-.image{
-	width: 50%;
 }
 
 .image img{
