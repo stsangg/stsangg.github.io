@@ -44,7 +44,7 @@
   color: #000;
   text-align:left;
   font-family:  Work Sans, sans-serif;
-  font-size:13px;
+  font-size:16px;
   padding:0px 24px;
 }
 
@@ -53,9 +53,10 @@
 }
 
 #footer-header{
-font-family: 'Bebas Neue', sans-serif;
-font-size: 27px;
+font-family: 'Work Sans', sans-serif;
+font-size: 16px;
 padding: 24px;
+font-weight:500;
 }
 
 .footer-contact{
