@@ -14,3 +14,54 @@ display: flex;
 	margin-left:2%;
 	width:50%;
 }
+
+/*------------- FONT SECTION --------------*/
+.H1, .H2{
+	font-family: Work Sans, sans-serif;
+	font-weight: 600;
+}
+
+.H1{
+	font-size: 46px;
+	margin-bottom: 0px;
+}
+
+.H2{
+font-size: 36px;
+}
+
+.H3{
+	font-family:  Work Sans, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+
+.P1, .P1-bold,
+ .P2, li, .caption{
+	font-family:  Work Sans, sans-serif;
+	font-style:  normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height:  27px;
+	color: #393A40;
+}
+
+.P1-bold{
+	margin-bottom:4px;
+	font-weight: 500;
+}
+
+.P3{
+	font-family:  Work Sans, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	color: #393A40;
+	}
