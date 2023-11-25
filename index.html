@@ -1,149 +1,131 @@
 <!DOCTYPE html>
 <html> 
 <head>
-  <link rel="stylesheet" href="css/homepage.css">
-  <link rel='stylesheet' href='css/header.css'>
+  <link rel='stylesheet' href='home3.css'>
+  <link rel='stylesheet' href='system/designSystem.css'>
 
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+
+<!-- fonts: Work Sans, Bebas Neue-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
 
   <!-- bootstrap -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- PLAYFAIR DISPLAY -->
-<link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-<!-- OPEN SANS FONT -->
-<link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J7SQRGT4VC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J7SQRGT4VC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-J7SQRGT4VC');
-</script>
+    gtag('config', 'G-J7SQRGT4VC');
+  </script>
 </head>
+
 <body>
+<!-- navigation-->
+  <div class='topnav'>
+    <a href='home.html'>work</a>
+    <a href='about.html'>about</a>
+    <a href='StephanieTsang_Resume.pdf' target='_blank'>resume</a>
+  </div>
 
+      <!-- hamburger menu -->
+     <!--  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a> -->
+    <!-- </div> -->
 
-   <div class='parallax'>
-      <div class="topnav" id="myTopnav">
-        <div class='logo'></div>
-     <a href="#" class="active">work</a>
-     <a href='../../play/play.html'>play</a>
-     <a href="aboutme.html">about</a>
-<!--      <a href="contact.html">contact</a> -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+  <!-- back to top-->
+  <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+<!-- </div> -->
+
+<div class='heroIntro container-md'>
+<h1>Stephanie Tsang</h1>
+
+<div class='heroDescription'>
+  <p><span class='tagline'>Product Designer</span> and <span class='tagline-cycle'></span><br>humanizing product interactions and creating strategic user experiences.<br>
+    <!-- at <a href='https://wagepoint.com/ca/' target='_blank'>Wagepoint</a></p> -->
+  <p style='margin-top:24px'>My case studies are not available for public.<br>Please <a>reach out</a> for more details!</p>
 </div>
 
-<div class='intro container-md'>
-<h1>Stephanie Tsang.</h1>
-<!-- <img class='name img-fluid' src='../name.svg'> -->
-<p id='tagline'>A <span class='h2-1'>Product Designer</span> but also a <span class='h2'></span></p>
-<p>Rooted in research and strategy, I bring ideas to life through humanized product interactions and strategic user experiences</p>
+</div> <!-- close heroIntro -->
 
-<div>
-  <span id='down'>
-<a href='#work'><p>curated interactions<br> &#8595;</p></a></span>
-</div>
-
-   </div> <!-- CLOSE THE INTRO -->
- </div> <!-- CLOSE THE PARALLAX -->
-
-<!-- <input id='button-skill' type='button' value='Design  ✍️' onclick="skill1()"></input>
-<input id='button-skill' type='button' value='Research  📈' onclick="skill2()"></input>
-<input id='button-skill' type='button' value='Code  💻' onclick="skill3()"></input>
-
-<div id='skill1'>
-  <p>
-With a blend of curiousity and creativity (and coffee), I approach problems with an open and ready-to-brainstorm mindset. The most innovative solutions are the ones creatively pieced together.</p>
-
-</div>
-
-<div id='skill2'>
-  <p>Coming from the evidence-based healthcare industry, I look heavily towards research and best practices to inform my design decisions.</p>
-</div>
-
-<div id='skill3'>
-  <p>Being able to speak the same coding language strengthens my communication with developers. This portfolio is the fruit of my labours- my hand-coded child.</p>
-</div> -->
-<!-- <h2 class='animation'>What is your <span class='highlight'></span></h2>
- -->
-
-   <div class='parallax-1' id='work'>
-<!--     <p>1.</p> -->
-<div class='column-piece'>
-<figure>
-  <a href='apple.html'>
-		<img class='project' src='images/homepage/apple.svg' alt='Apple Task Management'>
-		<figcaption id='title'>Managing tasks with Apple's Calendar</figcaption>
-		<figcaption id='fig-1'>Motivating people to stay on track with an integrated schedule manager</figcaption>
-		<figcaption id='tags'>UX Research, Interaction Design, UI Design</figcaption>
-    </a>
-	</figure>
-</div>
-</div>
-
-
-    <div class='parallax-2'>
-    	<div class='column-piece'>
-  <figure>
-    <a href='queue.html'>
-      <img class='project' src='images/homepage/queue.svg' alt='Queue app design'>
-      <figcaption id='title'>Taking care of wait times with Queue</figcaption>
-      <figcaption id='fig-1'>An iOS application providing business information and options to avoid long wait times</figcaption>
-      <figcaption id='tags'>UX Research, Interaction Design, Branding, UI Design</figcaption>
-        </a>
-    </figure>
+<div class='section' id='WP-Alfred'>
+  <div class='image'>
+    <!-- <a href='wagepointAlfred.html'> -->
+      <img src='home/section2-1.png' alt='Wagepoint Finance homepage image'>
+    <!-- </a> -->
+  </div>
+  <div class='contentHome'>
+    <p class='homeP3'>Wagepoint</p>
+    <p class='homeHeader'>A system moving $10 billion</p>
+    <p class='homeDescription'>Redesign of an internal system to move money for a payroll software</p>
+    <p class='homeP3'>Product management, UX research, Information architecture, interaction design, UI design</p>
+    <!-- <a href='wagepointAlfred.html'><button class='button wagepoint'>Read</button></a> -->
   </div>
 </div>
 
+<div class='section' id='WP-MM'>
+  <div class='image'>
+    <img src='home/section2-2.png' alt='Wagepoint Money movement homepage image'>
+  </div>
+  <div class='contentHome'>
+    <p class='homeP3'>WAGEPOINT</p>
+    <p class='homeHeader'>Solving money problems</p>
+    <p class='homeDescription'>Designing sozlutions for customers to resolve their payroll problems</p>
+    <p class='homeP3'>UX research, Interaction design, UI design</p>
+    <!-- <a href='../../stitchologyai/stitchologyai-content.html'> -->
+  </div>
+</div>
 
-    <div class='parallax-3'>
-	<div class='column-piece'>
- <figure style='margin-bottom:100px'>
-  <a href='northville.html'>
-    <img class='project' src='images/homepage/northville.png' alt='Northville Redesign'>
-    <figcaption id='title'>Redesigning Northville's online experience</figcaption>
-    <figcaption id='fig-1'>Reaching a new target audience with a redesigned website for a rehabiliation clinic</figcaption>
-    <figcaption id='tags'>UX Research, Information Architecture, Content Copywriting, UI Design</figcaption>
+  <div class='section' id='Stitchology'>
+<div class='image'>
+  <img src='home/section2-3.png' alt='Stitchology.AI homepage image'>
+</div>
+<div class='contentHome'>
+    <p class='homeP3'>STITCHOLOGY.AI</p>
+    <p class='homeHeader' style='font-color:#222222'>Going beyond digital ads</p>
+    <p class='homeDescription' style='font-color:#222222'>Creating a dashboard to help entrepreneurs understand their brand’s e-commerce analytics</p>
+    <p class='homeP3'>UX research, Interaction design, UI design</p>
+    <!-- <a href='../../stitchologyai/stitchologyai-content.html'><button class='button'>Read</button></a> -->
+  </div>
+</div>
+
+<!-- <div class='section'>
+  <div class='image'>
+    <a href='../../queue-content.html'>
+      <img src='home/queue.png' alt='Queue homepage image'>
     </a>
-  </figure>
-</div>
+  </div>
+  <div class='left-content'>
+    <p class='home-caption'>2/2</p>
+    <p class='home-header'>Queue: Taking care of wait times</p>
+    <p class='home-description'>An iOS application providing business information and options to avoid long wait times</p>
+    <p class='home-caption'>UX Research, Interaction Design, Branding, UI Design</p>
+    <a href=><button>Read</button></a>
+  </div>
+</div> -->
 
-</div>
 
-<!-- <div class='parallax-end'></div> -->
 <footer>
 <div class='footer'>
-  <div class='container-md left'>
-    <h5>Why, I'd love to chat!</h5>
-      <p>Want to talk more about my designs, how I navigate the industry, or <a href='https://www.goodreads.com/user/show/22582853-stephanie-tsang' target='_blank'>follow my reading list</a>? The best chats are with my fellow creatives.</p>
-  </div> 
-  <div class='container-md right'>
-  <p class='footer-h1'><b>Different ways to get in touch:</b></p>
-  <p><a href="mailto:scytsang42@gmail.com">scytsang42@gmail.com</a></p>
-  <p><a href='Stephanie_Tsang_2021.pdf' target='_blank'>Resume</a></p>
-  <p><a href='https://www.linkedin.com/in/scytsang/' target='_blank'>LinkedIn</a></p>
+      <p id='footer-header'> Want to learn more <!-- about my designs or how I navigate the industry -->?<!-- , or <a href='https://www.goodreads.com/user/show/22582853-stephanie-tsang' target='_blank'>follow my reading list</a>? --></p><br><p> The best chats are with my fellow creatives.</p>
+    <div class='footer-contact'>
+<!--       <p>How to get in touch:</p> -->
+      <a href="mailto:scytsang42@gmail.com">Email</a>
+      <a href='StephanieTsang_Resume.pdf' target='_blank'>Resume</a>
+      <a href='https://www.linkedin.com/in/scytsang/' target='_blank'>LinkedIn</a>
+    </div>
+  <p>Designed and coded with ❤️ and ☕️</p>
   </div>
-<p class='disclaimer container-md'>Coded with  ☕️ and  ❤️</p>
-</div> <!-- close the row --> 
 </footer> 
-
-<!-- <div class='footer'>
-<a href="mailto:scytsang42@gmail.com">scytsang42@gmail.com  |  </a>
- <a href='Stephanie_Tsang_Resume.pdf' target='_blank'>Resume  |  </a>
-<a href='https://www.linkedin.com/in/scytsang/' target='_blank'>LinkedIn</a>
-</div>
-</footer> -->
  
  <!-- loader -->
 <div id='loading'></div>
