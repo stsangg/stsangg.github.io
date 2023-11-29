@@ -133,14 +133,34 @@ background-color: #FBFBFB;
 
 /*------------- MOBILE --------------*/
 @media (max-width:640px){
+
+.heroIntro h1{
+  font-size:18vw !important;
+}
+
+.heroDescription p{
+  font-size: 4vw;
+}
+
 .tagline-div{
   margin: 32px auto 16px auto;
   width: 100%;
 }
 
 .section{
-display: block;
-margin-bottom: 64px;
+width:90%;
+}
+
+.homeHeader{
+  font-size:6.5vw;
+}
+
+.homeDescription{
+  font-size:4.5vw;
+}
+
+.homeP3{
+  font-size:2.5vw;
 }
 
 .left-content{
