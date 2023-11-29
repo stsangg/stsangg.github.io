@@ -1,8 +1,6 @@
 	/*------------- NAVIGATIONAL ITEMS SECTION --------------*/
 .topnav{
 	padding: 24px 48px;
-	display: flex;
-	float:right;
 }
 
 .topnav a, .footer a{
