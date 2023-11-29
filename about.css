@@ -76,4 +76,12 @@ margin-bottom:8px;
 	.content > div:first-child{
 		width:100% !important;
 	}
+
+	.aboutImage{
+		width:100%;
+	}
+
+	.aboutImage img{
+		width:100%;
+	}
 }
